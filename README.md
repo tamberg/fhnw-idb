@@ -1,5 +1,5 @@
-# IoT Engineering
-Module [iot](https://www.fhnw.ch/de/studium/module/9280188) by [@tamberg](https://twitter.com/tamberg) for [FHNW](https://www.fhnw.ch/).
+# IoT Data Collection
+Competence *idb* by [@tamberg](https://twitter.com/tamberg) & J. Luthiger for [FHNW](https://www.fhnw.ch/).
 
 ## Slides and code examples
 0. [Syllabus](00/README.md)
