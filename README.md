@@ -1,5 +1,5 @@
 # IoT Data Collection
-Competence *idb* by [@tamberg](https://twitter.com/tamberg) & Jürg Luthiger for [FHNW](https://www.fhnw.ch/).
+Competence *idb* by [@tamberg](https://twitter.com/tamberg) & J. Luthiger for [FHNW](https://www.fhnw.ch/).
 
 ## Slides and code examples
 0. [Syllabus](00/README.md)
