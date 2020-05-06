@@ -1,5 +1,5 @@
-# IoT Data Collection
-Competence *idb* by [@tamberg](https://twitter.com/tamberg) & J. Luthiger for [FHNW](https://www.fhnw.ch/).
+# IoT Data Collection (idb)
+Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & J. Luthiger for [FHNW](https://www.fhnw.ch/).
 
 ## Slides and code examples
 0. [Syllabus](00/README.md)
@@ -53,7 +53,7 @@ On your computer:
 Unless noted otherwise:
 
 * Source code examples in this repository are declared Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-* Slides by [@tamberg] & J. Luthiger (https://twitter.com/tamberg) are licensed under Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Slides by [T. Amberg](https://twitter.com/tamberg) & J. Luthiger are licensed under Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Publishing your own code?
 
