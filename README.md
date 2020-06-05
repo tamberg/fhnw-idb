@@ -5,10 +5,16 @@ Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](htt
 <img src="introduction/iot-big-picture.jpeg">
 
 ## Documentation and code examples
-1. [Introduction](introduction/README.md)
-2. [Data Acquisition](data-acquisition/READDE.md)
-2. [Data Transport](data-transaport/READDE.md)
-2. [Data Analysis](data-analysis/READDE.md)
+Useful resources to get into IoT and the main topics of IoT:
+
+1. [Introduction](introduction/README.md)  
+   with infos how to setup MicroPython for [ESP8266](./../../wiki/Feather-Huzzah-ESP8266)
+2. [Data Acquisition](data-acquisition/README.md)  
+    with code examples using MicroPython on [ESP8266](./../../wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
+2. [Data Transport](data-transaport/README.md)  
+    with code examples using MicroPython on [ESP8266](./../../wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
+2. [Data Analysis](data-analysis/README.md)  
+    with code examples using MicroPython on [ESP8266](./../../wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
 
 ## Hardware
 The following hardware can be provided by us:
@@ -22,7 +28,7 @@ The following hardware can be provided by us:
 
 
 ## Wiki
-For resources, check the [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki):
+For additional resources, check the [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki):
 
 * [Books](https://github.com/tamberg/fhnw-iot/wiki/IoT-Books)
 * [Hardware](https://github.com/tamberg/fhnw-iot/wiki#hardware)
