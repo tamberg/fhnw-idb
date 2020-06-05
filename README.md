@@ -8,23 +8,23 @@ Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](htt
 Useful resources to get into IoT and the main topics of IoT:
 
 1. [Introduction](introduction/README.md)  
-   with infos how to setup MicroPython for [ESP8266](./../../wiki/Feather-Huzzah-ESP8266)
+   with infos how to setup MicroPython for [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266)
 2. [Data Acquisition](data-acquisition/README.md)  
-    with code examples using MicroPython on [ESP8266](./../../wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
+    with code examples using MicroPython on [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
 2. [Data Transport](data-transaport/README.md)  
-    with code examples using MicroPython on [ESP8266](./../../wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
+    with code examples using MicroPython on [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
 2. [Data Analysis](data-analysis/README.md)  
-    with code examples using MicroPython on [ESP8266](./../../wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
+    with code examples using MicroPython on [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
 
 ## Hardware
 The following hardware can be provided by us:
 
-* [Raspberry Pi Zero W](./../../wiki/Raspberry-Pi-Zero-W)
-* [Feather Huzzah ESP8266](./../../wiki/Feather-Huzzah-ESP8266)
-* [Feather nRF52840 Express](./../../wiki/Feather-nRF52840-Express)
-* [FeatherWing RFM95W](./../../wiki/FeatherWing-RFM95W)
-* [Grove Sensors](./../../wiki/Grove-Sensors) & [Actuators](./../../wiki/Grove-Actuators)
-* [Grove Adapters](./../../wiki/Grove-Adapters)
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
+* [Feather Huzzah ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266)
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express)
+* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W)
+* [Grove Sensors](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators)
+* [Grove Adapters](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters)
 
 
 ## Wiki
