@@ -3,7 +3,7 @@
 ## Documentation
 
 - [Slides](./IoT01Introduction.pdf) from module "IoT Engineering" in [BSc Computer Sciences](https://www.fhnw.ch/en/degree-programmes/engineering/computer-sciences)
-- [Slides](./CAS-IoT.pdf) from module "IoT" in [CAS Digital Industry](https://www.fhnw.ch/de/weiterbildung/technik/cas-digital-industry)
+
 
 ## MicroPython
 
