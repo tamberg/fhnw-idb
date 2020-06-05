@@ -1,7 +1,6 @@
 # IoT Data Collection (idb)
 Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
 
-
 <img src="introduction/iot-big-picture.jpeg">
 
 ## Documentation and code examples
@@ -26,7 +25,6 @@ The following hardware can be provided by us:
 * [Grove Sensors](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators)
 * [Grove Adapters](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters)
 
-
 ## Wiki
 For additional resources, check the [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki):
 
@@ -34,15 +32,6 @@ For additional resources, check the [IoT Engineering Wiki](https://github.com/ta
 * [Hardware](https://github.com/tamberg/fhnw-iot/wiki#hardware)
 * [IoT platforms](https://github.com/tamberg/fhnw-iot/wiki#iot-platforms)
 * [Development tools](https://github.com/tamberg/fhnw-iot/wiki#development-tools)
-
-## Git
-On your computer:
-
-* Clone this repository:<pre>
-    $ git clone https://github.com/tamberg/fhnw-iot</pre>
-* Update your local copy, before each lesson:<pre>
-    $ cd ./fhnw-iot
-    $ git pull</pre>
 
 ## License
 
