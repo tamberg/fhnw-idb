@@ -1,19 +1,19 @@
+<img src="introduction/iot-big-picture.png">
+
 # IoT Data Collection (idb)
 Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
-
-<img src="introduction/iot-big-picture.png">
 
 ## Documentation and code examples
 Useful resources to get into IoT and the main topics of IoT:
 
 1. [Introduction](introduction/README.md)  
-   with infos how to setup MicroPython for [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266)
+   with infos how to setup MicroPython for `Feather Huzzah ESP8266` and how to use MicroPython on a `Raspberry Pi Zero W` 
 2. [Data Acquisition](data-acquisition/README.md)  
-    with code examples using MicroPython on [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
+    with code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`
 2. [Data Transport](data-transaport/README.md)  
-    with code examples using MicroPython on [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
+    with code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`
 2. [Data Analysis](data-analysis/README.md)  
-    with code examples using MicroPython on [ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266) and [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
+    with code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`
 
 ## Hardware
 The following hardware can be provided by us:
