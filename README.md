@@ -1,7 +1,7 @@
 # IoT Data Collection (idb)
 Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
 
-<img src="introduction/iot-big-picture.jpeg">
+<img src="introduction/iot-big-picture.png">
 
 ## Documentation and code examples
 Useful resources to get into IoT and the main topics of IoT:
