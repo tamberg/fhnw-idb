@@ -12,7 +12,7 @@ You will use the [**WebREPL**](https://docs.micropython.org/en/latest/esp8266/qu
 
 Follow these steps:
 
-1. Understand the [boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process)
+1. Understand the [boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process).
 
 2. Read the chapter about [WiFi](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#wifi) support on the ESP8622.
 
