@@ -36,5 +36,3 @@ Follow these steps:
 5. Reboot/reconnect the board. 
 
 6. **Does it blink?**
-
-- 

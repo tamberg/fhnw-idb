@@ -59,7 +59,7 @@ Notes:
 
 Here you will information how to install/use MicroPython on the two boards: [ESP8622](https://www.adafruit.com/product/3213) and [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). The installation and the setup differs completely, due to the different architectures of the two microcontrollers. While the ESP8266 relies on a computer running Windows, OS X or Linux to obtain programming code, the Raspberry Pi is a separate, small computer usally connected to a monitor via HDMI and controlled by a USB mouse and keyboard. But, if using a Raspberry Pi as embedded controller, a `ssh` connection is usally the preferred way to go.
 
-### ESP8622
+## MicroPython on ESP8622
 
 Install the firmware as follows:
 
@@ -83,7 +83,7 @@ Install the firmware as follows:
 
 
 
-#### "Hello World": The first application
+### Running your "Hello World" on ESP8622
 
 Launch your **MU-Editor** and follow the [Start Here!](https://codewith.mu/en/tutorials/1.0/start) tutorial to write and to run your first MicroPython application.
 
@@ -92,7 +92,10 @@ Notes:
 
 <img src="mu-mode.png">
 
+### Install your "Blink App" on ESP8622
 
-### Raspberry Pi Zero W
+Follow these [instructions](blink/README.md) to install a Blink App on to the ESP8622.
 
-#### "Hello World": The first application
+## MicroPython on Raspberry Pi Zero W
+
+### "Hello World": The first application
