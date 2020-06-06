@@ -14,7 +14,7 @@ Follow these steps:
 
 1. Understand the [boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process)
 
-2. Read the chapter about [WiFi](https://docs.micropython.org/en/latest/esp8266/quickref.html#webrepl-web-browser-interactive-prompt) support on the ESP8622.
+2. Read the chapter about [WiFi](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#wifi) support on the ESP8622.
 
 3. Start the **MU-Editor** and open the REPL.
 
