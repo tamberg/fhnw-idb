@@ -94,7 +94,7 @@ Notes:
 
 ### Install your "Blink App" on ESP8622
 
-Follow these [instructions](blink/README.md) to install a Blink App on to the ESP8622.
+Follow these [instructions](blink) to install a Blink App on to the ESP8622.
 
 ## MicroPython on Raspberry Pi Zero W
 
