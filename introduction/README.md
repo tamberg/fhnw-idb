@@ -1,6 +1,6 @@
 # Introduction to IoT
 1. [Documentation](#documentation)
-2. [MicroPython](#micropython)
+2. [Python vs. MicroPython](#python-vs.-micropython)
 3. [Getting Started with MicroPython on ESP8266](esp8266)
 4. [Getting Started with MicroPython on Raspberry Pi](raspberry)
 
@@ -9,7 +9,13 @@
 - [Slides](./IoT01Introduction.pdf) from module "IoT Engineering" in [BSc Computer Sciences](https://www.fhnw.ch/en/degree-programmes/engineering/computer-sciences)
 
 
-## MicroPython
+## Python vs. MicroPython
+
+> Finally, Python had moved off of desktops and servers and into the world of sensors, actuators, motors, LCD displays, buttons, and circuits. While this presented many challenges, there were also copious opportunities. Desktop and server hardware requires gigahertz processors, gigabytes of RAM, and terabytes of storage. They also need fully-fledged operating systems, device drivers, and true multitasking.
+>
+> In the microcontroller world, however, MicroPython is the operating system.
+
+— Quote from [MicroPython: An Intro to Programming Hardware in Python](https://realpython.com/micropython/)
 
 > MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
 

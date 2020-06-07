@@ -5,7 +5,7 @@
 3. [Using WiFi](#using-wifi)
 
 
-## MicroPython
+### MicroPython
 
 Install the firmware as follows:
 
