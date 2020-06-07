@@ -13,7 +13,7 @@ Documentation and code examples to get into IoT:
 4. [Data Analysis](data-analysis/README.md) - how to analyse time series data.
 
 ## Hardware
-The following hardware can be provided by us:
+The following hardware is available:
 
 * [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W)
 * [Feather Huzzah ESP8266](https://github.com/tamberg/fhnw-idb/wiki/Feather-Huzzah-ESP8266)
