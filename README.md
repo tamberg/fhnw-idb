@@ -5,7 +5,7 @@ Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](htt
 <table><tr><td><img width="600" src="introduction/iot-big-picture.png"></td></tr></table>
 
 ## Resources
-Documentation and code examples to get into IoT:
+Resources and code examples to get into Internet of Things (IoT) data collection:
 
 1. [Introduction](introduction/README.md) - how to get started with MicroPython, ESP8266 and Raspberry Pi.
 2. [Data Acquisition](data-acquisition/README.md) - how to acquire measurement data from sensors.
