@@ -3,6 +3,8 @@
 2. [MicroPython](#micropython)
 3. [Developing with MicroPython](#developing-with-microPython)
 4. [Installation on Microcontroller Boards](#installation-on-microcontroller-boards)
+5. [Install/Deploy your own App on ESP8622](#install/deploy-your-own-app-on-esp8622)
+6. [Using WiFi on ESP8622](#using-wifi-on-esp8622)
 
 ## Documentation
 
@@ -57,13 +59,13 @@ Notes:
 
 ## Installation on Microcontroller Boards
 
-Here you will information how to install/use MicroPython on the two boards: [ESP8622](https://www.adafruit.com/product/3213) and [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). The installation and the setup differs completely, due to the different architectures of the two microcontrollers. While the ESP8266 relies on a computer running Windows, OS X or Linux to obtain programming code, the Raspberry Pi is a separate, small computer usally connected to a monitor via HDMI and controlled by a USB mouse and keyboard. But, if using a Raspberry Pi as embedded controller, a `ssh` connection is usally the preferred way to go.
+Here you will information how to install/use MicroPython on the two boards: [ESP8622](https://www.adafruit.com/product/3213) and [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). The installation and the setup differs, due to the different architectures of the two microcontrollers. While the ESP8266 relies on a computer running Windows, OS X or Linux to obtain programming code, the Raspberry Pi is a separate, small computer usally connected to a monitor via HDMI and controlled by a USB mouse and keyboard. But, if using a Raspberry Pi as embedded controller, a `ssh` connection is usally the preferred way to go.
 
 ## MicroPython on ESP8622
 
 Install the firmware as follows:
 
-- Read [Installing MicroPython](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro)  of the [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html#).
+- Read [Installing MicroPython](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro)  from the [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html#).
 
 - [Get the firmware](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#getting-the-firmware). Choose the latest stable firmware release. It's this firmware which runs the MicroPython applications on the board.
 
@@ -79,9 +81,7 @@ Install the firmware as follows:
     % esptool.py --port $USB --baud 115200 write_flash --flash_size=detect 0 $IMAGE
     ```
 
-- from [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html#) the chapter [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
-
-
+- Read from [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html#) the chapter [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html). The term “REPL” is an acronym for *Read*, *Evaluate*, *Print* and *Loop*. It is an interactive way to talk to the computer in Python.
 
 ### Running your "Hello World" on ESP8622
 
@@ -90,11 +90,19 @@ Launch your **MU-Editor** and follow the [Start Here!](https://codewith.mu/en/tu
 Notes: 
 - **REPL**: Use mode "ESP MicroPython". See figure below:
 
-<img src="mu-mode.png">
+  <img src="mu-mode.png">
 
-### Install your "Blink App" on ESP8622
+## Install/Deploy your own App on ESP8622
 
-Follow these [instructions](blink) to install a Blink App on the ESP8622.
+Follow these [instructions](blink) to install a *Blink* App permanently on the ESP8622.
+
+## Using WiFi on ESP8622
+
+The ESP8622 has WiFi support on board. There are two WiFi interfaces, one for the station (when the ESP8266 connects to a router) and one for the access point (for other devices to connect to the ESP8266). Check the information on chapter [Network basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html#network-basics) to be able to conenct your ESP8622 to a wireless network of your choice.
+
+**NOTES**:
+- To use WiFi in your own application, it is important to configure the network access at boot time.
+- Check the [Boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process), especially the files `boot.py` and `main.py`.
 
 ## MicroPython on Raspberry Pi Zero W
 
