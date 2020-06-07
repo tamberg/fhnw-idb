@@ -3,8 +3,12 @@
 2. [MicroPython](#micropython)
 3. [Developing with MicroPython](#developing-with-microPython)
 4. [Installation on Microcontroller Boards](#installation-on-microcontroller-boards)
-5. [Install/Deploy your own App on ESP8622](#install/deploy-your-own-app-on-esp8622)
-6. [Using WiFi on ESP8622](#using-wifi-on-esp8622)
+5. [ESP8622: MicroPython](#esp8622-micropython)
+6. [ESP8622: Install and Deploy your own App](#esp8622-install-and-deploy-your-own-app)
+7. [ESP8622: Using WiFi](#esp8622-using-wifi)
+8. [Raspberry Pi Zero W: MicroPython](#raspberry-pi-zero-w-micropython)
+8. [Raspberry Pi Zero W: Install and Deploy your own App](#raspberry-pi-zero-w-install-and-deploy-your-own-app)
+8. [Raspberry Pi Zero W: Using WiFi](#raspberry-pi-zero-w-using-wifi)
 
 ## Documentation
 
@@ -61,7 +65,7 @@ Notes:
 
 Here you will information how to install/use MicroPython on the two boards: [ESP8622](https://www.adafruit.com/product/3213) and [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). The installation and the setup differs, due to the different architectures of the two microcontrollers. While the ESP8266 relies on a computer running Windows, OS X or Linux to obtain programming code, the Raspberry Pi is a separate, small computer usally connected to a monitor via HDMI and controlled by a USB mouse and keyboard. But, if using a Raspberry Pi as embedded controller, a `ssh` connection is usally the preferred way to go.
 
-## MicroPython on ESP8622
+## ESP8622: MicroPython
 
 Install the firmware as follows:
 
@@ -92,18 +96,22 @@ Notes:
 
   <img src="mu-mode.png">
 
-## Install/Deploy your own App on ESP8622
+## ESP8622: Install and Deploy your own App
 
 Follow these [instructions](blink) to install a *Blink* App permanently on the ESP8622.
 
-## Using WiFi on ESP8622
+## ESP8622: Using WiFi
 
-The ESP8622 has WiFi support on board. There are two WiFi interfaces, one for the station (when the ESP8266 connects to a router) and one for the access point (for other devices to connect to the ESP8266). Check the information on chapter [Network basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html#network-basics) to be able to conenct your ESP8622 to a wireless network of your choice.
+The ESP8622 has WiFi support on board. There are two WiFi interfaces, one for the station (when the ESP8266 connects to a router) and one for the access point (for other devices to connect to the ESP8266). Check the information on chapter [Network basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html#network-basics) to be able to connect your ESP8622 to a wireless network of your choice.
 
 **NOTES**:
-- To use WiFi in your own application, it is important to configure the network access at boot time.
-- Check the [Boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process), especially the files `boot.py` and `main.py`.
+- To use WiFi in your own application, it is important to configure the WiFi network access at boot time.
+- Check the [Boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process), especially the roles of the two files `boot.py` and `main.py`.
 
-## MicroPython on Raspberry Pi Zero W
+## Raspberry Pi Zero W: MicroPython
 
 ### "Hello World": The first application
+
+## Raspberry Pi Zero W: Install and Deploy your own App
+
+## Raspberry Pi Zero W: Using WiFi
