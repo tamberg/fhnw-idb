@@ -69,3 +69,5 @@ import app
 
 app.blink()
 ```
+
+Send both files to the ESP8222 board by using [**WebREPL**](https://docs.micropython.org/en/latest/esp8266/quickref.html#webrepl-web-browser-interactive-prompt).
