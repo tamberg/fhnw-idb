@@ -19,15 +19,15 @@ Useful resources to get into IoT and the main topics of IoT:
 ## Hardware
 The following hardware can be provided by us:
 
-* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-iot/wiki/Raspberry-Pi-Zero-W)
-* [Feather Huzzah ESP8266](https://github.com/tamberg/fhnw-iot/wiki/Feather-Huzzah-ESP8266)
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-iot/wiki/Feather-nRF52840-Express)
-* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-iot/wiki/FeatherWing-RFM95W)
-* [Grove Sensors](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators)
-* [Grove Adapters](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters)
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W)
+* [Feather Huzzah ESP8266](https://github.com/tamberg/fhnw-idb/wiki/Feather-Huzzah-ESP8266)
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express)
+* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W)
+* [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators)
+* [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters)
 
 ## Wiki
-For additional resources, check the [IoT Engineering Wiki](https://github.com/tamberg/fhnw-iot/wiki):
+For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
 
 * [Books](https://github.com/tamberg/fhnw-iot/wiki/IoT-Books)
 * [Hardware](https://github.com/tamberg/fhnw-iot/wiki#hardware)
