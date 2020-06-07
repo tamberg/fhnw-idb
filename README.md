@@ -7,12 +7,10 @@ Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](htt
 ## Resources
 Documentation and code examples to get into IoT:
 
-1. [Introduction](introduction/README.md)
-2. [Data Acquisition](data-acquisition/README.md)  
-3. [Data Transport](data-transaport/README.md)  
-4. [Data Analysis](data-analysis/README.md)  
-
-All parts include code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`.
+1. [Introduction](introduction/README.md) - how to get started with MicroPython, ESP8266 and Raspberry Pi.
+2. [Data Acquisition](data-acquisition/README.md) - how to acquire measurement data from sensors.
+3. [Data Transport](data-transaport/README.md) - how to transport data to the backend.
+4. [Data Analysis](data-analysis/README.md) - how to analyse time series data.
 
 ## Hardware
 The following hardware can be provided by us:
