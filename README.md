@@ -4,17 +4,15 @@ Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](htt
 ## Overview
 <table><tr><td><img width="600" src="introduction/iot-big-picture.png"></td></tr></table>
 
-## Documentation and code examples
-Useful resources to get into IoT and the main topics of IoT:
+## Resources
+Documentation and code examples to get into IoT:
 
-1. [Introduction](introduction/README.md)  
-   with infos how to setup and to use MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W` 
+1. [Introduction](introduction/README.md)
 2. [Data Acquisition](data-acquisition/README.md)  
-    with code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`
 3. [Data Transport](data-transaport/README.md)  
-    with code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`
 4. [Data Analysis](data-analysis/README.md)  
-    with code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`s
+
+All parts include code examples using MicroPython on `Feather Huzzah ESP8266` and `Raspberry Pi Zero W`.
 
 ## Hardware
 The following hardware can be provided by us:
