@@ -18,8 +18,7 @@
 ## MicroPython
 
 > MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
-
--- Quote from the [MicroPython Website](https://micropython.org/)
+— Quote from the [MicroPython Website](https://micropython.org/)
 
 ## Developing with MicroPython
 
