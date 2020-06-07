@@ -9,7 +9,7 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 
 1. [Introduction](introduction/README.md) - how to get started with MicroPython, ESP8266 and Raspberry Pi.
 2. [Data Acquisition](data-acquisition/README.md) - how to acquire measurement data from sensors.
-3. [Data Transport](data-transaport/README.md) - how to transport data to the backend.
+3. [Data Transport](data-transport/README.md) - how to transport data to the backend.
 4. [Data Analysis](data-analysis/README.md) - how to analyse time series data.
 
 ## Hardware
