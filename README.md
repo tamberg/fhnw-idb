@@ -29,10 +29,10 @@ The following hardware can be provided by us:
 ## Wiki
 For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
 
-* [Books](https://github.com/tamberg/fhnw-iot/wiki/IoT-Books)
-* [Hardware](https://github.com/tamberg/fhnw-iot/wiki#hardware)
-* [IoT platforms](https://github.com/tamberg/fhnw-iot/wiki#iot-platforms)
-* [Development tools](https://github.com/tamberg/fhnw-iot/wiki#development-tools)
+* [Books](https://github.com/tamberg/fhnw-idb/wiki/IoT-Books)
+* [Hardware](https://github.com/tamberg/fhnw-idb/wiki#hardware)
+* [IoT platforms](https://github.com/tamberg/fhnw-idb/wiki#iot-platforms)
+* [Development tools](https://github.com/tamberg/fhnw-idb/wiki#development-tools)
 
 ## License
 
