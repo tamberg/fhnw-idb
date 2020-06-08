@@ -2,8 +2,7 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Python](#python)
-3. [Install and Deploy your own App](#install-and-deploy-your-own-app)
-4. [Install your App as a service](#install-your-app-as-a-service)
+3. [Install and Deploy your own App as a service](#install-and-deploy-your-own-app-as-a-service)
 
 ## Prerequisites
 
@@ -42,7 +41,7 @@ Check the [python documentation](https://www.raspberrypi.org/documentation/usage
 - Installing Python libraries
 - [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
 
-## Install and Deploy your own App
+## Install and Deploy your own App as a service
 
 The first, small application blinks the [Grove Red LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led). The setup is shown in the following figure:
 
@@ -51,5 +50,3 @@ The first, small application blinks the [Grove Red LED](https://github.com/tambe
 The LED is connected to GPIO-Pin `D5`.
 
 Follow these [instructions](blink/README.md) to install and run a Blink App on the Rasperry Pi Zero W, even after a reboot.
-
-## Install your App as a service
