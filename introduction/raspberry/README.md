@@ -16,7 +16,8 @@ It is necessary to install a Raspberry Pi operation system, which is Linux-based
 **Notes**: 
 - Choose **Raspberry Pi OS Lite**. The Raspberry Pi Zero W has limited computing resources. Desktop software and applications like office apps are not needed.
 - Check that `ssh` and `wifi` are enabled and can be used without problems.
-- Find your Pi using the information in the [Wiki](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).
+- Find the **IP address of your Pi** using the information in the [Wiki](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).  
+Use the commands `ifconfig` or `ipconfig` and `nmap`.
 
 ## Python
 
@@ -27,13 +28,15 @@ $ python --version
 Python 2.7.16
 ```
 
-To install Python 3, use:
+Check if python3 and pip3 is installed. Otherwise install them with:
 ```shell
 $ sudo apt update
 $ sudo apt install python3
-$ sudo apt-get install python3-pip
+$ sudo apt-get install python3-pip
 $ python3 --version
 Python 3.7.3
+$ pip3 --version
+pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 ```
 
 Check the [python documentation](https://www.raspberrypi.org/documentation/usage/python/) on raspberry.org. Following chaptes are important:

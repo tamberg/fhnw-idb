@@ -30,7 +30,7 @@ Use the file [blink.py](./blink.py) and follow these steps:
 
    Note: Use the IP-address of your Pi.
 
-4. Install the library `grove.py` (from Seeed-Studio):
+4. Install the library `grove.py` (from Seeed-Studio) on the Pi:
 
    ```shell
    $ pip3 install grove.py
@@ -52,7 +52,13 @@ To keep running this app, even after a reboot, it must be installed as a systemd
    $ pyinstaller --version
    ```
 
-2. Run the installer from the folder with file `blink.py` :
+2. Add python script path `/home/pi/.local/bin` to your PATH variable:
+
+   ```shell
+   $ export PATH=$PATH:/home/pi/.local/bin
+   ```
+
+3. Run the installer from the folder with file `blink.py` :
 
    ```shell
    $ PYTHONOPTIMIZE=1 pyinstaller blink.py
@@ -60,19 +66,25 @@ To keep running this app, even after a reboot, it must be installed as a systemd
 
    **Be patient.** This will take some seconds on the first run.
 
-3. Copy distribution `dist` to folder `/usr/local/bin`:
+4. Copy distribution `dist` to folder `/usr/local/bin`:
 
    ```shell
    $ sudo cp -r -r dist/blink /usr/local/bin
    ```
 
-4. Copy the service file [blink.service](./blink.service) to folder `/etc/systemd/system`:
+5. Copy file `blink.service` onto the Pi using the program `scp`, e.g.:
+
+   ```shell
+   $ scp blink.service pi@192.168.0.11:
+   ```
+
+6. Copy the service file [blink.service](./blink.service) to folder `/etc/systemd/system`:
 
    ```shell
    $ sudo cp blink.service /etc/systemd/system/blink.service
    ```
 
-5. Start/stop the service:
+7. Start/stop the service:
 
    ```shell
    $ sudo systemctl start blink.service
@@ -82,8 +94,10 @@ To keep running this app, even after a reboot, it must be installed as a systemd
    $ sudo systemctl stop blink.service
    ```
 
-6. Have it start automatically on reboot:
+8. Have it start automatically on reboot:
 
    ```shell
    $ sudo systemctl enable blink.service
    ```
+
+   **Test it!**   
