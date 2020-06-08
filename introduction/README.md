@@ -1,8 +1,15 @@
 # Introduction to IoT
-1. [Documentation](#documentation)
-2. [Python vs. MicroPython](#python-vs.-micropython)
-3. [Getting Started with MicroPython on ESP8266](esp8266)
-4. [Getting Started with MicroPython on Raspberry Pi](raspberry)
+1. [Intro](#intro)
+2. [Documentation](#documentation)
+3. [Python vs. MicroPython](#python-vs.-micropython)
+4. [Getting Started with MicroPython on ESP8266](esp8266)
+5. [Getting Started with Python on Raspberry Pi](raspberry)
+
+## Intro
+
+> The IoT creates opportunities for more direct integration of the physical world into computer-based systems, resulting in efficiency improvements, economic benefits, and reduced human exertions.
+
+— Quote from [Wikipedia](https://en.wikipedia.org/wiki/Internet_of_things#Trends_and_characteristics)
 
 ## Documentation
 
