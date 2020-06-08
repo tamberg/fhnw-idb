@@ -10,7 +10,7 @@ The small application in `blink.py` toggles the  grove [LED](https://github.com/
 
 You will create a stand-alone executable with [PyInstaller](https://www.pyinstaller.org/) and install the executable as a [systemd service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md).
 
-Follow these steps:
+Use the file [blink.py](./blink.py) and follow these steps:
 
 1. Connect the Grove Red LED to GPIO `G5` and powerup the Pi.
 
@@ -46,7 +46,7 @@ To keep running this app, even after a reboot, it must be installed as a systemd
    $ pyinstaller --version
    ```
 
-2. Run from the folder with file `blink.py` the installer:
+2. Run the installer from the folder with file `blink.py` :
 
    ```shell
    $ PYTHONOPTIMIZE=1 pyinstaller blink.py
@@ -60,7 +60,7 @@ To keep running this app, even after a reboot, it must be installed as a systemd
    $ sudo cp -r -r dist/blink /usr/local/bin
    ```
 
-4. Copy the service file `blink.service` to `/etc/systemd/system`
+4. Copy the service file [blink.service](./blink.service) to folder `/etc/systemd/system`:
 
    ```shell
    $ sudo cp blink.service /etc/systemd/system/blink.service
