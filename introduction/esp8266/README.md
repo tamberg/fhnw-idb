@@ -4,7 +4,6 @@
 2. [Install and Deploy your own App](#install-and-deploy-your-own-app)
 3. [Using WiFi](#using-wifi)
 
-
 ### MicroPython
 
 Install the firmware as follows:
