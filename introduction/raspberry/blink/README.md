@@ -30,6 +30,12 @@ Use the file [blink.py](./blink.py) and follow these steps:
 
    Note: Use the IP-address of your Pi.
 
+4. Install the library `grove.py` (from Seeed-Studio):
+
+   ```shell
+   $ pip3 install grove.py
+   ```
+
 4. Start `blink.py` on the Pi:
 
    ```shell
