@@ -13,7 +13,9 @@
 
 ## Documentation
 
-- [Slides](./IoT01Introduction.pdf) from module "IoT Engineering" in [BSc Computer Sciences](https://www.fhnw.ch/en/degree-programmes/engineering/computer-sciences)
+- [Slides 1-46](./IoT01Introduction.pdf) from module "IoT Engineering" in [BSc Computer Sciences](https://www.fhnw.ch/en/degree-programmes/engineering/computer-sciences)
+
+- Grove System from Seeed Studio: [Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc) with code examples 
 
 
 ## Python vs. MicroPython

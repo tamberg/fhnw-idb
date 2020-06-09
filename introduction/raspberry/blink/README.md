@@ -36,12 +36,28 @@ Use the file [blink.py](./blink.py) and follow these steps:
    $ pip3 install grove.py
    ```
 
-4. Start `blink.py` on the Pi:
+5. Start `blink.py` on the Pi:
 
    ```shell
    $ python3 blink.py
    ```
    **Does it blink?**
+
+6. **Or** you can turn on/off the LED manually using python's IDLE:
+
+   ```shell
+   $ python3
+   Python 3.7.3 (default, Dec 20 2019, 18:57:59) 
+   [GCC 8.3.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> from grove.grove_led import GroveLed
+   >>> led = GroveLed(5)
+   >>> led.on()
+   >>> led.off()
+   >>> led.on()
+   >>> led.off()
+   >>>
+   ```
 
 To keep running this app, even after a reboot, it must be installed as a systemd service. To be able to run the application as service, the Python application and all its dependencies must be bundled into a single package. The python tool [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/index.html#) can be used for this packaging.
 
