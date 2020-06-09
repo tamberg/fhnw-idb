@@ -78,14 +78,20 @@ To keep running this app, even after a reboot, it must be installed as a systemd
 
    ```shell
    $ PYTHONOPTIMIZE=1 pyinstaller blink.py
-   ````
+   ```
 
-   **Be patient.** This will take some seconds on the first run.
+   **Notes:** 
+   - This will take some seconds on the first run.
+   - When a module is using hidden imports, e.g. `Adafruit_DHT` then these imports must be added on the command line:
+
+      ```shell
+      $ PYTHONOPTIMIZE=1 pyinstaller --hidden-import=Adafruit_DHT blink.py
+      ```
 
 4. Copy distribution `dist` to folder `/usr/local/bin`:
 
    ```shell
-   $ sudo cp -r -r dist/blink /usr/local/bin
+   $ sudo cp -r dist/blink /usr/local/bin
    ```
 
 5. Copy file `blink.service` onto the Pi using the program `scp`, e.g.:
