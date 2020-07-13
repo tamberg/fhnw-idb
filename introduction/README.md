@@ -1,7 +1,7 @@
 # Introduction to IoT
 1. [Intro](#intro)
 2. [Documentation](#documentation)
-3. [Python vs. MicroPython](#python-vs.-micropython)
+3. [Python vs. MicroPython](#python-vs-micropython)
 4. [Getting Started with MicroPython on ESP8266](esp8266)
 5. [Getting Started with Python on Raspberry Pi](raspberry)
 
