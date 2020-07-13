@@ -1,11 +1,17 @@
 [Unit]
 Description=DHT Thingsboard
-After=multi-user.target
+After=network.target
  
 [Service]
-Type=simple
-ExecStart=/usr/local/bin/blink/blink
-Restart=on-abort
+Type=idleUser=pi
+StandardOutput=inherit
+StandardError=inherit
+# as python script (= option 1)
+ExecStart=/usr/bin/python3 -u /home/pi/thingspeak/dht_thingspeak.py
+# as executable (= option 2)
+#ExecStart=/usr/local/bin/blink/blink
+Restart=always
+RestartSec=0
  
 [Install]
 WantedBy=multi-user.target
