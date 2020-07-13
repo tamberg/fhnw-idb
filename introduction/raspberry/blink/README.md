@@ -65,6 +65,14 @@ To keep running this app, even after a reboot, it must be installed as a systemd
 
 Start the Python application as python script. More to find [here](https://www.raspberrypi.org/documentation/linux/usage/systemd.md).
 
+Note:
+
+- If you use print statements in your python app, you can see them using the tool `journalctl` as:
+
+  ```shell
+  $ journalctl -u blink.service
+  ```
+
 
 **Option 2 (for experts)**
 
