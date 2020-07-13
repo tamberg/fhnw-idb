@@ -70,7 +70,7 @@ Note:
 - If you use print statements in your python app, you can see them using the tool `journalctl` as:
 
   ```shell
-  $ journalctl -u blink.service
+  $ journalctl -f -u blink.service
   ```
 
 
