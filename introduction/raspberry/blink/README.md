@@ -61,9 +61,21 @@ Use the file [blink.py](./blink.py) and follow these steps:
 
 To keep running this app, even after a reboot, it must be installed as a systemd service. You have to options to be able to run the application as service.
 
-**Option 1 (easy)**
 
-Start the Python application as python script. More to find [here](https://www.raspberrypi.org/documentation/linux/usage/systemd.md).
+**Option 1 (using `cron`)**
+
+Use `cron` to schedule the python application at a given interval. This is the preferred way if the app is stateless.
+
+Links:
+
+- see [Scheduling tasks with Cron](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
+- see [Setting Up A Cron Job On The Raspberry Pi](https://www.bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/)
+
+  **Important**: Use absolute path names for the python interpreter and for your python script within your cron entry
+
+**Option 2 (using `systemctl`)**
+
+Use `systemctl` to start the python app as python script. More to find [here](https://www.raspberrypi.org/documentation/linux/usage/systemd.md). If the app is stateful, it must be run as a service, to be able to keep/store state information between the different calls.
 
 Note:
 
@@ -73,10 +85,11 @@ Note:
   $ journalctl -f -u blink.service
   ```
 
+**Option 3 (for experts)**
 
-**Option 2 (for experts)**
+Use `systemctl` to start an executable, generate from the python application.
 
-The Python application and all its dependencies can be bundled into a single package/executable using the python tool [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/index.html#).
+The python app and all its dependencies can be bundled into a single package/executable using the python tool [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/index.html#).
 
 1. Start installing `pyinstaller` **on the Pi** with:
 
