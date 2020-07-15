@@ -8,7 +8,7 @@ The small application in `blink.py` toggles the  grove [LED](https://github.com/
 
 ## Solution
 
-You will create a stand-alone executable with [PyInstaller](https://www.pyinstaller.org/) and install the executable as a [systemd service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md).
+You will use the [systemd service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md) and the system command `systemctl` to run the python app even after reboot.
 
 Use the file [blink.py](./blink.py) and follow these steps:
 
@@ -20,7 +20,7 @@ Use the file [blink.py](./blink.py) and follow these steps:
    $ scp blink.py pi@192.168.0.11:
    ```
 
-   Note: Use the IP-address of your Pi.
+   **Note**: Use the IP-address of your Pi (see [Find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi)).
 
 3. Open a terminal to the Pi with `ssh`, e.g.
 
@@ -62,20 +62,11 @@ Use the file [blink.py](./blink.py) and follow these steps:
 To keep running this app, even after a reboot, it must be installed as a systemd service. You have to options to be able to run the application as service.
 
 
-**Option 1 (using `cron`)**
+**Option 1 (using `systemctl`)**
 
-Use `cron` to schedule the python application at a given interval. This is the preferred way if the app is stateless.
+Use `systemctl` to start the python app as python script. More to find [here](https://www.raspberrypi.org/documentation/linux/usage/systemd.md). 
 
-Links:
-
-- see [Scheduling tasks with Cron](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
-- see [Setting Up A Cron Job On The Raspberry Pi](https://www.bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/)
-
-  **Important**: Use absolute path names for the python interpreter and for your python script within your cron entry
-
-**Option 2 (using `systemctl`)**
-
-Use `systemctl` to start the python app as python script. More to find [here](https://www.raspberrypi.org/documentation/linux/usage/systemd.md). If the app is stateful, it must be run as a service, to be able to keep/store state information between the different calls.
+**Note**: If the app is stateful, it must be run as a service, to be able to keep/store state information between the different calls.
 
 Note:
 
@@ -84,6 +75,19 @@ Note:
   ```shell
   $ journalctl -f -u blink.service
   ```
+
+**Option 2 (using `cron`)**
+
+Use `cron` to schedule the python application at a given interval. 
+
+**Note**: This is the preferred way if the app is stateless.
+
+Links:
+
+- see [Scheduling tasks with Cron](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
+- see [Setting Up A Cron Job On The Raspberry Pi](https://www.bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/)
+
+  **Important**: Use absolute path names for the python interpreter and for your python script within your cron entry
 
 **Option 3 (for experts)**
 
