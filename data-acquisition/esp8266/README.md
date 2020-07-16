@@ -14,7 +14,7 @@ This Lab is based on the information found in
 
 - the [DHT MicroPython Docs](https://docs.micropython.org/en/latest/esp32/quickref.html#dht-driver)
 
-### Connecting the DHT sensor to the Raspberry Pi
+### Connecting the DHT sensor to the ESP8266 board
 
 Connect the DHT sensor to PIN D2 of the Grove Adapter, as shown in figure 1.
 
@@ -26,7 +26,7 @@ Figure 1: DHT sensor connected to PIN D2
 
 1. Open your MU-Editor and connect your ESP8266 over USB.
 
-2. Load the file [`dht.py`](dht.py) on to your Raspberry Pi.
+2. Load the file [`dht.py`](dht.py) into your MU-Editor.
 
    This is a small python app  using the DHT sensor, which is connected to PIN D2, to read out the temperature and humidity and to print  these values to the console, including a timestamp. 
 
