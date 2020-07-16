@@ -11,7 +11,11 @@ You have successfully completed all steps in [Getting Started](https://github.co
 
 ## DHT sensor in action
 
-This Lab is based on the information found in this [post](https://www.deviceplus.com/raspberry-pi/lets-build-mobile-gadget-using-compact-raspberry-pi-zero-build-environment-check-device-using-grove-sensor/)
+This Lab is based on the information found in
+
+- the [SEEED Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#temperature--humidity-sensordht11)
+
+- this [post](https://www.deviceplus.com/raspberry-pi/lets-build-mobile-gadget-using-compact-raspberry-pi-zero-build-environment-check-device-using-grove-sensor/)
 
 ### Connecting the DHT sensor to the Raspberry Pi
 
