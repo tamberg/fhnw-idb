@@ -38,9 +38,11 @@ Follow these steps:
 
 7. Connect the WebREPL to the board. See following figure:
 
-<img src="webrepl.png">
+    <img src="webrepl.png">
 
-8. Load and send the file `main.py` to the board, using the WebREPL User Interface (see above).
+    **Note**: Use the password added during the webrepl setup.
+
+8. Load and send the file `main.py` to the board, using 'Send a file' from the WebREPL User Interface (see above).
 
 9. Reboot/reconnect the board. 
 

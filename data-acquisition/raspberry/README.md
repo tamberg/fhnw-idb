@@ -5,7 +5,7 @@
 You have successfully completed all steps in [Getting Started](../../introduction/raspberry/README.md). That means: 
 
 - You have a running OS on your Raspberry Pi.
-- You can connect to your Raspbetty Pi using `ssh` (or an equivalent ssh tool).
+- You can connect to your Raspberry Pi using `ssh` (or an equivalent ssh tool).
 - You have python3 installed on your Raspberry Pi.
 - You can run the [Blink App](../../introduction/raspberry/blink/README.md).
 
@@ -78,7 +78,7 @@ As described in the [Blink App](../../introduction/raspberry/blink/README.md) th
 
    - The path entries must match your setuo!
 
-3. Save the file
+3. Save the file.
 
 4. `cron` will now run the program each minute. Check if the values are appended to file `dht.csv`.
 
