@@ -21,3 +21,11 @@
 ## Temperature & Humidity
 
 [DHT11](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) is the most common temperature and humidity module for Arduino and Raspberry Pi.
+
+We will use this sensor as an example for
+
+- how to connect to the physical world?
+- how to print out these sensor values?
+- how accurate the sensor is?
+- how to deal with wrong values?
+- how to create and visualize an excel sheet/diagram?
