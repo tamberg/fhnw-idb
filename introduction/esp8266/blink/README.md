@@ -18,27 +18,33 @@ Follow these steps:
 
 3. Start the **MU-Editor** and open the REPL console.
 
-3. Activate, enable and start the [WebREPL UI](http://micropython.org/webrepl/) User Interface.   
+4. Activate and enable WebREPL using the REPL interface.   
    You should see the following message in the REPL of the MU-Editor: 
 
    ```
-   on ws://192.168.4.1:8266
-   Started webrepl in normal mode
+    >>> import webrepl
+    >>> webrepl.start()
+    WebREPL daemon started on ws://192.168.4.1:8266
+    WebREPL daemon started on ws://192.168.43.96:8266
+    Started webrepl in normal mode
+    >>> 
    ```
 
    It indicates that the WebREPL daemon is started and is able to listen for WebSocket connections requests on port 8266. To connect to this daemon, you have to use the URL `ws://192.168.4.1:8266`.
 
-3. Connect your host computer to the ESP8622 Wifi network `MicroPython-xxx`. 
+5. Start the [WebREPL User Interface](http://micropython.org/webrepl/).
 
-4. Connect the WebREPL to the board. See following figure:
+6. Connect your host computer to the ESP8622 Wifi network `MicroPython-xxx`. 
+
+7. Connect the WebREPL to the board. See following figure:
 
 <img src="webrepl.png">
 
-4. Load and send the file `main.py` to the board, using the WebREPL User Interface (see above).
+8. Load and send the file `main.py` to the board, using the WebREPL User Interface (see above).
 
-5. Reboot/reconnect the board. 
+9. Reboot/reconnect the board. 
 
-6. **Does it blink?**
+10. **Does it blink?**
 
 ## Hints
 
