@@ -88,6 +88,6 @@ As described in the [Blink App](../../introduction/raspberry/blink/README.md) th
 
    Figure 2: Example of a visualisation in Excel
 
-3. Analyse the data. 
+3. Analyse the data for wrong or missing values. It can happen! The sensor is cheap!
 
 4. **Improve the program, if necessary.** You should have a reasonable output in the end.
