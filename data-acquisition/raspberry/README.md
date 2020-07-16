@@ -44,7 +44,7 @@ Figure 1: DHT sensor connected to PIN 16
    09:19:45,25,53
    ```
 
-   As you can see, the sensor is read just once, but the values are separated by a comma, waht will be the base to create a cvs file for Excel.
+   As you can see, the sensor is read just once, but the values are separated by a comma, what will be the base to create a cvs file for Excel.
 
 ### Create Excel file (format csv)
 
@@ -54,9 +54,9 @@ The console output can be redirected into a file, with:
 $ python3 dht.py > dht.csv
 ```
 
-As described in the [Blink App](../../introduction/raspberry/blink/README.md) the `cron` system tool can be used to scheduke a program at a given interval. 
+As described in the [Blink App](../../introduction/raspberry/blink/README.md) the `cron` system tool can be used to schedule a program at a given interval. 
 
-1. Load on your Raspberry Pi the crontab file into a editor:
+1. On your Raspberry Pi load the crontab file into a editor:
 
    ```shell
    $ crontag -e
@@ -68,7 +68,11 @@ As described in the [Blink App](../../introduction/raspberry/blink/README.md) th
    * * * * * /usr/bin/python3 /home/pi/dht/dht.py >> /tmp/dht.csv 
    ```
 
-   `cron` will schedule the app `dht.py` each minute and write the console output into file `/tmp/dht.csv`.
+   Adding this entry, `cron` will schedule the app `dht.py` each minute and append the console output to file `/tmp/dht.csv`.
+
+   **Note**: 
+
+   - The path entries must match your setuo!
 
 3. Save the file
 
@@ -76,12 +80,14 @@ As described in the [Blink App](../../introduction/raspberry/blink/README.md) th
 
 ### Visualize and Analyse the sensor values
 
-1. Copy the file `dht.csv` to your computer and import this file into Excel. Create a diagram to visualize the temperature and humidity. You should get something like shown in figure 2.
+1. Copy the file `dht.csv` to your computer and import this file into Excel. 
+
+2. Create a diagram to visualize the temperature and humidity. You should get something like shown in figure 2.
 
    <img src="../../docs/excel.png" width="900" height="450">
 
    Figure 2: Example of a visualisation in Excel
 
-2. Analyse the data. 
+3. Analyse the data. 
 
-3. **Improve the program, if necessary.** You should have a reasonable output in the end.
+4. **Improve the program, if necessary.** You should have a reasonable output in the end.
