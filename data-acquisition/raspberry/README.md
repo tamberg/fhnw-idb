@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-You have successfully completed all steps in [Getting Started](../../introduction/raspberry/README.md#install-and-deploy-your-own-app-as-a-service). That means: 
+You have successfully completed all steps in [Getting Started](../../introduction/raspberry/README.md). That means: 
 
 - You have a running OS on your Raspberry Pi.
 - You can connect to your Raspbetty Pi using `ssh` (or an equivalent ssh tool).
