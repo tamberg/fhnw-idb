@@ -18,7 +18,7 @@ Follow these steps:
 
 3. Start the **MU-Editor** and open the REPL console.
 
-3. Activate, enable and start the [WebREPL](https://docs.micropython.org/en/latest/esp8266/quickref.html#webrepl-web-browser-interactive-prompt) User Interface.   
+3. Activate, enable and start the [WebREPL UI](http://micropython.org/webrepl/) User Interface.   
    You should see the following message in the REPL of the MU-Editor: 
 
    ```
