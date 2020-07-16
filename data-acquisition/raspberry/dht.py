@@ -1,5 +1,4 @@
 import time
-import sys
 # check, that python lib 'grove' is installed; pip3 freeze | grep grove
 import grove.grove_temperature_humidity_sensor as dht
 
