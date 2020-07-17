@@ -11,12 +11,9 @@
 
 — Quote from [Wikipedia](https://en.wikipedia.org/wiki/Internet_of_things#Trends_and_characteristics)
 
-## Documentation
+## Resources
 
-- [Slides](./IdbIntroductionToIoT_v1.0_HS20.pdf) based on module "IoT Engineering" in [BSc Computer Sciences](https://www.fhnw.ch/en/degree-programmes/engineering/computer-sciences)
-
-- Grove System from Seeed Studio: [Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc) with code examples 
-
+- Slides [Introduction to IoT](http://www.tamberg.org/fhnw/2020/hs/IdbIntroToIoT.pdf).
 
 ## Python vs. MicroPython
 
