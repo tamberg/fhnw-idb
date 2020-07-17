@@ -1,4 +1,4 @@
-# Introduction to the Internet Of Things
+# Introduction to the Internet of Things
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Python vs. MicroPython](#python-vs-micropython)
