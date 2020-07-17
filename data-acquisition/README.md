@@ -1,7 +1,7 @@
 # Data Acquisition
 
 1. [Intro](#intro)
-2. [Documentation](#documentation)
+2. [Resources](#resources)
 3. [Temperature & Humidity](#temperature-&-humidity)
 4. [DHT with MicroPython on ESP8266](esp8266)
 5. [DHT with Python on Raspberry Pi](raspberry)
