@@ -13,7 +13,7 @@
 
 ## Resources
 
-- Slides [Introduction to IoT](http://www.tamberg.org/fhnw/2020/hs/IdbInternetOfThings.pdf).
+- Slides [Introduction to the Internet of Things (IoT)](http://www.tamberg.org/fhnw/2020/hs/IdbInternetOfThings.pdf).
 
 ## Python vs. MicroPython
 
