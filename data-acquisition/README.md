@@ -14,9 +14,9 @@
 
 ## Resources
 
-- Slides [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2020/hs/IdbMcuSensorsAndActuators.pdf)
+- Slides on [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2020/hs/IdbMcuSensorsAndActuators.pdf)
 - Slides [From Prototype to Connected Product](http://www.tamberg.org/fhnw/2020/hs/IdbFromPrototypeToProduct.pdf)
-- Grove System from Seeed Studio: [Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#gui-graphical-user-interface) with code examples 
+- [Grove Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#gui-graphical-user-interface) with code examples 
 
 ## Temperature & Humidity
 
