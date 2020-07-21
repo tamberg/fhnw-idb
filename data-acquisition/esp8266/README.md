@@ -44,6 +44,8 @@ The console output can be copied and pasted into a excel file.
 
 1. Open a new text file.
 
+2. Create the column header with `Time,Temp,Hum`.
+
 2. Copy and paste the values from the console into the text file. Separate the columns with a comma.
 
 3. Save the file as `dht.csv`.
@@ -53,7 +55,7 @@ The console output can be copied and pasted into a excel file.
 
 **Visualize**
 
-Using Jupyter notebook:
+Using Jupyter notebook (Option 1):
 
 1. Open the given Jupyter notebook [`dht.ipynb`](./dht.ipynb).
 
@@ -65,7 +67,7 @@ Using Jupyter notebook:
 
    Figure 3: Example of a visualisation in Jupyter notebook
 
-Using Excel:
+Using Excel (Option 2):
 
 1. Create a diagram to visualize the temperature and humidity. You should get something, as shown in figure 4:
 
