@@ -28,4 +28,4 @@ We will use this sensor as an example for
 - how to print out these sensor values?
 - how accurate the sensor is?
 - how to deal with wrong values?
-- how to create and visualize an excel sheet/diagram?
+- how to visualize the data in a excel sheet and/or jupyter notebook?
