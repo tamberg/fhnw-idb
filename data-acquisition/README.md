@@ -29,3 +29,9 @@ We will use this sensor as an example for
 - how accurate the sensor is?
 - how to deal with wrong values?
 - how to visualize the data in a excel sheet and/or jupyter notebook?
+
+## DHT with MicroPython on ESP8266
+Follow the steps in [DHT with MicroPython on ESP8266](esp8266)
+
+## DHT with Python on Raspberry Pi
+Follow the steps in [DHT with Python on Raspberry Pi](raspberry)
