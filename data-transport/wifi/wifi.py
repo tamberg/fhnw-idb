@@ -1,8 +1,8 @@
 import network
 import time
 
-ssid = b'Bitw\xc3\xa4scherei-Bau'
-pwrd = b'clubmate42'
+ssid = b'MY_SSID'
+pwrd = b'MY_PASSWORD'
 
 wifi = network.WLAN(network.STA_IF)
 wifi.active(True)
