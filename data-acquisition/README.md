@@ -31,7 +31,7 @@ We will use this sensor as an example for
 - how to visualize the data in a excel sheet and/or jupyter notebook?
 
 ## DHT11 with CircuitPython on nRF52840
-Follow the steps in [Using DHT with CircuitPython on nRF52840](CircuitPython)
+Follow the steps in [Using DHT with CircuitPython on nRF52840](CircuitPython/dht)
 
 ## DHT11 with Python on Raspberry Pi
-Follow the steps in [Using DHT with Python on Raspberry Pi](Python)
+Follow the steps in [Using DHT with Python on Raspberry Pi](Python/dht)
