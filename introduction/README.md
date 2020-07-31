@@ -15,7 +15,7 @@
 
 - Slides [Introduction to the Internet of Things](http://www.tamberg.org/fhnw/2020/hs/IdbInternetOfThings.pdf).
 
-## Python vs. MicroPython
+## Python vs. MicroPython vs. CircuitPython
 
 > Finally, Python had moved off of desktops and servers and into the world of sensors, actuators, motors, LCD displays, buttons, and circuits. While this presented many challenges, there were also copious opportunities. Desktop and server hardware requires gigahertz processors, gigabytes of RAM, and terabytes of storage. They also need fully-fledged operating systems, device drivers, and true multitasking.
 >
@@ -27,7 +27,9 @@
 
 — Quote from the [MicroPython Website](https://micropython.org/)
 
-### Developing with MicroPython
+> CircuitPython is ...
+
+### Developing with CircuitPython
 
 Check the following points:
 
@@ -63,6 +65,7 @@ Check the following points:
     ```
 
 - The **MicroPython Reference Docs** can be found on https://docs.micropython.org/en/latest/
+- The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
 
 ### Getting Started with CircuitPython on nRF52840
 Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython/README.md)
