@@ -1,4 +1,4 @@
-# Using DHT sensor with MicroPython on ESP8266
+# Using a DHT sensor with CircuitPython on nRF52840
 
 ## Prerequisites
 
