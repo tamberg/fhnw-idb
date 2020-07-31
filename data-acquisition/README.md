@@ -30,8 +30,8 @@ We will use this sensor as an example for
 - how to deal with wrong values?
 - how to visualize the data in a excel sheet and/or jupyter notebook?
 
-## DHT with MicroPython on ESP8266
-Follow the steps in [Using DHT with MicroPython on ESP8266](esp8266)
+## DHT11 with CircuitPython on ESP8266
+Follow the steps in [Using DHT with CircuitPython on ESP8266](CircuitPython)
 
-## DHT with Python on Raspberry Pi
-Follow the steps in [Using DHT with Python on Raspberry Pi](raspberry)
+## DHT11 with Python on Raspberry Pi
+Follow the steps in [Using DHT with Python on Raspberry Pi](Python)
