@@ -1,4 +1,4 @@
-# Blink App
+# Blink Example
 
 ## Challenge
 
