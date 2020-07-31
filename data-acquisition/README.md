@@ -20,7 +20,7 @@
 
 ## Temperature & Humidity
 
-[DHT11](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) is the most common temperature and humidity module for Arduino and Raspberry Pi.
+[DHT11](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) is a common temperature and humidity sensor.
 
 We will use this sensor as an example for
 
@@ -30,8 +30,8 @@ We will use this sensor as an example for
 - how to deal with wrong values?
 - how to visualize the data in a excel sheet and/or jupyter notebook?
 
-## DHT11 with CircuitPython on ESP8266
-Follow the steps in [Using DHT with CircuitPython on ESP8266](CircuitPython)
+## DHT11 with CircuitPython on nRF52840
+Follow the steps in [Using DHT with CircuitPython on nRF52840](CircuitPython)
 
 ## DHT11 with Python on Raspberry Pi
 Follow the steps in [Using DHT with Python on Raspberry Pi](Python)
