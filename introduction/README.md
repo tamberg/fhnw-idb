@@ -27,7 +27,9 @@
 
 — Quote from the [MicroPython Website](https://micropython.org/)
 
-> CircuitPython is ...
+> CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards. [It] wouldn't exist without the awesome work of Damien George and the MicroPython community.
+
+— Quote from the [CircuitPython Website](https://circuitpython.org/)
 
 ### Developing with CircuitPython
 
