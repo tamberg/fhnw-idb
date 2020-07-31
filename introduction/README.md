@@ -64,8 +64,8 @@ Check the following points:
 
 - The **MicroPython Reference Docs** can be found on https://docs.micropython.org/en/latest/
 
-### Getting Started with MicroPython on ESP8266
-Follow the steps in [Getting Started with MicroPython on ESP8266](esp8266)
+### Getting Started with CircuitPython on nRF52840
+Follow the steps in [Getting Started with CircuitPython on nRF52840](nRF52840)
 
 ### Getting Started with Python on Raspberry Pi
 Follow the steps in [Getting Started with Python on Raspberry Pi](raspberry)
