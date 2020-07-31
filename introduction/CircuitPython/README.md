@@ -1,4 +1,4 @@
-# Getting Started with <s>MicroPython</s>CircuitPython on <s>ESP8266</s>nRF52840
+# Getting Started with CircuitPython on nRF52840
 
 > TODO
 
