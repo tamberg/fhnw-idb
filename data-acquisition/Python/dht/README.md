@@ -1,4 +1,4 @@
-# Using DHT sensor with Python on Raspberry Pi
+# Using a DHT sensor with Python on Raspberry Pi
 
 ## Prerequisites
 
