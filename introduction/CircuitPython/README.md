@@ -1,4 +1,4 @@
-# Getting Started with MicroPython on ESP8266
+# Getting Started with <s>MicroPython</s>CircuitPython on <s>ESP8266</s>nRF52840
 
 1. [MicroPython](#micropython)
 2. [Install and Deploy your own App](#install-and-deploy-your-own-app)
