@@ -2,7 +2,7 @@
 
 ## Challenge
 
-The small application in `main.py` toggles the onboard led (red) endlessly. You can test this application using the **MU-Editor**. But the application is not persistently stored on the board. After a reboot the code is lost.
+The program `main.py` toggles the onboard led (red) endlessly. You can test this application using the **MU-Editor**. But the application is not persistently stored on the board. After a reboot the code is lost.
 
 **Question: How it possible to run own code even after rebooting the board?**
 
