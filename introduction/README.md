@@ -70,7 +70,7 @@ Check the following points:
 - The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
 
 ### Getting Started with CircuitPython on nRF52840
-Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython/README.md)
+Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython)
 
 ### Getting Started with Python on Raspberry Pi
-Follow the steps in [Getting Started with Python on Raspberry Pi](Python/README.md)
+Follow the steps in [Getting Started with Python on Raspberry Pi](Python)
