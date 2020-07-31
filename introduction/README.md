@@ -1,7 +1,7 @@
 # Introduction to the Internet of Things
 1. [Intro](#intro)
 2. [Resources](#resources)
-3. [Python vs. MicroPython](#python-vs-micropython)
+3. [Python vs. MicroPython vs. CircuitPython](#python-vs-micropython-vs-circuitpython)
 4. [Getting Started with CircuitPython on nRF52840](#getting-started-with-circuitpython-on-nrf52840)
 5. [Getting Started with Python on Raspberry Pi](#getting-started-with-python-on-raspberry-pi)
 
