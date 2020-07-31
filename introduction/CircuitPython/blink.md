@@ -38,7 +38,7 @@ Follow these steps:
 
 7. Connect the WebREPL to the board. See following figure:
 
-    <img src="webrepl.png">
+    <img src="blink-webrepl.png">
 
     **Note**: Use the password added during the webrepl setup.
 
