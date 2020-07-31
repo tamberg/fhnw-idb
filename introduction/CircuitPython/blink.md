@@ -1,4 +1,4 @@
-# Blink Example
+# Blink example
 
 ## Challenge
 
