@@ -3,7 +3,7 @@
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Temperature & Humidity](#temperature-&-humidity)
-4. [DHT with MicroPython on ESP8266](#dht-with-micropython-on-esp8266)
+4. [DHT with CircuitPython on nRF52840](#dht-with-circuitpython-on-nrf52840)
 5. [DHT with Python on Raspberry Pi](#dht-with-micropython-on-raspberry-pi)
 
 ## Intro
