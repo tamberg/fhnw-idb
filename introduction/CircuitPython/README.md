@@ -1,6 +1,6 @@
 # Getting Started with CircuitPython on nRF52840
 
-> TODO
+> TODO: change to CircuitPython
 
 1. [MicroPython](#micropython)
 2. [Install and Deploy your own App](#install-and-deploy-your-own-app)

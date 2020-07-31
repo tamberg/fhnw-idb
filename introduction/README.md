@@ -1,7 +1,7 @@
 # Introduction to the Internet of Things
 1. [Intro](#intro)
 2. [Resources](#resources)
-3. [Python vs. MicroPython](#python-vs-micropython)
+3. [Python vs. MicroPython vs. CircuitPython](#python-vs-micropython-vs-circuitpython)
 4. [Getting Started with CircuitPython on nRF52840](#getting-started-with-circuitpython-on-nrf52840)
 5. [Getting Started with Python on Raspberry Pi](#getting-started-with-python-on-raspberry-pi)
 
@@ -27,7 +27,9 @@
 
 — Quote from the [MicroPython Website](https://micropython.org/)
 
-> CircuitPython is ...
+> CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards. [It] wouldn't exist without the awesome work of Damien George and the MicroPython community.
+
+— Quote from the [CircuitPython Website](https://circuitpython.org/)
 
 ### Developing with CircuitPython
 
@@ -68,7 +70,7 @@ Check the following points:
 - The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
 
 ### Getting Started with CircuitPython on nRF52840
-Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython/README.md)
+Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython)
 
 ### Getting Started with Python on Raspberry Pi
-Follow the steps in [Getting Started with Python on Raspberry Pi](Python/README.md)
+Follow the steps in [Getting Started with Python on Raspberry Pi](Python)
