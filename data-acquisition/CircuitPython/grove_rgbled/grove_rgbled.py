@@ -1,4 +1,4 @@
-// Based on https://github.com/DexterInd/GrovePi/tree/master/Software/Python/grove_chainable_rgb_led licensed under MIT License
+# Based on https://github.com/DexterInd/GrovePi/tree/master/Software/Python/grove_chainable_rgb_led licensed under MIT License
 
 import board
 import digitalio
