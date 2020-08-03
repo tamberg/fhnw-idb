@@ -2,12 +2,12 @@
 
 ## Prerequisites
 
-You have successfully completed all steps in [Getting Started](../../introduction/raspberry/README.md). That means: 
+You have successfully completed all steps in [Getting Started](../../../introduction/Python/README.md). That means: 
 
 - You have a running OS on your Raspberry Pi.
 - You can connect to your Raspberry Pi using `ssh` (or an equivalent ssh tool).
 - You have python3 installed on your Raspberry Pi.
-- You can run the [Blink App](../../introduction/raspberry/blink/README.md).
+- You can run the [Blink App](../../../introduction/Python/blink/README.md).
 
 ## DHT sensor in action
 
@@ -58,7 +58,7 @@ The console output can be redirected into a file, with:
 $ python3 dht.py > dht.csv
 ```
 
-As described in the [Blink App](../../introduction/raspberry/blink/README.md) the `cron` system tool can be used to schedule a program at a given interval. 
+As described in the [Blink App](../../../introduction/Python/blink/README.md) the `cron` system tool can be used to schedule a program at a given interval. 
 
 1. On your Raspberry Pi load the crontab file into a editor:
 
