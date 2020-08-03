@@ -1,50 +1,57 @@
 # Getting Started with CircuitPython on nRF52840
 
-> TODO: change to CircuitPython
+1. [CircuitPython](#circuitpython)
+2. [Interacting with nRF52840](#interacting-with-nRF52840)
+3. [Install and Deploy your own Program](#install-and-deploy-your-own-program)
+4. [Using WiFi](#using-wifi)
 
-1. [MicroPython](#micropython)
-2. [Install and Deploy your own App](#install-and-deploy-your-own-app)
-3. [Using WiFi](#using-wifi)
+## CircuitPython
 
-### MicroPython
+Basically you need:
 
-Install the firmware as follows:
+- the firmware for the microcontroller `nRF52840`. 
+- an editor. We will use the [MU-Editor](https://codewith.mu/), which you should already have installed.
 
-- Read [Installing MicroPython](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro)  from the [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html#).
+Use the steps described in the [Installing CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython) from the [CircuitPython Guide](https://learn.adafruit.com/welcome-to-circuitpython/overview). The main steps are:
 
-- [Get the firmware](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#getting-the-firmware). Choose the latest stable firmware release. It's this firmware which runs the MicroPython applications on the board.
+1. Check if the MU-Editor is installed. If not, follow [these steps](https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor).
 
-- Identify your USB Port after connecting the ESP8266 to your host computer.  
-  On MacOS, it has a name like `/dev/cu.usbserial-01749340`.
+2. Check that the [Feather nRF52840 Express](https://circuitpython.org/board/feather_nrf52840_express/) is connected via USB to your computer.
 
-- [Deploy the firmware](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#deploying-the-firmware). The firmware must be loaded onto the ESP8622, which is connected over USB to the host. Use the tool `esptool.py`. Example on MacOS:
+3. [Get the firmware](https://circuitpython.org/board/feather_nrf52840_express/) for the Feather nRF52840 Express. Choose the latest stable firmware release. If your are still using Windows 7, install the [drivers](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython#windows-7-drivers-2977910-9). No additional drivers are needed for Mac, Linux or Windows 10.
 
-    ```
-    % USB=/dev/cu.usbserial-01749340
-    % IMAGE=esp8266-20191220-v1.12.bin
-    % esptool.py --port $USB erase_flash
-    % esptool.py --port $USB --baud 115200 write_flash --flash_size=detect 0 $IMAGE
-    ```
+4. [Start the bootloader mode](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython#start-the-uf2-bootloader-2977081-13) to be able to copy the firmware onto the microprocessor. Sometimes it takes a few tries.
 
-- Read from [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html#) the chapter [Getting a MicroPython REPL prompt](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html). The term “REPL” is an acronym for *Read*, *Evaluate*, *Print* and *Loop*. It is an interactive way to talk to the computer in Python.
+5. Drag the firmware file to the boot drive `FEATHERBOOT`. The Boot Drive will automatically ejected and restarted as new drive called `CIRCUITPY`.
 
-### Running your "Hello World" on ESP8622
+**You are now ready for CircuitPython Programming**.
 
-Launch your **MU-Editor** and follow the [Start Here!](https://codewith.mu/en/tutorials/1.0/start) tutorial to write and to run your first MicroPython application.
+## Interacting with nRF52840
 
-Notes: 
-- **REPL**: Use mode "ESP MicroPython". See figure below:
+Using the Mu-Editor it is easy to interact with your nRF52840 microcontroller from your computer. There are two possibilities: 
 
-  <img src="mu-mode.png">
+1. Serial Console
+2. REPL
 
-## Install and Deploy your own App
+### Using the Serial Console
 
-Follow these [instructions](blink) to install a *Blink* App permanently on the ESP8622.
+If you have statements like `print("Hello World!)` in your code, the output must be written to a console which should be visible to you. It is the serial console, that receives such output from your CircuitPython board. The output is sent over USB to your computer so you can see it. But the serial console requires a terminal program, which is the visual interface between the console and the user.
+
+Such a setup is really easy with the Mu-Editor, because the Mu-Editor has the terminal and the serial console already built in. Read [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/kattni-connecting-to-the-serial-console#are-you-using-mu-2978926-4) to open the `Serial Console`.
+
+### Using the REPL
+
+REPL (Read-Evaluate-Print-Loop) is also available with the MU-Editor. Read [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/the-repl) to start REPL from the Serial Console.
+
+
+## Install and Deploy your own Program
+
+Follow these [instructions](blink) to install a *Blink* program permanently on your microcontroller.
 
 ## Using WiFi
 
-The ESP8622 has WiFi support on board. There are two WiFi interfaces, one for the station (when the ESP8266 connects to a router) and one for the access point (for other devices to connect to the ESP8266). Check the information on chapter [Network basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html#network-basics) to be able to connect your ESP8622 to a wireless network of your choice.
+<!-- The ESP8622 has WiFi support on board. There are two WiFi interfaces, one for the station (when the ESP8266 connects to a router) and one for the access point (for other devices to connect to the ESP8266). Check the information on chapter [Network basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html#network-basics) to be able to connect your ESP8622 to a wireless network of your choice.
 
 **NOTES**:
 - To use WiFi in your own application, it is important to configure the WiFi network access at boot time.
-- Check the [Boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process), especially the roles of the two files `boot.py` and `main.py`.
+- Check the [Boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process), especially the roles of the two files `boot.py` and `main.py`. -->
