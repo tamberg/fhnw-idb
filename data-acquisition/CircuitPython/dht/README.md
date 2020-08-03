@@ -5,42 +5,44 @@
 You have successfully completed all steps in [Getting Started](../../../introduction/CircuitPython/README.md). That means: 
 
 - You have the MU-Editor installed.
-- You the firmware flashed on your ESP8266.
-- You can run the [Blink App](../../../introduction/CircuitPython/blink/README.md).
+- You flashed the firmware flashed on your nRF52840.
+- You can run the [Blink Application](../../../introduction/CircuitPython/blink/README.md).
 
 ## DHT sensor in action
 
 This Lab is based on the information found in
 
-- the [DHT MicroPython Docs](https://docs.micropython.org/en/latest/esp32/quickref.html#dht-driver)
+- the [DHT CircuitPython Code](https://learn.adafruit.com/dht/dht-circuitpython-code)
 
-### Connecting the DHT sensor to the ESP8266 board
+### Connecting the DHT sensor to the nRF52840 board
 
 Connect the DHT sensor to PIN D2 of the Grove Adapter, as shown in figure 1.
 
-<img src="esp8266-dht.jpg" width="640">
+<img src="dht.jpg" width="640">
 
 Figure 1: DHT sensor connected to PIN D2
 
 ### Read the DHT sensor
 
-1. Open your MU-Editor and connect your ESP8266 over USB.
+1. Open your MU-Editor and connect your nRF52840 over USB.
 
 2. Load the file [`dht.py`](dht.py) into your MU-Editor.
 
-   This is a small python app  using the DHT sensor, which is connected to PIN D2, to read out the temperature and humidity and to print  these values to the console, including a timestamp. 
+   This is a small python program using the DHT sensor, which is connected to PIN D2, to read out the temperature and humidity and to print these values to the console, including a timestamp.
+
+   Don't forget to adjust your `code.py`.
 
 3. Run the app (see figure 2).
 
-   <img src="esp8266-mu-editor.jpg" width="640">
+   <img src="dht-mu-editor.png" width="640">
 
-   Figure 2: App `dht.py` in action
+   Figure 2: Program `dht.py` in action
 
    The values are printed out to the console.
 
 ### Create Excel file (format csv)
 
-The console output can be copied and pasted into a excel file.
+The console output can be copied and pasted into an excel file.
 
 1. Open a new text file.
 
@@ -63,7 +65,7 @@ Using Jupyter notebook (Option 1):
 
 3. Run the notebook. You should get something, as shown in figure 3.
 
-   <img src="esp8266-jupyter.png" width="640">
+   <img src="dht-jupyter.png" width="640">
 
    Figure 3: Example of a visualisation in Jupyter notebook
 
@@ -71,10 +73,10 @@ Using Excel (Option 2):
 
 1. Create a diagram to visualize the temperature and humidity. You should get something, as shown in figure 4:
 
-   <img src="esp8266-excel.png" width="640">
+   <img src="dht-excel.png" width="640">
 
    Figure 4: Example of a visualisation in Excel
 
 **Analyse**
 
-Analyse the data for wrong or missing values. It can happen! The sensor is cheap! **Improve the program, if necessary.** You should have a reasonable output in the end.
+Analyse the data for wrong or missing values. This can happen! The sensor is cheap! **Improve the program, if necessary.** You should have a reasonable output in the end.

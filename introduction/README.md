@@ -31,6 +31,8 @@
 
 — Quote from the [CircuitPython Website](https://circuitpython.org/)
 
+**Note:** We will use CircuitPython for our labs and examples. The entry into microprocessor programming is easiest with CircuitPython.
+
 ### Developing with CircuitPython
 
 Check the following points:
@@ -38,7 +40,7 @@ Check the following points:
 - Use the **MU-Editor** which can be downloaded from https://codewith.mu/
 
     Note for Mac Users with Catalina OSX:  
-    Start the application for the first time with CTRL Key pressed to be able to accept the security restrictions be the macos. Use version Mu 1.1.0.alpha.2
+    Start the application for the first time with CTRL Key pressed to be able to accept the security restrictions be the macos.
 
 -  Use a Python3 **Virtual Environment**
 
@@ -66,11 +68,10 @@ Check the following points:
     (env) $ deactivate
     ```
 
-- The **MicroPython Reference Docs** can be found on https://docs.micropython.org/en/latest/
 - The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
 
-### Getting Started with CircuitPython on nRF52840
+## Getting Started with CircuitPython on nRF52840
 Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython)
 
-### Getting Started with Python on Raspberry Pi
+## Getting Started with Python on Raspberry Pi
 Follow the steps in [Getting Started with Python on Raspberry Pi](Python)
