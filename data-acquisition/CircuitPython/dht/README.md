@@ -2,11 +2,11 @@
 
 ## Prerequisites
 
-You have successfully completed all steps in [Getting Started](../../introduction/CircuitPython/README.md). That means: 
+You have successfully completed all steps in [Getting Started](../../../introduction/CircuitPython/README.md). That means: 
 
 - You have the MU-Editor installed.
 - You the firmware flashed on your ESP8266.
-- You can run the [Blink App](../../introduction/CircuitPython/blink/README.md).
+- You can run the [Blink App](../../../introduction/CircuitPython/blink/README.md).
 
 ## DHT sensor in action
 
