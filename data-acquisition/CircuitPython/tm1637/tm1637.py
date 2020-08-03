@@ -1,6 +1,6 @@
-#import sys
+# Based on https://github.com/Seeed-Studio/grove.py/blob/master/grove/grove_4_digit_display.py licensed under MIT License
+
 import time
-#from grove.gpio import GPIO
 import board
 import digitalio
  
@@ -61,10 +61,8 @@ class Grove4DigitDisplay(object):
     def __init__(self, clk, dio, brightness=BRIGHT_DEFAULT):
         self.brightness = brightness
  
-        #self.clk = GPIO(clk, direction=GPIO.OUT)
         self.clk = digitalio.DigitalInOut(clk)
         self.clk.direction = digitalio.Direction.OUTPUT
-        #self.dio = GPIO(dio, direction=GPIO.OUT)
         self.dio = digitalio.DigitalInOut(dio)
         self.dio.direction = digitalio.Direction.OUTPUT
         
@@ -184,7 +182,6 @@ class Grove4DigitDisplay(object):
         self.clk.value = 0
         self.dio.value = 1
         self.clk.value = 1
-        #self.dio.dir(GPIO.IN)
         self.dio.direction = digitalio.Direction.INPUT
  
         while self.dio.value == 1:
