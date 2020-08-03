@@ -1,6 +1,11 @@
 # Data Transport
 
-Notes:
+> TODO
 
-- WiFi support  
-    see  https://diyprojects.io/micropython-tutorial-manage-wifi-connection-startup-esp8266-esp32/
+## Resources
+
+- Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
+- Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
+- Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
+- Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
+- Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
