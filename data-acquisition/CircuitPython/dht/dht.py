@@ -1,23 +1,42 @@
-import dht
-import utime
-import machine
+import time
+import rtc
+import digitalio
+import adafruit_dht
+import board
 
-# Use D2 on Grove Adapter => Pin 2
-sensor = dht.DHT11(machine.Pin(2))
+INTERVAL = 15
 
-# Attention!
-# Set date and time (year,month,day,0,hour,min,sec,0)
-machine.RTC().datetime((2020,7,16,0,12,35,0,0))
-rtc = machine.RTC()
 
-while True:
-    # Take a measurement
-    sensor.measure()
+def setup():
+    # set the time manually, we are not using a real time clock!
+    now = time.struct_time((2020, 8, 3, 18, 14, 0, 1, -1, -1))
+    r = rtc.RTC()
+    r.datetime = now
 
-    # Print the sensor values
-    t = utime.localtime(utime.time())
-    humidity = int(round(sensor.humidity()))
-    temperature = int(round(sensor.temperature()))
-    print("{:02d}:{:02d}:{:02d},{:g},{:g}".format(t[3], t[4], t[5], temperature, humidity))
+    # D5 => Pin D2 on Grove Board; see https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#mapping
+    dht = adafruit_dht.DHT11(board.D5)
+    return dht
+    
+def measure():
+    dht = setup()
+    
+    while True:
+        start = time.time()
+        t = time.localtime(start)
+        try:
+            # Read the temperature and convert it to integer
+            temperature = int(round(dht.temperature))
+            # Read the humidity and convert it to integer
+            humidity = int(round(dht.humidity))
+            # Print timestamp, temperatur, humidity
+            print("{:d}:{:02d}:{:02d},{:g},{:g}".format(
+                t.tm_hour, t.tm_min, t.tm_sec, temperature, humidity))
 
-    utime.sleep(15)
+        except RuntimeError as e:
+            # Reading doesn't always work! Just print error and we'll try again
+            print("{:d}:{:02d}:{:02d},{:g},{:g}".format(
+                t.tm_hour, t.tm_min, t.tm_sec, -1, -1))
+
+        end = time.time()
+        # Wait for the remaining time
+        time.sleep(INTERVAL - (end - start))
