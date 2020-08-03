@@ -18,7 +18,7 @@ This Lab is based on the information found in
 
 Connect the DHT sensor to PIN D2 of the Grove Adapter, as shown in figure 1.
 
-<img src="../../docs/esp8266-dht.jpg" width="900" height="450">
+<img src="esp8266-dht.jpg" width="640">
 
 Figure 1: DHT sensor connected to PIN D2
 
@@ -32,7 +32,7 @@ Figure 1: DHT sensor connected to PIN D2
 
 3. Run the app (see figure 2).
 
-   <img src="../../docs/esp8266-mu-editor.jpg" width="900" height="450">
+   <img src="esp8266-mu-editor.jpg" width="640">
 
    Figure 2: App `dht.py` in action
 
@@ -63,7 +63,7 @@ Using Jupyter notebook (Option 1):
 
 3. Run the notebook. You should get something, as shown in figure 3.
 
-   <img src="../../docs/esp8266-jupyter.png" width="600" height="300">
+   <img src="esp8266-jupyter.png" width="640">
 
    Figure 3: Example of a visualisation in Jupyter notebook
 
@@ -71,7 +71,7 @@ Using Excel (Option 2):
 
 1. Create a diagram to visualize the temperature and humidity. You should get something, as shown in figure 4:
 
-   <img src="../../docs/esp8266-excel.png" width="600" height="300">
+   <img src="esp8266-excel.png" width="640">
 
    Figure 4: Example of a visualisation in Excel
 
