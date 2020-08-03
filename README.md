@@ -16,7 +16,6 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 The following hardware is available:
 
 * [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W)
-* [Feather Huzzah ESP8266](https://github.com/tamberg/fhnw-idb/wiki/Feather-Huzzah-ESP8266)
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express)
 * [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W)
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators)
