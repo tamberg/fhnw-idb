@@ -7,20 +7,20 @@ Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](htt
 ## Resources
 Resources and code examples to get into Internet of Things (IoT) data collection:
 
-1. [Introduction](introduction/README.md) - how to get started with MicroPython, ESP8266 and Raspberry Pi.
+1. [Introduction](introduction/README.md) - how to get started with CircuitPython, nRF52840 and Raspberry Pi.
 2. [Data Acquisition](data-acquisition/README.md) - how to acquire measurement data from sensors.
 3. [Data Transport](data-transport/README.md) - how to transport data to the backend.
-4. [Data Analysis](data-analysis/README.md) - how to analyse time series data.
+4. [Data Analysis](data-analysis/README.md) - how to display and analyse data.
 
 ## Hardware
 The following hardware is available:
 
-* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W)
-* [Feather Huzzah ESP8266](https://github.com/tamberg/fhnw-idb/wiki/Feather-Huzzah-ESP8266)
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express)
-* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W)
-* [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators)
-* [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters)
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer.
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller.
+* [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) - a Wi-Fi radio module.
+* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN radio module.
+* [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
+* [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
 ## Wiki
 For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
