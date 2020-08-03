@@ -21,7 +21,7 @@ This Lab is based on the information found in
 
 Connect the DHT sensor to PIN D16 of the Grove Adapter, as shown in figure 1.
 
-<img src="../../docs/raspberry-dht.jpg" width="900" height="450">
+<img src="raspberry-dht.jpg" width="640">
 
 Figure 1: DHT sensor connected to PIN 16
 
@@ -88,7 +88,7 @@ As described in the [Blink App](../../introduction/raspberry/blink/README.md) th
 
 2. Create a diagram to visualize the temperature and humidity. You should get something like shown in figure 2.
 
-   <img src="../../docs/excel.png" width="900" height="450">
+   <img src="excel.png" width="640">
 
    Figure 2: Example of a visualisation in Excel
 
