@@ -167,16 +167,8 @@ class Grove4DigitDisplay(object):
             else:
                 self.dio.value = 0
             data >>= 1
-            #time.sleep(0.000001)
-            #t0 = time.monotonic_ns();
-            #while (time.monotonic_ns() - t0) < 1000:
-            #    pass
             time.sleep(0.000001)
             self.clk.value = 1
-            #time.sleep(0.000001)
-            #t0 = time.monotonic_ns();
-            #while (time.monotonic_ns() - t0) < 1000:
-            #    pass
             time.sleep(0.000001)
 
         self.clk.value = 0
@@ -185,20 +177,13 @@ class Grove4DigitDisplay(object):
         self.dio.direction = digitalio.Direction.INPUT
  
         while self.dio.value == 1:
-            #time.sleep(0.001)
-            #t0 = time.monotonic_ns();
-            #while (time.monotonic_ns() - t0) < 1000000:
-            #    pass
             time.sleep(0.000001)
 
             if self.dio.value == 1:
-                #self.dio.dir(GPIO.OUT)
                 self.dio.direction = digitalio.Direction.OUTPUT
                 self.dio.value = 0
-                #self.dio.dir(GPIO.IN)
                 self.dio.direction = digitalio.Direction.INPUT
 
-        #self.dio.dir(GPIO.OUT)
         self.dio.direction = digitalio.Direction.OUTPUT
  
     def _start(self):
@@ -214,14 +199,12 @@ class Grove4DigitDisplay(object):
         self.dio.value = 1
  
     def __enter__(self):
-        #print('__enter__ called')
         self._start()
  
     def __exit__(self, exc_type, exc_val, exc_tb):
-        #print('__exit__ called')
         self._stop()
     
-display = Grove4DigitDisplay(board.D9, board.D10) # Grove D4
+display = Grove4DigitDisplay(board.D9, board.D10) # nRF52840 D9, D10, Grove D4
 
 colon = True
 while True:
