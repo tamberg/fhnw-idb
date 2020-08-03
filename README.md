@@ -15,12 +15,12 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 ## Hardware
 The following hardware is available:
 
-* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) Linux computer
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller
-* [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) Wi-Fi module
-* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) LoRaWAN module
-* [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators)
-* [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters)
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller
+* [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) - a Wi-Fi module
+* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN module
+* [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control
+* [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up
 
 ## Wiki
 For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
