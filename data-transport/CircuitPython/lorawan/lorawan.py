@@ -8,7 +8,7 @@ from adafruit_tinylora.adafruit_tinylora import TTN, TinyLoRa
 
 spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
 
-# FeatherWing RFM95 with nRF52840
+# FeatherWing RFM95, nRF52840
 cs = digitalio.DigitalInOut(board.D5)
 irq = digitalio.DigitalInOut(board.D10)
 rst = digitalio.DigitalInOut(board.D6)
