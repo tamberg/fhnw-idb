@@ -1,6 +1,13 @@
 # Scan Wi-Fi networks
 How to scan Wi-Fi networks with the FeatherWing ESP32 AirLift Wi-Fi module.
 
+## Code
+### Deploy from Mac
+    $ cp wifi_scan.py /Volumes/CIRCUITPY/code.py
+
+### Deploy from Windows
+    > COPY wifi_scan.py \CIRCUITPY:\code.py
+
 ## Libraries
 Part of the [https://circuitpython.org/libraries](https://circuitpython.org/libraries) bundle:
 * https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/ (see [docs](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/index.html)).
