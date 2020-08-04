@@ -18,9 +18,9 @@
 
 ## Reading sensor values
 The available hardware includes a number of sensors:
-* A [Button](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#button) as an example of a digital sensor.
-* A [Light Sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) as an example of an analog sensor.
-* A [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) temperature and humidity sensor.
+* [Button](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#button) as an example of a digital sensor.
+* [Light Sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) as an example of an analog sensor.
+* [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11), a common temperature and humidity sensor.
 
 We will use these sensors as an example for:
 
