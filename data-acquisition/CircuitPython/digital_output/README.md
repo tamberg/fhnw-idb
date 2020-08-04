@@ -8,5 +8,5 @@ How to control actuators through digital output with CircuitPython.
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
 * [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
-* [Buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) wired to Grove _D4_ (nRF52840 _D9_), or
-* [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) wired to Grove _D4_ (nRF52840 _D9_).
+* [Buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) wired to Grove _D2_ (nRF52840 _D5_), or
+* [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) wired to Grove _D2_ (nRF52840 _D5_).
