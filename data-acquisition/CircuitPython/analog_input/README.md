@@ -1,4 +1,4 @@
-# Reading analog input
+# Reading analog sensor input
 How to read analog sensor input with CircuitPython.
 
 ## Running the example
