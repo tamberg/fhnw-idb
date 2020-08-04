@@ -4,7 +4,7 @@ How to read the Wi-Fi module MAC address from the FeatherWing ESP32 AirLift Wi-F
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the [libraries](#Libraries) to the _lib_ directory on the _CIRCUITPY_ drive.
-* Copy the content of [wifi_addr.py](wifi_addr.py) to _code.py_ on the _CIRCUITPY_ drive.
+* Copy the content of [wifi_address.py](wifi_address.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
