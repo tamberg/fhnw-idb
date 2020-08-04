@@ -46,7 +46,7 @@ First, try these examples with CircuitPython on the nRF52840:
 * [Reading digital sensor input](CircuitPython/digital_input), e.g. from a button.
 * [Reading a DHT temperature & humidity sensor](CircuitPython/dht).
 
-Then, try these
+Then, add an actuator to provide some interactive feedback:
 * [Controlling digital actuators](CircuitPython/digital_output), e.g. a buzzer or LED.
 * [Controlling a chainable RGB LED](CircuitPython/grove_rgbled), e.g. to indicate states.
 * [Controlling a TM1637 4-digit display](CircuitPython/tm1637), e.g. to show the time.
