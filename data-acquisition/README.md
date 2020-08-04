@@ -33,6 +33,8 @@ We will use these sensors as an example for:
 ## CircuitPython examples
 Try these examples with CircuitPython on the nRF52840.
 
+* [Reading analog sensor input](CircuitPython/analog_input)
+* [Reading digital sensor input](CircuitPython/digital_input)
 * [Reading a DHT temperature & humidity sensor](CircuitPython/dht)
 
 ## Python examples
