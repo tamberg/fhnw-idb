@@ -21,3 +21,4 @@ while True:
     	rssi = network['rssi']
     	ssid = str(network['ssid'], 'utf-8')
         print("  rssi: %d, ssid: %s" % (rssi, ssid))
+        
