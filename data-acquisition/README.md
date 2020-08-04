@@ -42,13 +42,11 @@ These actuators can help to make a connected device easier to use.
 
 ## CircuitPython examples
 First, try these examples with CircuitPython on the nRF52840:
-
 * [Reading analog sensor input](CircuitPython/analog_input), e.g. light or rotation.
 * [Reading digital sensor input](CircuitPython/digital_input), e.g. from a button.
 * [Reading a DHT temperature & humidity sensor](CircuitPython/dht).
 
 Then, try these
-
 * [Controlling digital actuators](CircuitPython/digital_input), e.g. a buzzer or LED.
 * [Controlling a chainable RGB LED](CircuitPython/grove_rgbled), e.g. to indicate states.
 * [Controlling a TM1637 4-digit display](CircuitPython/tm1637), e.g. to show the time.
