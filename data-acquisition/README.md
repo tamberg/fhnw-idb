@@ -40,4 +40,4 @@ Try these examples with CircuitPython on the nRF52840.
 ## Python examples
 Try these examples with Circuit on the Raspberry Pi.
 
-* [Reading a DHT temperature & humidity sensor](Python/dht)
+* [Reading a DHT temperature & humidity sensor](Python/dht).
