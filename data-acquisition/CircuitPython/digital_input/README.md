@@ -9,4 +9,4 @@ How to read digital sensor input with CircuitPython.
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
 * [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
-* [Button](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#button) wired to Grove _D4_.
+* [Button](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#button) wired to Grove _D4_ (nRF52840 _D9_).
