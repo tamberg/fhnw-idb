@@ -1,6 +1,3 @@
-# Based on https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI licensed under MIT License
-# https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/
-
 import board
 import busio
 import digitalio
@@ -21,4 +18,3 @@ while True:
     	rssi = network['rssi']
     	ssid = str(network['ssid'], 'utf-8')
         print("  rssi: %d, ssid: %s" % (rssi, ssid))
-        
