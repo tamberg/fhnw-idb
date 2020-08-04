@@ -36,7 +36,7 @@ The available hardware includes the following actuators:
 
 * The [buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) as examples of digital actuators.
 * The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom two-wire protocol.
-* The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom onne-wire protocol.
+* The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
 
 These actuators can help to make a connected device easier to use.
 
