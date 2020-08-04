@@ -30,8 +30,12 @@ We will use this sensor as an example for
 - how to deal with wrong values?
 - how to visualize the data in a excel sheet and/or jupyter notebook?
 
-## DHT11 with CircuitPython on nRF52840
-Follow the steps in [Using a DHT sensor with CircuitPython on nRF52840](CircuitPython/dht)
+## CircuitPython examples
+Try these examples with CircuitPython on the nRF52840.
 
-## DHT11 with Python on Raspberry Pi
-Follow the steps in [Using a DHT sensor with Python on Raspberry Pi](Python/dht)
+* [Reading a DHT temperature & humidity sensor](CircuitPython/dht)
+
+## Python examples
+Try these examples with Circuit on the Raspberry Pi.
+
+* [Reading a DHT temperature & humidity sensor](Python/dht)
