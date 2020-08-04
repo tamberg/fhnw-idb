@@ -38,7 +38,7 @@ The available hardware includes the following actuators:
 * The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom two-wire protocol.
 * The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
 
-These actuators can help to make a connected device easier to use.
+Actuators can help to make a device more interactive.
 
 ## CircuitPython examples
 First, try these examples with CircuitPython on the nRF52840:
