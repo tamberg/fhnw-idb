@@ -35,8 +35,8 @@ We will use these sensors as an example for:
 The available hardware includes the following actuators:
 
 * The [buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) as examples of digital actuators.
-* The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom one-wire protocol.
-* The [TM1736 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
+* The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom two-wire protocol.
+* The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom onne-wire protocol.
 
 These actuators can help to make a connected device easier to use.
 
@@ -46,6 +46,10 @@ Try these examples with CircuitPython on the nRF52840.
 * [Reading analog sensor input](CircuitPython/analog_input), e.g. light or rotation.
 * [Reading digital sensor input](CircuitPython/digital_input), e.g. from a button.
 * [Reading a DHT temperature & humidity sensor](CircuitPython/dht).
+
+* [Controlling digital actuators](CircuitPython/digital_input), e.g. a buzzer or LED.
+* [Controlling a chainable RGB LED](CircuitPython/grove_rgbled), e.g. to indicate states.
+* [Controlling a TM1637 4-digit display](CircuitPython/tm1637), e.g. to show the time.
 
 ## Python examples
 Try these examples with Circuit on the Raspberry Pi.
