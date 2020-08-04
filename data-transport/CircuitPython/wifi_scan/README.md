@@ -7,9 +7,9 @@ How to scan Wi-Fi networks with the FeatherWing ESP32 AirLift Wi-Fi module.
 * Copy the content of [wifi_scan.py](wifi_scan.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Libraries
-Part of the [https://circuitpython.org/libraries](https://circuitpython.org/libraries) bundle:
-* https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/ (see [docs](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/index.html)).
-* https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/ (see [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/index.html)).
+Part of the [CircuitPython library bundle](https://circuitpython.org/libraries):
+* adafruit_esp32spi ([source](https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/), [docs](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/index.html)).
+* busio ([source](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/), [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/index.html)).
 
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
