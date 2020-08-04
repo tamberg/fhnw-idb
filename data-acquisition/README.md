@@ -31,7 +31,7 @@ We will use these sensors as an example for:
 * how to visualize the data in a excel sheet and/or jupyter notebook?
 
 ## Controlling actuators
-The available hardware includes a number of actuators:
+The available hardware includes the following actuators:
 
 * The [buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) as examples of digital actuators.
 * The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom one-wire protocol.
