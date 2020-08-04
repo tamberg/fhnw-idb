@@ -3,8 +3,9 @@
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Reading sensor values](#reading-sensor-values)
-4. [CircuitPython examples](#circuitpython-examples)
-5. [Python examples](#python-examples)
+4. [Controlling actuators](#controlling-actuators)
+5. [CircuitPython examples](#circuitpython-examples)
+6. [Python examples](#python-examples)
 
 ## Intro
 > Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. 
