@@ -2,7 +2,7 @@
 
 1. [Intro](#intro)
 2. [Resources](#resources)
-3. [Temperature & Humidity](#temperature-&-humidity)
+3. [Reading sensor values](#reading-sensor-values)
 4. [CircuitPython examples](#circuitpython-examples)
 5. [Python examples](#python-examples)
 
