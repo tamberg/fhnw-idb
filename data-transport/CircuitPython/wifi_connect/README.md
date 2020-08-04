@@ -4,6 +4,7 @@ How to connect to a Wi-Fi network with the FeatherWing ESP32 AirLift Wi-Fi modul
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the [libraries](#Libraries) to the _lib_ directory on the _CIRCUITPY_ drive.
+* Set your Wi-Fi _ssid_ and _password_ in the [wifi_connect.py](wifi_connect.py) example.
 * Copy the content of [wifi_connect.py](wifi_connect.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Libraries

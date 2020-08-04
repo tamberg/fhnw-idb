@@ -3,6 +3,7 @@ import busio
 import digitalio
 from adafruit_esp32spi import adafruit_esp32spi # :)
 
+# TODO: Set your Wi-Fi ssid, password
 ssid = "MY_SSID"
 password = "MY_PASSWORD"
 
