@@ -4,7 +4,7 @@ How to read analog sensor input with CircuitPython.
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the content of [analog_input.py](analog_input.py) to _code.py_ on the _CIRCUITPY_ drive.
-* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (if you are using the [Mu Python editor](https://github.com/tamberg/fhnw-idb/wiki/Mu-Python-editor))
+* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/tamberg/fhnw-idb/wiki/Mu-Python-editor)).
 
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
