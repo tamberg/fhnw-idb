@@ -7,22 +7,22 @@
 5. [Python examples](#python-examples)
 
 ## Intro
-
 > Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. 
 
 --- from Wikipedia
 
 ## Resources
-
 - Slides on [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2020/hs/IdbMcuSensorsActuators.pdf).
 - Slides [From Prototype to Connected Product](http://www.tamberg.org/fhnw/2020/hs/IdbPrototypeToProduct.pdf).
 - [Grove Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#gui-graphical-user-interface) with code examples.
 
 ## Reading sensor values
+The available hardware includes a number of sensors:
+* A [Button](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#button) as an example of a digital sensor.
+* A [Light Sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) as an example of an analog sensor.
+* A [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) temperature and humidity sensor.
 
-[DHT11](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) is a common temperature and humidity sensor.
-
-We will use these sensors as an example for
+We will use these sensors as an example for:
 
 - how to connect to the physical world?
 - how to print out sensor values?
