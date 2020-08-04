@@ -18,14 +18,14 @@
 - Slides [From Prototype to Connected Product](http://www.tamberg.org/fhnw/2020/hs/IdbPrototypeToProduct.pdf).
 - [Grove Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#gui-graphical-user-interface) with code examples.
 
-## Temperature & Humidity
+## Reading sensor values
 
 [DHT11](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) is a common temperature and humidity sensor.
 
-We will use this sensor as an example for
+We will use these sensors as an example for
 
 - how to connect to the physical world?
-- how to print out these sensor values?
+- how to print out sensor values?
 - how accurate the sensor is?
 - how to deal with wrong values?
 - how to visualize the data in a excel sheet and/or jupyter notebook?
