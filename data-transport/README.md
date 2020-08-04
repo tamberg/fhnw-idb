@@ -13,8 +13,8 @@
 ## CircuitPython examples with nRF52840
 ### Wi-Fi
 * [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
-* [Reading the Wi-Fi MAC address](CircuitPython/wifi_address)
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
+* [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
 
 ### LoRaWAN
 > TODO
