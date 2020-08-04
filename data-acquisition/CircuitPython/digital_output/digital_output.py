@@ -2,12 +2,11 @@ import board
 import digitalio
 import time
 
-led = digitalio.DigitalInOut(board.D5) # nRF52840, Grove D2
-led.direction = digitalio.Direction.OUTPUT
+actuator = digitalio.DigitalInOut(board.D5) # nRF52840, Grove D2
+actuator.direction = digitalio.Direction.OUTPUT
 
 while True:
-    led.value = True
+    actuator.value = True
     time.sleep(1)
-    led.value = False
+    actuator.value = False
     time.sleep(1)
-
