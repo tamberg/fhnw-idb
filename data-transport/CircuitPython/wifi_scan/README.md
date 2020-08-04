@@ -3,7 +3,7 @@ How to scan Wi-Fi networks with the FeatherWing ESP32 AirLift Wi-Fi module.
 
 ## Run the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
-* Copy the [libraries](#Libraries) to the _/lib_ directory on the _CIRCUITPY_ drive.
+* Copy the [libraries](#Libraries) to the _lib_ directory on the _CIRCUITPY_ drive.
 * Copy the content of [wifi_scan.py](wifi_scan.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Libraries
