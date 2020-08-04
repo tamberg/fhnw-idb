@@ -1,5 +1,5 @@
 # Connecting to a Wi-Fi network
-How to connect to a Wi-Fi network with the FeatherWing ESP32 AirLift Wi-Fi module.
+How to connect to a local Wi-Fi network with the FeatherWing ESP32 AirLift Wi-Fi module.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
