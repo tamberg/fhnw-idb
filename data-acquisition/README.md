@@ -3,8 +3,8 @@
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Temperature & Humidity](#temperature-&-humidity)
-4. [DHT11 with CircuitPython on nRF52840](#dht11-with-circuitpython-on-nrf52840)
-5. [DHT11 with Python on Raspberry Pi](#dht11-with-python-on-raspberry-pi)
+4. [CircuitPython examples](#circuitpython-examples)
+5. [Python examples](#python-examples)
 
 ## Intro
 
