@@ -1,5 +1,5 @@
 # Reading the Wi-Fi module MAC address
-How to read the Wi-Fi module MAC address with the FeatherWing ESP32 AirLift Wi-Fi module.
+How to read the Wi-Fi module MAC address from the FeatherWing ESP32 AirLift Wi-Fi module.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
