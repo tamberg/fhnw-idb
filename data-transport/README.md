@@ -10,7 +10,9 @@
 - Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
 - Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
 
-## CircuitPython examples with nRF52840
+## CircuitPython examples
+Try these examples with CircuitPython on the nRF52840.
+
 ### Wi-Fi
 * [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
@@ -19,6 +21,8 @@
 ### LoRaWAN
 > TODO
 
-## Python examples with Raspberry Pi
+## Python examples
+Try these examples with Python on the Raspberry Pi.
+
 ### Wi-Fi
 > TODO
