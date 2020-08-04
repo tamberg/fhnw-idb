@@ -3,8 +3,9 @@
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Reading sensor values](#reading-sensor-values)
-4. [CircuitPython examples](#circuitpython-examples)
-5. [Python examples](#python-examples)
+4. [Controlling actuators](#controlling-actuators)
+5. [CircuitPython examples](#circuitpython-examples)
+6. [Python examples](#python-examples)
 
 ## Intro
 > Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. 
@@ -24,20 +25,33 @@ The available hardware includes a number of sensors:
 
 We will use these sensors as an example for:
 
-- how to connect to the physical world?
-- how to print out sensor values?
-- how accurate the sensor is?
-- how to deal with wrong values?
-- how to visualize the data in a excel sheet and/or jupyter notebook?
+* how to connect to the physical world?
+* how to print out sensor values?
+* how accurate the sensor is?
+* how to deal with wrong values?
+* how to visualize the data in a excel sheet and/or jupyter notebook?
+
+## Controlling actuators
+The available hardware includes the following actuators:
+
+* The [buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) as examples of digital actuators.
+* The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom two-wire protocol.
+* The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
+
+Actuators can help to make a device more interactive.
 
 ## CircuitPython examples
-Try these examples with CircuitPython on the nRF52840.
+First, try these examples with CircuitPython on the nRF52840:
+* [Reading analog sensor input](CircuitPython/analog_input), e.g. light or rotation.
+* [Reading digital sensor input](CircuitPython/digital_input), e.g. from a button.
+* [Reading a DHT temperature & humidity sensor](CircuitPython/dht).
 
-* [Reading analog sensor input](CircuitPython/analog_input), e.g. light or rotation
-* [Reading digital sensor input](CircuitPython/digital_input), e.g. from a button
-* [Reading a DHT temperature & humidity sensor](CircuitPython/dht)
+Then, add an actuator to provide some interactive feedback:
+* [Controlling digital actuators](CircuitPython/digital_output), e.g. a buzzer or LED.
+* [Controlling a chainable RGB LED](CircuitPython/grove_rgbled), e.g. to indicate states.
+* [Controlling a TM1637 4-digit display](CircuitPython/tm1637), e.g. to show the time.
 
 ## Python examples
 Try these examples with Circuit on the Raspberry Pi.
 
-* [Reading a DHT temperature & humidity sensor](Python/dht)
+* [Reading a DHT temperature & humidity sensor](Python/dht).
