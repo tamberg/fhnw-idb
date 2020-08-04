@@ -1,5 +1,5 @@
-import network
 import time
+import network
 
 ssid = b'MY_SSID'
 pwrd = b'MY_PASSWORD'
@@ -17,4 +17,5 @@ while not conn:
 
 print(wifi.ifconfig())
 
-# ...
+while True:
+    pass # use connection
