@@ -1,5 +1,5 @@
 # Controlling digital output
-How to control digital actuator output with CircuitPython.
+How to control actuators through digital output with CircuitPython.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
