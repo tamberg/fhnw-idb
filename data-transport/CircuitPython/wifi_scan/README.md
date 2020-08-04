@@ -15,12 +15,5 @@ From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
 * [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) Wi-Fi module.
 
-### Mapping
-ESP32|nRF52840 (or M4)
-:---|:---
-CS |D13
-RDY |D11
-RST |D12
-
 ## Credits
 * Based on https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/ licensed under MIT License
