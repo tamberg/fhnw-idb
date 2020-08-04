@@ -24,11 +24,20 @@ The available hardware includes a number of sensors:
 
 We will use these sensors as an example for:
 
-- how to connect to the physical world?
-- how to print out sensor values?
-- how accurate the sensor is?
-- how to deal with wrong values?
-- how to visualize the data in a excel sheet and/or jupyter notebook?
+* how to connect to the physical world?
+* how to print out sensor values?
+* how accurate the sensor is?
+* how to deal with wrong values?
+* how to visualize the data in a excel sheet and/or jupyter notebook?
+
+## Controlling actuators
+The available hardware includes a number of actuators:
+
+* The [buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [red LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) as an example of digital actuators.
+* The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom one-wire protocol.
+* The [TM1736 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
+
+These actuators can help to make a connected device easier to use.
 
 ## CircuitPython examples
 Try these examples with CircuitPython on the nRF52840.
