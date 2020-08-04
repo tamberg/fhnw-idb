@@ -4,9 +4,9 @@ import time
 import busio
 import digitalio
 import board
-from adafruit_tinylora.adafruit_tinylora import TTN, TinyLoRa
+from adafruit_tinylora import adafruit_tinylora # :)
 
-spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
+spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
 
 # FeatherWing RFM95, nRF52840
 cs = digitalio.DigitalInOut(board.D5)
@@ -26,13 +26,13 @@ ttn_app_session_key_msb = bytearray(
      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00])
 
 ttn_region = "EU" # 868 MHz
-ttn_config = TTN(
+ttn_config = adafruit_tinylora.TTN(
     ttn_dev_address_msb, 
     ttn_net_session_key_msb, 
     ttn_app_session_key_msb, 
     ttn_region)
 
-lora = TinyLoRa(spi, cs, irq, rst, ttn_config)
+lora = adafruit_tinylora.TinyLoRa(spi, cs, irq, rst, ttn_config)
 
 while True:
     print("Sending packet...")
