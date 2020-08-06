@@ -22,8 +22,9 @@ The following hardware is available:
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
+Here's a microcontroller with a sensor and LoRaWAN connectivity:
+
 <img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="540">
-<small>A nRF52840 microcontroller with a DHT11 temperature sensor and LoRaWAN connectivity</small>
 
 ## Wiki
 For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
