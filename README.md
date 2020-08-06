@@ -22,7 +22,7 @@ The following hardware is available in our IoT kit:
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
-Here's a battery-driven microcontroller with a sensor and connectivity:
+E.g. a battery-driven microcontroller with a sensor and connectivity:
 
 <img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="540">
 
