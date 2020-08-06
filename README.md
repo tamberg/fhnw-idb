@@ -22,6 +22,8 @@ The following hardware is available:
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
+<img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="640">
+
 ## Wiki
 For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
 
