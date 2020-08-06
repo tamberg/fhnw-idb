@@ -10,6 +10,18 @@
 - Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
 - Slides on [XYZ](http://www.tamberg.org/fhnw/2020/hs/IdbXYZ.pdf).
 
+## Connecting to Wi-Fi
+
+## ThingSpeak IoT platform
+
+## HTTP Client
+ThingSpeak
+
+## MQTT Client
+ThingSpeak
+
+## LoRaWAN
+
 ## CircuitPython examples
 Try these examples with CircuitPython on the nRF52840.
 
