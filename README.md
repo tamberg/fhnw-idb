@@ -22,7 +22,7 @@ The following modular hardware is available in your IoT kit:
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
-E.g. to build a battery-driven device with a MCU, a sensor and LoRaWAN connectivity:
+E.g. to build a battery-driven device with a sensor and long range connectivity:
 
 <img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="540">
 
