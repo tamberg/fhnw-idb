@@ -13,7 +13,7 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 4. [Data Analysis](data-analysis/README.md) - how to display and analyse data.
 
 ## Hardware
-The following hardware is available in our IoT kit:
+The following modular hardware is available in your IoT kit:
 
 * [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer.
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller.
