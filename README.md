@@ -1,5 +1,5 @@
 # IoT Data Collection (idb)
-Competence *idb* by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
+Competence [idb](https://ds-spaces.technik.fhnw.ch/3idb/) by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
 
 ## Overview
 <table><tr><td><img width="600" src="introduction/iot-big-picture.png"></td></tr></table>
@@ -13,7 +13,7 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 4. [Data Analysis](data-analysis/README.md) - how to display and analyse data.
 
 ## Hardware
-The following hardware is available:
+The following modular hardware is available in your IoT kit:
 
 * [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer.
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller.
@@ -21,6 +21,10 @@ The following hardware is available:
 * [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN radio module.
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
+
+E.g. to build a battery-driven device with a sensor and connectivity:
+
+<img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="540">
 
 ## Wiki
 For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):

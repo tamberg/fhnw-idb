@@ -15,7 +15,6 @@
 ## Resources
 - Slides on [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2020/hs/IdbMcuSensorsActuators.pdf).
 - Slides [From Prototype to Connected Product](http://www.tamberg.org/fhnw/2020/hs/IdbPrototypeToProduct.pdf).
-- [Grove Hardware Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#gui-graphical-user-interface) with code examples.
 
 ## Reading sensor values
 The available hardware includes a number of sensors:
@@ -39,6 +38,9 @@ The available hardware includes the following actuators:
 * The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
 
 Actuators can help to make a device more interactive.
+
+## Bulding an enclosure
+> TODO
 
 ## CircuitPython examples
 First, try these examples with CircuitPython on the nRF52840:
