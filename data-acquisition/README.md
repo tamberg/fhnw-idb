@@ -39,6 +39,9 @@ The available hardware includes the following actuators:
 
 Actuators can help to make a device more interactive.
 
+## Bulding an enclosure
+> TODO
+
 ## CircuitPython examples
 First, try these examples with CircuitPython on the nRF52840:
 * [Reading analog sensor input](CircuitPython/analog_input), e.g. light or rotation.
