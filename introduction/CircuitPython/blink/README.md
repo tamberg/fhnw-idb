@@ -48,13 +48,13 @@ Copy the file `blink.py` to the board into a file called `code.py`.
   $ cp blink.py /Volumes/CIRCUITPY/code.py
   ```
 
-- Using the `cmd` application on Windows:
+- Using the `cmd` application on Windows (`CIRCUITPY` as `D:`):
 
   ```shell
-  % copy blink.py D:
+  % copy blink.py D:\code.py
   ```
 
-- Using the Mu-Editor:
+- Using the Mu editor:
 
   Create the new file `code.py` and copy the content of `blink.py` into this file. Save the file on the drive `CIRCUITPY`.
 
