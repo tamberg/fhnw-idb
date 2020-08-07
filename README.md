@@ -2,7 +2,7 @@
 Competence [idb](https://ds-spaces.technik.fhnw.ch/3idb/) by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
 
 ## Overview
-<table><tr><td><img width="600" src="introduction/iot-big-picture.png"></td></tr></table>
+<table><tr><td><img width="600" src="iot-big-picture.png"></td></tr></table>
 
 ## Resources
 Resources and code examples to get into Internet of Things (IoT) data collection:
