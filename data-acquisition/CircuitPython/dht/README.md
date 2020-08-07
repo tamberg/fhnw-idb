@@ -5,8 +5,7 @@
 You have successfully completed all steps in [Getting Started](../../../introduction/CircuitPython/README.md). That means: 
 
 - You have the MU-Editor installed.
-- You flashed the firmware flashed on your nRF52840.
-- You can run the [Blink Application](../../../introduction/CircuitPython/blink/README.md).
+- You can run the [Blink Program](../../../introduction/CircuitPython/blink/README.md).
 
 ## DHT sensor in action
 

@@ -18,13 +18,18 @@ Use the steps described in the [Installing CircuitPython](https://learn.adafruit
 
 2. Check that the [Feather nRF52840 Express](https://circuitpython.org/board/feather_nrf52840_express/) is connected via USB to your computer.
 
-3. [Get the firmware](https://circuitpython.org/board/feather_nrf52840_express/) for the Feather nRF52840 Express. Choose the latest stable firmware release. If your are still using Windows 7, install the [drivers](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython#windows-7-drivers-2977910-9). No additional drivers are needed for Mac, Linux or Windows 10.
-
-4. [Start the bootloader mode](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython#start-the-uf2-bootloader-2977081-13) to be able to copy the firmware onto the microprocessor. Sometimes it takes a few tries.
-
-5. Drag the firmware file to the boot drive `FEATHERBOOT`. The Boot Drive will automatically ejected and restarted as new drive called `CIRCUITPY`.
+3. Check that you see the drive `CIRCUITPY` drive on your desktop.
 
 **You are now ready for CircuitPython Programming**.
+
+If you don't see the `CIRCUITPY` drive, you have to install the firmware yourself, but this should be optional:
+
+1. [Get the firmware](https://circuitpython.org/board/feather_nrf52840_express/) for the Feather nRF52840 Express. Choose the latest stable firmware release. If your are still using Windows 7, install the [drivers](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython#windows-7-drivers-2977910-9). No additional drivers are needed for Mac, Linux or Windows 10.
+
+2. [Start the bootloader mode](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython#start-the-uf2-bootloader-2977081-13) to be able to copy the firmware onto the microprocessor. Sometimes it takes a few tries.
+
+3. Drag the firmware file to the boot drive `FEATHERBOOT`. The Boot Drive will automatically ejected and restarted as new drive called `CIRCUITPY`.
+
 
 ## Interacting with nRF52840
 
@@ -46,12 +51,5 @@ REPL (Read-Evaluate-Print-Loop) is also available with the MU-Editor. Read [this
 
 ## Install and Deploy your own Program
 
-Follow these [instructions](blink) to install a *Blink* program permanently on your microcontroller.
+Follow these instructions] to [install a *Blink* program](blink) permanently on your microcontroller.
 
-## Using WiFi
-
-<!-- The ESP8622 has WiFi support on board. There are two WiFi interfaces, one for the station (when the ESP8266 connects to a router) and one for the access point (for other devices to connect to the ESP8266). Check the information on chapter [Network basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html#network-basics) to be able to connect your ESP8622 to a wireless network of your choice.
-
-**NOTES**:
-- To use WiFi in your own application, it is important to configure the WiFi network access at boot time.
-- Check the [Boot process](https://docs.micropython.org/en/latest/esp8266/general.html#boot-process), especially the roles of the two files `boot.py` and `main.py`. -->
