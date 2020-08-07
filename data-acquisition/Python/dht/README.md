@@ -1,4 +1,20 @@
-# Using a DHT sensor with Python on Raspberry Pi
+# Reading a DHT temperature & humidity sensor
+
+How to read and visualize a DHT sensor with Python on a Rapsberry Pi. 
+
+## Running the example
+* Set up the [hardware](#Hardware), connect it to your computer via SSH.
+* Copy the content of [dht.py](dht.py) to _code.py_ on the _CIRCUITPY_ drive.
+* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/tamberg/fhnw-idb/wiki/Mu-Python-editor)).
+
+## Hardware
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
+* [Grove Base Hat for Raspberry Pi](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
+* [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D16_ (Raspberry Pi _Pin 16_) (see figure 1).
+
+<img src="raspberry-dht.jpg" width="640">
+
+Figure 1: DHT sensor connected to D16
 
 ## Prerequisites
 

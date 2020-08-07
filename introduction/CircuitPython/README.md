@@ -3,7 +3,6 @@
 1. [CircuitPython](#circuitpython)
 2. [Interacting with nRF52840](#interacting-with-nRF52840)
 3. [Install and Deploy your own Program](#install-and-deploy-your-own-program)
-4. [Using WiFi](#using-wifi)
 
 ## CircuitPython
 

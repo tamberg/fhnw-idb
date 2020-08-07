@@ -54,6 +54,6 @@ Then, add an actuator to provide some interactive feedback:
 * [Controlling a TM1637 4-digit display](CircuitPython/tm1637), e.g. to show the time.
 
 ## Python examples
-Try these examples with Circuit on the Raspberry Pi.
+Try these examples with Python on the Raspberry Pi.
 
 * [Reading a DHT temperature & humidity sensor](Python/dht).

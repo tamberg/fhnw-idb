@@ -1,14 +1,27 @@
-# Blink App
+# Blink
 
-## Challenge
+## Hardware
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
+* [Grove Base Hat for Raspberry Pi](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
+* [Grove Red LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) wired to Grove _D5_ (see figure 1).
 
-The small application in `blink.py` toggles the  grove [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) endlessly. But the application is not started again after a reboot.
+<table><tr><td><img width="640" src="setup.jpg"></td></tr></table>
+
+Figure 1: The LED is connected to Pin `D5`.
+
+## Intro
+
+The first, small program toggles the Grove Red LED endlessly. It is based on this [Seeed-Studio example](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#grove---led).
+
+## Question
+
+The small program runs endlessly. But it is not started again after a reboot pf the Pi. That could be a problem for an embedded device, which is not accessible easily.
 
 **Question: How it possible to run own code even after rebooting the Pi?**
 
 ## Solution
 
-You will use the [systemd service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md) and the system command `systemctl` to run the python app even after reboot.
+You will use the [systemd service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md) and the system command `systemctl` to run the python program even after reboot.
 
 Use the file [blink.py](./blink.py) and follow these steps:
 
@@ -30,10 +43,10 @@ Use the file [blink.py](./blink.py) and follow these steps:
 
    Note: Use the IP-address of your Pi.
 
-4. Install the library `grove.py` (from Seeed-Studio) on the Pi:
+4. Check that the package `grove.py` (from Seeed-Studio) is already installed:
 
    ```shell
-   $ pip3 install grove.py
+   $ pip3 show grove.py
    ```
 
 5. Start `blink.py` on the Pi:
@@ -43,7 +56,7 @@ Use the file [blink.py](./blink.py) and follow these steps:
    ```
    **Does it blink?**
 
-6. **Or** you can turn on/off the LED manually using python's IDLE:
+6. **Or** you can turn on/off the LED manually using python's IDLE/REPL:
 
    ```shell
    $ python3
@@ -59,37 +72,48 @@ Use the file [blink.py](./blink.py) and follow these steps:
    >>>
    ```
 
-To keep running this app, even after a reboot, it must be installed as a systemd service. You have to options to be able to run the application as service.
 
+**Use `systemctl`**
 
-**Option 1 (using `systemctl`)**
+To keep running this program, even after a reboot, it must be installed as a systemd service. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. 
 
-Use `systemctl` to start the python app as python script. More to find [here](https://www.raspberrypi.org/documentation/linux/usage/systemd.md). 
-
-**Note**: If the app is stateful, it must be run as a service, to be able to keep/store state information between the different calls.
+Follow these [instructions](https://www.raspberrypi.org/documentation/linux/usage/systemd.md) to install the program as a service. 
 
 Note:
 
-- If you use print statements in your python app, you can see them using the tool `journalctl` as:
+- If you use print statements in your python program, you can see them using the tool `journalctl`:
 
   ```shell
   $ journalctl -f -u blink.service
   ```
 
-**Option 2 (using `cron`)**
+<!-- **Optional: Use `cron`**
 
-Use `cron` to schedule the python application at a given interval. 
+Use `cron` to schedule the python program at a given interval. You have to change `blink,py` to:
 
-**Note**: This is the preferred way if the app is stateless.
+```python
+import time
+from grove.grove_led import GroveLed
+
+# setup
+pin = 5 # D5
+led = GroveLed(pin)
+
+# main task
+led.on()
+time.sleep(0.5)
+led.off()
+time.sleep(0.5)
+```
 
 Links:
 
 - see [Scheduling tasks with Cron](https://www.raspberrypi.org/documentation/linux/usage/cron.md)
 - see [Setting Up A Cron Job On The Raspberry Pi](https://www.bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/)
 
-  **Important**: Use absolute path names for the python interpreter and for your python script within your cron entry
+  **Important**: Use absolute path names for the python interpreter and for your python script within your cron entry -->
 
-**Option 3 (for experts)**
+<!-- **Option 3 (optional and for experts)**
 
 Use `systemctl` to start an executable, generate from the python application.
 
@@ -156,4 +180,4 @@ The python app and all its dependencies can be bundled into a single package/exe
    $ sudo systemctl enable blink.service
    ```
 
-   **Test it!**   
+   **Test it!**    -->
