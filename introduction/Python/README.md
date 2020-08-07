@@ -2,7 +2,7 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Python](#python)
-3. [Install and Deploy your own App as a service](#install-and-deploy-your-own-app-as-a-service)
+3. [Install and Deploy your own Program as a service](#install-and-deploy-your-own-program-as-a-service)
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ It is necessary to install a Raspberry Pi operation system, which is Linux-based
   Read the Wiki Page [Setup on a Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup)
 
 **Notes**: 
-- Choose **Raspberry Pi OS Lite**. The Raspberry Pi Zero W has limited computing resources. Desktop software and applications like office apps are not needed.
+- Choose **Raspberry Pi OS Lite**. The Raspberry Pi Zero W has limited computing resources. Desktop software and applications like office application are not needed.
 - Check that `ssh` and `wifi` are enabled and can be used without problems.
 - Find the **IP address of your Pi** using the information in the [Wiki](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).  
 Use the commands `ifconfig` or `ipconfig` and `nmap`.
@@ -44,12 +44,12 @@ Check the [python documentation](https://www.raspberrypi.org/documentation/usage
 - Installing Python libraries
 - [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
 
-## Install and Deploy your own App as a service
+## Install and Deploy your own Program as a service
 
 The first, small application blinks the [Grove Red LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led). The setup is shown in the following figure:
 
-<table><tr><td><img width="600" src="blink/setup.jpeg"></td></tr></table>
+<table><tr><td><img width="640" src="blink/setup.jpg"></td></tr></table>
 
 The LED is connected to GPIO-Pin `D5`.
 
-Follow these [instructions](blink/README.md) to install and run a Blink App on the Rasperry Pi Zero W, even after a reboot.
+Follow these [instructions](blink/README.md) to install and run a Blink program on the Rasperry Pi Zero W, even after a reboot.
