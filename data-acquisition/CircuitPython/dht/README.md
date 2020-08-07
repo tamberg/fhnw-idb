@@ -1,43 +1,22 @@
-# Using a DHT sensor with CircuitPython on nRF52840
+# Reading a DHT temperature & humidity sensor
+How to read and visualize a DHT sensor with CircuitPython.
 
-## Prerequisites
 
-You have successfully completed all steps in [Getting Started](../../../introduction/CircuitPython/README.md). That means: 
+## Running the example
+* Set up the [hardware](#Hardware), connect it to your computer via USB.
+* Copy the content of [dht.py](dht.py) to _code.py_ on the _CIRCUITPY_ drive.
+* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/tamberg/fhnw-idb/wiki/Mu-Python-editor)).
 
-- You have the MU-Editor installed.
-- You can run the [Blink Program](../../../introduction/CircuitPython/blink/README.md).
-
-## DHT sensor in action
-
-This Lab is based on the information found in
-
-- the [DHT CircuitPython Code](https://learn.adafruit.com/dht/dht-circuitpython-code)
-
-### Connecting the DHT sensor to the nRF52840 board
-
-Connect the DHT sensor to PIN D2 of the Grove Adapter, as shown in figure 1.
+## Hardware
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
+* [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
+* [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D2_ (nRF52840 _D5_) (see figure 1).
 
 <img src="dht.jpg" width="640">
 
 Figure 1: DHT sensor connected to PIN D2
 
-### Read the DHT sensor
-
-1. Open your MU-Editor and connect your nRF52840 over USB.
-
-2. Load the file [`dht.py`](dht.py) into your MU-Editor.
-
-   This is a small python program using the DHT sensor, which is connected to PIN D2, to read out the temperature and humidity and to print these values to the console, including a timestamp.
-
-   Don't forget to adjust your `code.py`.
-
-3. Run the app (see figure 2).
-
-   <img src="dht-mu-editor.png" width="640">
-
-   Figure 2: Program `dht.py` in action
-
-   The values are printed out to the console.
+## Visualize and Analyse the sensor values
 
 ### Create Excel file (format csv)
 
@@ -51,10 +30,7 @@ The console output can be copied and pasted into an excel file.
 
 3. Save the file as `dht.csv`.
 
-
-### Visualize and Analyse the sensor values
-
-**Visualize**
+### Visualize
 
 Using Jupyter notebook (Option 1):
 
@@ -76,6 +52,6 @@ Using Excel (Option 2):
 
    Figure 4: Example of a visualisation in Excel
 
-**Analyse**
+### Analyse
 
 Analyse the data for wrong or missing values. This can happen! The sensor is cheap! **Improve the program, if necessary.** You should have a reasonable output in the end.
