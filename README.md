@@ -4,6 +4,16 @@ Competence [idb](https://ds-spaces.technik.fhnw.ch/3idb/) by [T. Amberg](https:/
 ## Overview
 <table><tr><td><img width="600" src="iot-big-picture.png"></td></tr></table>
 
+*idb* wants to enable you to use information from the physical world as data sources for your data analysis projects. In the end you will have a deeper unterstanding of
+
+* how to aquire data from the physical world?
+* how to manipulated these datas in the field?
+* how to transport these data to a backend device?
+* how to access these data on the backend device for analysis?
+* how the tools/platforms differ and what the advantages and disadvantages are?
+
+**To be able to compare the technologies used, it is essential that you have an understanding of the underlying concepts.**
+
 ## Resources
 Resources and code examples to get into Internet of Things (IoT) data collection:
 

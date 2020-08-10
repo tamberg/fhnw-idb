@@ -1,9 +1,20 @@
 # Introduction to the Internet of Things
+1. [Overview](#overview)
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Python vs. MicroPython vs. CircuitPython](#python-vs-micropython-vs-circuitpython)
 4. [Getting Started with CircuitPython on nRF52840](#getting-started-with-circuitpython-on-nrf52840)
 5. [Getting Started with Python on Raspberry Pi](#getting-started-with-python-on-raspberry-pi)
+
+## Overview
+
+This introduction should enable you to set up and use your computer in a way that makes getting started with IoT easy.
+
+We will be using different hardware, so you can finally answer the following questions:
+
+* how IoT hardware is connected to your computer?
+* how is possible to program for a IoT hardware?
+* how does IoT hardware differ?
 
 ## Intro
 
