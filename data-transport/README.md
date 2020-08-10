@@ -31,6 +31,50 @@ We will use examples of data transport technologies to find out:
 
 ## ThingSpeak IoT platform
 
+We will use the [ThingSpeak](https://thingspeak.com/) as our *Cloud Backend*. ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
+
+For an introduction look at this tutorial:
+
+* [Introduction to ThingSpeak](https://ch.mathworks.com/de/support/search.html/videos/introduction-to-thingspeak-107749.html?q=&fq=asset_type_name:video%20category:matlab/data-import-and-export&page=1)
+
+Your steps to get started with ThingSpeak are:
+
+1. **Create a free account**
+    
+    ThingSpeak does provide free access, but with [limited resources and functionality](https://thingspeak.com/prices/thingspeak_student). To use [ThingSpeak](https://thingspeak.com/), start creating a free account with your **FHNW email address** by clicking the button as shown in figure 1.
+
+    <img width="640" src="thingspeak-get-started.png"></td></tr></table>
+
+    Figure 1: Get started on ThingSpeak with a free, limited account
+
+2. **Create a channel**
+    
+    To be able to collect data on ThingSpeak, you have to provide a so-called **Channel**. Use the information in [Collect Data in a New Channel](https://ch.mathworks.com/help/thingspeak/collect-data-in-a-new-channel.html) to setup your first channel with 3 fields: *Temperature, Humidity, Dew Point*
+
+    Save the channel.
+
+3. **Get your access keys**
+
+    API keys enable you to write data to a channel or read data from a private channel. API keys are auto-generated when you create a new channel.
+
+    You can access your API key ionn your channel page in tab **API Keys**. You will need the **Write API Key**
+
+4. **Test your channel**
+
+    You can test your channel by sending test data manually using the HTTP protocol. Use your browser to do a HTTP GET request as follows:
+    
+    ```
+    https://api.thingspeak.com/update?api_key=<YOUR WRITE API KEY>&field1=0&field2=10&field3=20
+    ```
+
+    You should see on each chart one red point, which corresponds to your test values as shown in figure 2.
+
+    <img width="640" src="thingspeak-charts.png"></td></tr></table>
+
+    Figure 2: Charts with first test data
+
+**Your ThingSpeak channel is now ready to collect your sensor data.**
+
 ## HTTP Client
 ThingSpeak
 
