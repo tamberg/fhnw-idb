@@ -1,30 +1,62 @@
-# Blink Application
+# Blink
 
 ## Intro
 
-After reading the chapter about [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you will know that the CircuitPython looks for a code file named `code.txt`, `code.py`, `main.txt` or `main.py` to start first. One of them will be the main program that starts the entire application.
+After reading the chapter about [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you should be aware of the following specialities:
 
-## Challenge
+- CircuitPython looks for a code file named `code.txt`, `code.py`, `main.txt` or `main.py` to run.
 
-The file `blink.py` has defined the function `do_blink()` to toggle the onboard led (red) endlessly. If you copy this file onto your microcontroller, nothing happens. Your code will not be called by CircuitPython.
+- Microcontroller programs - therefore even a CircuitPythin program - have usually the following code structure:
 
-Questions: 
- - How is it possible to integrate own code into a CircuitPython application?
- - What is the link between the main program and your code, e.g. `blink.py`?
+  ```python
+  # Libraries
+  # Import all libraries you will need in your program
+  import ...
+
+  # Constants
+  # Define the constants
+  MY_CONST = ...
+
+  # Setup
+  # Use the setup to initialize variables, pin modes, start using
+  # libraries, etc. The setup will only run once, after each
+  # powerup or reset of the board.
+  my_var = ...
+
+  # Main Loop
+  # Loops consecutively, allowing the program to change and
+  # respond. Use it to actively control the board.
+  while True:
+     # do your work here
+     ...
+  ```
+
+## Question
+
+The program `blink.py` toggles the onboard led (red) endlessly.
+
+ - How is it possible to run this CircuitPython program on your board?
+ - What happens if you reconnect your board? Does the program restart?
 
 ## Solution
 
-To structure your application, you can place your code in different `*.py` files. Only the names `boot.py`, `settings.py`, `code.py` or `main.py` are reserved (see [Behavior](https://circuitpython.readthedocs.io/en/5.3.x/docs/index.html#behavior)).
+Copy the file `blink.py` to the board into a file called `code.py`. 
 
-**Example**: 
+- Using the `teminal` applicaton on MacOS:
 
-Place your startup code into a file named `code.py`:
+  ```shell
+  $ cp blink.py /Volumes/CIRCUITPY/code.py
+  ```
 
-```python
-import blink
+- Using the `cmd` application on Windows (`CIRCUITPY` as `D:`):
 
-blink.do_blink()
-```
+  ```shell
+  % copy blink.py D:\code.py
+  ```
 
-This will call the function `do_blink()` after the startup.
+- Using the Mu editor:
+
+  Create the new file `code.py` and copy the content of `blink.py` into this file. Save the file on the drive `CIRCUITPY`.
+
+Read the chapter [Behavior](https://circuitpython.readthedocs.io/en/5.3.x/docs/index.html#behavior) to find out, what files are run after a restart and how CircuitPython recovers from a powerup or reset.
 

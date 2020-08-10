@@ -1,9 +1,20 @@
 # Introduction to the Internet of Things
+1. [Overview](#overview)
 1. [Intro](#intro)
 2. [Resources](#resources)
 3. [Python vs. MicroPython vs. CircuitPython](#python-vs-micropython-vs-circuitpython)
 4. [Getting Started with CircuitPython on nRF52840](#getting-started-with-circuitpython-on-nrf52840)
 5. [Getting Started with Python on Raspberry Pi](#getting-started-with-python-on-raspberry-pi)
+
+## Overview
+
+This introduction should enable you to set up and use your computer in a way that makes getting started with IoT easy.
+
+We will be using different hardware, so you can finally answer the following questions:
+
+* how IoT hardware is connected to your computer?
+* how is possible to program for a IoT hardware?
+* how does IoT hardware differ?
 
 ## Intro
 
@@ -37,38 +48,16 @@
 
 Check the following points:
 
-- Use the **MU-Editor** which can be downloaded from https://codewith.mu/
+- Choose an editor: We recommend the **Mu-editor** which can be downloaded from https://codewith.mu/. Mu is easy to use and have included a serial console, which is needed to see `print()` statements.
 
     Note for Mac Users with Catalina OSX:  
     Start the application for the first time with CTRL Key pressed to be able to accept the security restrictions be the macos.
 
--  Use a Python3 **Virtual Environment**
+    You will find in [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code#1-use-an-editor-that-writes-out-the-file-completely-when-you-save-it-2977444-16) other editors, which are suitable for CircuitPython programming.
 
-    You need full Python on your host machine to be able to run the `esptool` which is needed to bridge the gap between the host machine and the microcontroller.
+- Connect the Feather nRF52840 Express via USB to your computer. Check if you see the `CIRCUITPY` drive on your desktop.
 
-    Check if `virtualenv` is installed
-
-    ```
-    $  which virtualenv/usr/local/bin/virtualenv
-    ```
-
-    If no installation can be found, install it using pip:
-
-    ```
-    $ pip install virtualenv
-    ```
-
-    Use it now to setup a Python3 Virtual Environment:
-
-    ```
-    $ virtualenv -p python3 env
-    $ source env/bin/activate
-    (env) $ python -V
-    Python 3.7.6
-    (env) $ deactivate
-    ```
-
-- The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
+The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
 
 ## Getting Started with CircuitPython on nRF52840
 Follow the steps in [Getting Started with CircuitPython on nRF52840](CircuitPython)

@@ -2,7 +2,17 @@
 Competence [idb](https://ds-spaces.technik.fhnw.ch/3idb/) by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
 
 ## Overview
-<table><tr><td><img width="600" src="introduction/iot-big-picture.png"></td></tr></table>
+<table><tr><td><img width="600" src="iot-big-picture.png"></td></tr></table>
+
+*idb* wants to enable you to use information from the physical world as data sources for your data analysis projects. In the end you will have a deeper unterstanding of
+
+* how to aquire data from the physical world?
+* how to manipulated these datas in the field?
+* how to transport these data to a backend device?
+* how to access these data on the backend device for analysis?
+* how the tools/platforms differ and what the advantages and disadvantages are?
+
+**To be able to compare the technologies used, it is essential that you have an understanding of the underlying concepts.**
 
 ## Resources
 Resources and code examples to get into Internet of Things (IoT) data collection:
@@ -22,7 +32,7 @@ The following modular hardware is available in your IoT kit:
 * [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
-E.g. to build a battery-driven device with a sensor and connectivity:
+E.g. to build a battery-powered device with a sensor and connectivity:
 
 <img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="540">
 

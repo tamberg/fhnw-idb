@@ -1,44 +1,28 @@
-# Using a DHT sensor with CircuitPython on nRF52840
+# Reading a DHT temperature & humidity sensor
+How to read and visualize a DHT sensor with CircuitPython.
 
-## Prerequisites
+## Dependencies
 
-You have successfully completed all steps in [Getting Started](../../../introduction/CircuitPython/README.md). That means: 
+You will need to download and to install the library `adafruit_dht.mpy`. You can find it as part of the [Adafruit CircuitPython Library Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle#adafruit-circuitpython-library-bundle). Download manually the [latest 5.x release](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/tag/20200807).
 
-- You have the MU-Editor installed.
-- You flashed the firmware flashed on your nRF52840.
-- You can run the [Blink Application](../../../introduction/CircuitPython/blink/README.md).
+## Running the example
+* Set up the [hardware](#Hardware), connect it to your computer via USB.
+* Copy the content of [dht.py](dht.py) to _code.py_ on the _CIRCUITPY_ drive.
+* Copy the library `adafruit_dht.mpy` into the folder `lib` on the _CIRCUITPY_ drive.
+* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/tamberg/fhnw-idb/wiki/Mu-Python-editor)).
 
-## DHT sensor in action
+**Note**, that the timestamps are not synchronized with the actual time. We are not using a battery-buffered Real Time Clock (RTC).
 
-This Lab is based on the information found in
-
-- the [DHT CircuitPython Code](https://learn.adafruit.com/dht/dht-circuitpython-code)
-
-### Connecting the DHT sensor to the nRF52840 board
-
-Connect the DHT sensor to PIN D2 of the Grove Adapter, as shown in figure 1.
+## Hardware
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
+* [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
+* [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D4_ (nRF52840 _D9_) (see figure 1).
 
 <img src="dht.jpg" width="640">
 
-Figure 1: DHT sensor connected to PIN D2
+Figure 1: DHT sensor connected to PIN D4
 
-### Read the DHT sensor
-
-1. Open your MU-Editor and connect your nRF52840 over USB.
-
-2. Load the file [`dht.py`](dht.py) into your MU-Editor.
-
-   This is a small python program using the DHT sensor, which is connected to PIN D2, to read out the temperature and humidity and to print these values to the console, including a timestamp.
-
-   Don't forget to adjust your `code.py`.
-
-3. Run the app (see figure 2).
-
-   <img src="dht-mu-editor.png" width="640">
-
-   Figure 2: Program `dht.py` in action
-
-   The values are printed out to the console.
+## Visualize and Analyse the sensor values
 
 ### Create Excel file (format csv)
 
@@ -52,10 +36,7 @@ The console output can be copied and pasted into an excel file.
 
 3. Save the file as `dht.csv`.
 
-
-### Visualize and Analyse the sensor values
-
-**Visualize**
+### Visualize
 
 Using Jupyter notebook (Option 1):
 
@@ -77,6 +58,6 @@ Using Excel (Option 2):
 
    Figure 4: Example of a visualisation in Excel
 
-**Analyse**
+### Analyse
 
 Analyse the data for wrong or missing values. This can happen! The sensor is cheap! **Improve the program, if necessary.** You should have a reasonable output in the end.

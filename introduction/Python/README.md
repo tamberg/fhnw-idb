@@ -2,33 +2,31 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Python](#python)
-3. [Install and Deploy your own App as a service](#install-and-deploy-your-own-app-as-a-service)
+3. [Install and Deploy your own Program](#install-and-deploy-your-own-program)
 
 ## Prerequisites
 
-It is necessary to install a Raspberry Pi operation system, which is Linux-based, on your Pi. There exist several resources explaining this procedure:
+It is necessary to install a Raspberry Pi operation system, which is Linux-based, on your Pi. There exist several resources explaining this procedure. Read our Wiki Page [Setup on a Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup)
 
-- from [raspberry.org](https://www.raspberrypi.org/):  
-  Read the documentation under [Installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
-- from [idb Wiki](https://github.com/tamberg/fhnw-idb/wiki):  
-  Read the Wiki Page [Setup on a Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup)
+**Important**: 
+- Choose **Raspberry Pi OS Lite**. The Raspberry Pi Zero W has limited computing resources. Desktop software and applications like office application are not needed.
+- Check that `wifi` and `ssh` are enabled and can be used without problems. You have to be with your computer and with your Pi on the same network!
 
-**Notes**: 
-- Choose **Raspberry Pi OS Lite**. The Raspberry Pi Zero W has limited computing resources. Desktop software and applications like office apps are not needed.
-- Check that `ssh` and `wifi` are enabled and can be used without problems.
-- Find the **IP address of your Pi** using the information in the [Wiki](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).  
+  See [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) and [Enable SSH
+](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#enable-ssh).
+- Find the **IP address of your Pi** using the information in the [Find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).  
 Use the commands `ifconfig` or `ipconfig` and `nmap`.
 
 ## Python
 
-A fresh installation of the Raspberry Pi OS Lite has Python 2 preinstalled. Check it with:
+A fresh installation of the Raspberry Pi OS Lite has Python 2 preinstalled. Check it on your Pi with:
 
 ```shell
 $ python --version
 Python 2.7.16
 ```
 
-Check if python3 and pip3 is installed. Otherwise install them with:
+Check if python3 and pip3 are installed. Otherwise install them with:
 ```shell
 $ sudo apt update
 $ sudo apt install python3
@@ -44,12 +42,20 @@ Check the [python documentation](https://www.raspberrypi.org/documentation/usage
 - Installing Python libraries
 - [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
 
-## Install and Deploy your own App as a service
 
-The first, small application blinks the [Grove Red LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led). The setup is shown in the following figure:
+## Install GPIO python package
 
-<table><tr><td><img width="600" src="blink/setup.jpeg"></td></tr></table>
+To access the GPIOs on the Pi you need to install correspondig packages. 
+[grove.py](https://github.com/Seeed-Studio/grove.py) is such a Python package for Seeedstudio Grove Devices, especially good on Rapsberry Pis. 
 
-The LED is connected to GPIO-Pin `D5`.
+Install it with:
 
-Follow these [instructions](blink/README.md) to install and run a Blink App on the Rasperry Pi Zero W, even after a reboot.
+```shell
+$ sudo pip3 install grove.py
+```
+
+Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) from Seed-Studio.
+
+## Install and Deploy your own Program
+
+Follow these [instructions](blink/README.md) to install a Blink program permanently on your microcontroller.

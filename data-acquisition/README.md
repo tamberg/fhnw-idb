@@ -1,16 +1,29 @@
 # Data Acquisition
 
-1. [Intro](#intro)
+1. [Overview](#overview)
 2. [Resources](#resources)
 3. [Reading sensor values](#reading-sensor-values)
 4. [Controlling actuators](#controlling-actuators)
 5. [CircuitPython examples](#circuitpython-examples)
 6. [Python examples](#python-examples)
 
-## Intro
+## Overview
+<table><tr><td><img width="600" src="overview-data-acquisition.png"></td></tr></table>
+
+
 > Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. 
 
 --- from Wikipedia
+
+A *Sensor* is used to measure the real world physical conditions and a microcontroller represents the *Connected Device* able to manipulated these sensor values.
+
+We will use such devices to find out:
+
+* how to connect to the physical world?
+* how to print out sensor values?
+* how accurate the sensor is?
+* how to deal with wrong values?
+* how to visualize the data in a excel sheet and/or jupyter notebook?
 
 ## Resources
 - Slides on [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2020/hs/IdbMcuSensorsActuators.pdf).
@@ -22,13 +35,6 @@ The available hardware includes a number of sensors:
 * The [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11), a common temperature and humidity sensor.
 * A [light sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) and a [rotary angle sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#rotary-angle-sensor) which are both analog sensors.
 
-We will use these sensors as an example for:
-
-* how to connect to the physical world?
-* how to print out sensor values?
-* how accurate the sensor is?
-* how to deal with wrong values?
-* how to visualize the data in a excel sheet and/or jupyter notebook?
 
 ## Controlling actuators
 The available hardware includes the following actuators:
@@ -54,6 +60,6 @@ Then, add an actuator to provide some interactive feedback:
 * [Controlling a TM1637 4-digit display](CircuitPython/tm1637), e.g. to show the time.
 
 ## Python examples
-Try these examples with Circuit on the Raspberry Pi.
+Try these examples with Python on the Raspberry Pi.
 
 * [Reading a DHT temperature & humidity sensor](Python/dht).
