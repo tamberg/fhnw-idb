@@ -6,6 +6,19 @@
 ## Overview
 <table><tr><td><img width="600" src="overview-data-transport.png"></td></tr></table>
 
+>Data transport (data transmission, also data communication or digital communications) is the transfer of data (a digital bitstream or a digitized analog signal) over a point-to-point or point-to-multipoint communication channel. 
+
+--- from Wikipedia
+
+To transer the data, a communication channel must be established betwenn the "Connected device" and a "Cloud Backend".
+
+We will use examples of data transport technologies to find out:
+
+* how to established a communication channel between two communication partners?
+* how the sensors values can be transfered to the backend?
+* how transfer protocols of the internet can be used to simplify the transfer?
+* how these transfer protocols differs?
+
 ## Resources
 
 - Slides on [Sending Sensor Data to IoT Platforms](http://www.tamberg.org/fhnw/2020/hs/IdbSensorDataPlatforms.pdf).
