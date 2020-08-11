@@ -82,7 +82,7 @@ Your steps to get started with ThingSpeak are:
 **Your ThingSpeak channel is now ready to collect your sensor data.**
 
 ## HTTP Client
-Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format. Web browsers use this interface to retrieve web pages or to send data to remote servers.
+Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format.
 
 * To get started with the REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
 
@@ -116,7 +116,7 @@ We will use for our examples:
 Try these examples with Python on the Raspberry Pi:
 
 * [Write Data using the REST API](Python/http)
-* [Pubish Data using the MQTT API](Python/mqtt)
+* [Publish Data using the MQTT API](Python/mqtt)
 
 ### Wi-Fi
 > TODO
