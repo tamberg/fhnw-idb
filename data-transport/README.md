@@ -31,7 +31,7 @@ We will use examples of data transport technologies to find out:
 
 ## ThingSpeak IoT platform
 
-We will use the [ThingSpeak](https://thingspeak.com/) as our *Cloud Backend*. ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
+We will use [ThingSpeak](https://thingspeak.com/) as our *Cloud Backend*. ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
 
 For an introduction look at this tutorial:
 
@@ -57,11 +57,11 @@ Your steps to get started with ThingSpeak are:
 
     API keys enable you to write data to a channel or read data from a private channel. API keys are auto-generated when you create a new channel.
 
-    You can access your API key ionn your channel page in tab **API Keys**. You will need the **Write API Key**
+    You can access your API key icon your channel page in tab **API Keys** (see Figure 2). You will need the **Write API Key**
 
 4. **Test your channel**
 
-    You can test your channel by sending test data manually using the HTTP protocol. Use your browser to do a HTTP GET request as follows:
+    You can test your channel by sending test data manually using the HTTP protocol. Use your browser to send a HTTP GET request to ThingSpeak as follows:
     
     ```
     https://api.thingspeak.com/update?api_key=<YOUR WRITE API KEY>&field1=0&field2=10&field3=20
@@ -73,13 +73,25 @@ Your steps to get started with ThingSpeak are:
 
     Figure 2: Charts with first test data
 
+5. **Create idb channel**
+
+    For your [CircuitPython](#circuitpython-examples) and [Python examples](#python-examples) we need a new channel with the two fields `temperature` and `humidity`. 
+
+    Create this channel and get the API Keys.
+
 **Your ThingSpeak channel is now ready to collect your sensor data.**
 
 ## HTTP Client
-ThingSpeak
+Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format. Web browsers use this interface to retrieve web pages or to send data to remote servers.
+
+* To get started with the REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
 
 ## MQTT Client
-ThingSpeak
+MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or WebSockets. The ThingSpeak IoT platform enables clients to update and receive updates from channel feeds via the *ThingSpeak MQTT broker*. A client device connects to the MQTT broker and can publish to a channel or subscribe to updates from that channel.
+
+* To get started with the MQTT API, see [MQTT Basics](https://ch.mathworks.com/help/thingspeak/mqtt-basics.html).
+* [List of MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries) - curated list of MQTT libraries. 
+
 
 ## LoRaWAN
 
@@ -95,7 +107,16 @@ Try these examples with CircuitPython on the nRF52840.
 > TODO
 
 ## Python examples
-Try these examples with Python on the Raspberry Pi.
+
+We will use for our examples:
+
+* the [Eclipse Paho Python](https://github.com/eclipse/paho.mqtt.python#publishing) library to publish MQTT messages.
+* the module [urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) to send simple HTTP GET requests.
+
+Try these examples with Python on the Raspberry Pi:
+
+* [Write Data using the REST API](Python/http)
+* [Pubish Data using the MQTT API](Python/mqtt)
 
 ### Wi-Fi
 > TODO
