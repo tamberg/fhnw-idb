@@ -111,6 +111,10 @@ Try these examples with CircuitPython on the nRF52840.
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
 * [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
 
+### MQTT
+* [Publishing to a MQTT topic](CirciutPyhon/mqtt_pub_client)
+* [Subscribing to a MQTT topic](CirciutPyhon/mqtt_sub_client)
+
 ### LoRaWAN
 > TODO
 
