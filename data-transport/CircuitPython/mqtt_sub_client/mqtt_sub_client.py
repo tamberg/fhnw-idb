@@ -34,6 +34,7 @@ mqtt_topic = "hello"
 
 def handle_connect(client, userdata, flags, rc):
     print("Connected to {0}".format(client.broker))
+    mqtt_client.subscribe(mqtt_topic)
 
 def handle_subscribe(client, userdata, topic, granted_qos):
     print("Subscribed to {0} with QOS {1}".format(topic, granted_qos))
@@ -52,7 +53,6 @@ mqtt_client.on_message = handle_message
 
 print("\nConnecting to {0}".format(mqtt_broker))
 mqtt_client.connect()
-mqtt_client.subscribe(mqtt_topic)
 
 while True:
     mqtt_client.loop()
