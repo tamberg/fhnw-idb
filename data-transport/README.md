@@ -111,6 +111,9 @@ Try these examples with CircuitPython on the nRF52840.
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
 * [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
 
+### HTTP
+> TODO
+
 ### MQTT
 * [Publishing to a MQTT topic](CircuitPython/mqtt_pub_client)
 * [Subscribing to a MQTT topic](CircuitPython/mqtt_sub_client)
