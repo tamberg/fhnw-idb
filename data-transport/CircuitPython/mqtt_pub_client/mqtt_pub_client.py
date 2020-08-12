@@ -51,7 +51,7 @@ print("\nConnecting to {0}".format(mqtt_broker))
 mqtt_client.connect()
 
 while True:
-    t = time.monotonic()
+    t = int(time.monotonic())
     mqtt_message = "Hello, up for {0}s".format(t)
     mqtt_client.publish(mqtt_topic, mqtt_message)
     time.sleep(5)
