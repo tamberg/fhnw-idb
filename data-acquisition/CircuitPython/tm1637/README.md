@@ -3,8 +3,8 @@ How to control q TM1637 4-digit display with CircuitPython.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
-* Copy the file [tm1637.py](tm1637.py) to the _lib_ directory on the _CIRCUITPY_ drive.
-* Copy the content of [code.py](code.py) to _code.py_ on the _CIRCUITPY_ drive.
+* Copy the "library" file [tm1637.py](tm1637.py) to the _CIRCUITPY_ drive.
+* Copy the file [code.py](code.py) to the _CIRCUITPY_ drive.
 
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
