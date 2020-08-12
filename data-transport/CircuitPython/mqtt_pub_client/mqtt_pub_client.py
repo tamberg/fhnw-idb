@@ -23,7 +23,7 @@ while not esp.is_connected:
     try:
         esp.connect_AP(wifi_ssid, wifi_password)
     except RuntimeError as e:
-        print("Cannot connect Wi-Fi", e)
+        print("Cannot connect to Wi-Fi", e)
         continue
 
 print("Wi-Fi connected to", str(esp.ssid, "utf-8"))
