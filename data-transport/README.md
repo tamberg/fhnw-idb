@@ -66,7 +66,7 @@ Your steps to get started with ThingSpeak are:
     Use `curl` to send a HTTP POST request to ThingSpeak:
 
     ```
-    $ curl -vX POST "https://api.thingspeak.com/update api_key=MY_WRITE_API_KEY&field1=0&field2=10&field3=20"
+    $ curl -X POST https://api.thingspeak.com/update -d "api_key=MY_WRITE_API_KEY&field1=5&field2=10&field3=20"
     ```
     
     or use your browser to send a HTTP GET request, what is also supported:
