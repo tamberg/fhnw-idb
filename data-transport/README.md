@@ -61,10 +61,18 @@ Your steps to get started with ThingSpeak are:
 
 4. **Test your channel**
 
-    You can test your channel by sending test data manually using the HTTP protocol. Use your browser to send a HTTP GET request to ThingSpeak as follows:
+    You can test your channel by sending test data manually using the HTTP protocol.
+
+    Use `curl` to send a HTTP POST request to ThingSpeak:
+
+    ```
+    $ curl -vX POST "https://api.thingspeak.com/update api_key=MY_WRITE_API_KEY&field1=0&field2=10&field3=20"
+    ```
+    
+    or use your browser to send a HTTP GET request, what is also supported:
     
     ```
-    https://api.thingspeak.com/update?api_key=<YOUR WRITE API KEY>&field1=0&field2=10&field3=20
+    https://api.thingspeak.com/update?api_key=MY_WRITE_API_KEY&field1=0&field2=10&field3=20
     ```
 
     You should see on each chart one red point, which corresponds to your test values as shown in figure 2.
