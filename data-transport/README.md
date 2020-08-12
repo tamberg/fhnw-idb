@@ -14,10 +14,10 @@ To transer the data, a communication channel must be established betwenn the "Co
 
 We will use examples of data transport technologies to find out:
 
-* how to established a communication channel between two communication partners?
-* how the sensors values can be transfered to the backend?
-* how transfer protocols of the internet can be used to simplify the transfer?
-* how these transfer protocols differs?
+* how to establish a communication channel between two communication parties?
+* how the sensor values can be transfered to the backend?
+* how transfer protocols of the internet can be used to enable the transfer?
+* how these transfer protocols differ?
 
 ## Resources
 
