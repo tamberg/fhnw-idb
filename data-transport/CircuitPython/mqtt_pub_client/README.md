@@ -1,5 +1,5 @@
-# Publishing to a MQTT topic
-How to publish to a MQTT topic with the FeatherWing ESP32 AirLift Wi-Fi module.
+# Publishing messages to a MQTT topic
+How to publish messages to a MQTT topic with the FeatherWing ESP32 AirLift Wi-Fi module.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
