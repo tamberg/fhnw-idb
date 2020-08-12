@@ -107,14 +107,24 @@ MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or
 Try these examples with CircuitPython on the nRF52840.
 
 ### Wi-Fi
-* [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
-* [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
-* [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
+* [Reading the Wi-Fi module MAC address](CircuitPython/wifi/wifi_address)
+* [Scanning Wi-Fi networks](CircuitPython/wifi/wifi_scan)
+* [Connecting to a Wi-Fi network](CircuitPython/wifi/wifi_connect)
+* [Write Data using Wi-Fi and the REST API](CircuitPython/wifi/http)
+* [Publish Data using Wi-Fi and the MQTT API](CircuitPython/wifi/mqtt)
 
 ### LoRaWAN
 > TODO
 
 ## Python examples
+
+Try these examples with Python on the Raspberry Pi Zero W.
+
+### Wi-Fi
+
+Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
+
+Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
 
 We will use for our examples:
 
@@ -123,11 +133,7 @@ We will use for our examples:
 
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
-* [Write Data using the REST API](Python/http)
-* [Publish Data using the MQTT API](Python/mqtt)
+* [Write Data using the REST API](Python/wifi/http)
+* [Publish Data using the MQTT API](Python/wifi/mqtt)
 
-### Wi-Fi
 
-Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
-
-Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
