@@ -22,4 +22,4 @@ From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) Wi-Fi module.
 
 ## Credits
-* Based on https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/tree/master/examples licensed under MIT License
+* Based on https://circuitpython.readthedocs.io/projects/minimqtt/en/latest/examples.html licensed under MIT License
