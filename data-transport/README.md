@@ -66,7 +66,7 @@ Your steps to get started with ThingSpeak are:
     Use `curl` to send a HTTP POST request to ThingSpeak:
 
     ```
-    $ curl -X POST https://api.thingspeak.com/update -d "api_key=MY_WRITE_API_KEY&field1=5&field2=10&field3=20"
+    $ curl -v https://api.thingspeak.com/update -d "api_key=MY_WRITE_API_KEY&field1=5&field2=10&field3=20"
     ```
     
     or use your browser to send a HTTP GET request, what is also supported:
@@ -110,15 +110,18 @@ Try these examples with CircuitPython on the nRF52840.
 * [Reading the Wi-Fi module MAC address](CircuitPython/wifi/wifi_address)
 * [Scanning Wi-Fi networks](CircuitPython/wifi/wifi_scan)
 * [Connecting to a Wi-Fi network](CircuitPython/wifi/wifi_connect)
-* [Write Data using Wi-Fi and the REST API](CircuitPython/wifi/http)
-* [Publish Data using Wi-Fi and the MQTT API](CircuitPython/wifi/mqtt)
 
 ### HTTP
-> TODO
+These examples are using ThingSpeak as Backend.
+* [Writing to the REST API on ThingSpeak](CircuitPython/wifi/thingspeak_http_post_client)
 
 ### MQTT
-* [Publishing to a MQTT topic](CircuitPython/mqtt_pub_client)
-* [Subscribing to a MQTT topic](CircuitPython/mqtt_sub_client)
+These examples are using a _Test Service_ as MQTT broker (Cloud Backend).
+* [Publishing to a MQTT topic](CircuitPython/wifi/mqtt_pub_client)
+* [Subscribing to a MQTT topic](CircuitPython/wifi/mqtt_sub_client)
+
+These examples are using _ThingSpeak_ as MQTT broker (Cloud Backend).
+* [Publishing to a MQTT topic on ThingSpeak](CircuitPython/wifi/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
 > TODO
@@ -140,7 +143,7 @@ We will use for our examples:
 
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
-* [Write Data using the REST API](Python/wifi/http)
-* [Publish Data using the MQTT API](Python/wifi/mqtt)
+* [Writing to the REST API on ThingSpeak](Python/wifi/http)
+* [Publishing to a MQTT topic on ThingSpeak](Python/wifi/mqtt)
 
 
