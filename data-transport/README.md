@@ -114,6 +114,7 @@ Try these examples with CircuitPython on the nRF52840.
 ### HTTP
 These examples are using ThingSpeak as Backend.
 * [Writing to the REST API on ThingSpeak](CircuitPython/wifi/thingspeak_http_post_client)
+* [Reading from ThingSpeak using ThingSpeak](CircuitPython/wifi/thingspeak_http_get_client)
 
 ### MQTT
 These examples are using a _Test Service_ as MQTT broker (Cloud Backend).
