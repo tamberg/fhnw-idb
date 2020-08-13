@@ -1,11 +1,14 @@
-# Writing to the REST API on ThingSpeak
-How to write simple test data from the FeatherWing ESP32 AirLift Wi-Fi module to ThingSpeak's REST API.
+# Reading from the REST API on ThingSpeak
+How to read data from ThingSpeak's REST API with the FeatherWing ESP32 AirLift Wi-Fi module.
+
+Consult [Read Data](https://ch.mathworks.com/help/thingspeak/readdata.html) to get info about each Query String Parameter which is supported by the REST API.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the [libraries](#Libraries) to the _lib_ directory on the _CIRCUITPY_ drive.
-* Set your Wi-Fi and your ThingSpeak settings in [thingspeak_http_post_client.py](thingspeak_http_post_client.py) settings.
-* Copy the content of your _thingspeak_http_post_client.py_ to _code.py_ on the _CIRCUITPY_ drive.
+* Set your Wi-Fi and your ThingSpeak settings in [thingspeak_http_get_client.py](thingspeak_http_get_client.py) settings.
+* Copy the content of your _thingspeak_http_get_client.py_ to _code.py_ on the _CIRCUITPY_ drive.
+
 
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
