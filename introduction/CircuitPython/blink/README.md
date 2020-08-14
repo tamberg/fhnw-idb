@@ -4,7 +4,7 @@
 
 After reading the chapter about [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you should be aware of the following specialities:
 
-- CircuitPython looks for a code file named `code.txt`, `code.py`, `main.txt` or `main.py` to run.
+- CircuitPython looks for a code file named `code.py` (also `code.txt`,  `main.txt` or `main.py`) to run.
 
 - Microcontroller programs - therefore even a CircuitPythin program - have usually the following code structure:
 
