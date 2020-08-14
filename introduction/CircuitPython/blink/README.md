@@ -6,7 +6,7 @@ After reading the chapter about [Creating and Editing Code](https://learn.adafru
 
 - CircuitPython looks for a code file named `code.py` (also `code.txt`,  `main.txt` or `main.py`) to run.
 
-- Microcontroller programs - and therefore our CircuitPythin programs - usually have the following code structure:
+- Microcontroller programs - and therefore our CircuitPython programs - usually have the following code structure:
 
   ```python
   # Libraries
