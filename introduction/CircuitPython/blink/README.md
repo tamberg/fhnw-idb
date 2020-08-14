@@ -2,7 +2,7 @@
 
 ## Intro
 
-After reading the chapter about [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you should be aware of the following specialities:
+After reading this tutorial on [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you should be aware of the following specialities:
 
 - CircuitPython looks for a code file named `code.py` (also `code.txt`,  `main.txt` or `main.py`) to run.
 
