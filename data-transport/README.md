@@ -23,7 +23,7 @@ We will use examples of data transport technologies to find out:
 
 - Slides on [Sending Sensor Data to IoT Platforms](http://www.tamberg.org/fhnw/2020/hs/IdbSensorDataPlatforms.pdf).
 - Slides on [Internet Protocols and HTTP](http://www.tamberg.org/fhnw/2020/hs/IdbInternetProtocols.pdf).
-- Slides on [Messaging Protocols](http://www.tamberg.org/fhnw/2020/hs/IdbMessagingProtocols.pdf).
+- Slides on [Messaging Protocols and Data Formats](http://www.tamberg.org/fhnw/2020/hs/IdbMessagingProtocols.pdf).
 - Slides on [LoRaWAN Connectivity](http://www.tamberg.org/fhnw/2020/hs/IdbLoRaWANConnectivity.pdf).
 
 ## Connecting to Wi-Fi
