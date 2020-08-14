@@ -18,14 +18,14 @@ After reading the chapter about [Creating and Editing Code](https://learn.adafru
   MY_CONST = ...
 
   # Setup
-  # Use the setup to initialize variables, pin modes, start using
-  # libraries, etc. The setup will only run once, after each
+  # Use the setup to initialize variables, pin modes, set up
+  # libraries, etc. The setup runs once, after each
   # powerup or reset of the board.
   my_var = ...
 
   # Main Loop
-  # Loops consecutively, allowing the program to change and
-  # respond. Use it to actively control the board.
+  # Loops consecutively, allowing the program to 
+  # measure inputs and control outputs.
   while True:
      # do your work here
      ...
