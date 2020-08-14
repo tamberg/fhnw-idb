@@ -30,9 +30,9 @@ We will use examples of data transport technologies to find out:
 
 ## Connecting to Wi-Fi
 
-## ThingSpeak IoT platform
+## Sending data to the ThingSpeak IoT platform
 
-We will use [ThingSpeak](https://thingspeak.com/) as our *Cloud Backend*. ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
+We will use [ThingSpeak](https://thingspeak.com/) as our *cloud backend*. ThingSpeak is an IoT analytics platform that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
 
 For an introduction look at this tutorial:
 
