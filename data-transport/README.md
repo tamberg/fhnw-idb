@@ -88,7 +88,9 @@ Your steps to get started with ThingSpeak are:
 
     Create this channel and get the API Keys.
 
-Your ThingSpeak channel is now ready to collect your sensor data.
+6. **Done**
+
+    Your ThingSpeak channel is now ready to collect your sensor data.
 
 ## HTTP Client
 HTTP is ...
