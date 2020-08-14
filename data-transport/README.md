@@ -123,16 +123,16 @@ Try these examples with CircuitPython on the nRF52840.
 * [Connecting to a Wi-Fi network](CircuitPython/wifi/wifi_connect)
 
 ### HTTP
-These examples are using the ThingSpeak REST API.
+These examples use the ThingSpeak REST API.
 * [Posting data to the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_post_client)
 * [Getting data from the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_get_client)
 
 ### MQTT
-These examples are using a generic MQTT broker (cloud backend).
+These examples use a generic MQTT broker (cloud backend).
 * [Publishing to a MQTT topic](CircuitPython/wifi/mqtt_pub_client)
 * [Subscribing to a MQTT topic](CircuitPython/wifi/mqtt_sub_client)
 
-These examples are using the ThingSpeak MQTT API (cloud backend).
+These examples use the ThingSpeak MQTT API (cloud backend).
 * [Publishing data to the ThingSpeak MQTT API](CircuitPython/wifi/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
