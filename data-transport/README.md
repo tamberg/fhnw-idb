@@ -124,8 +124,8 @@ Try these examples with CircuitPython on the nRF52840.
 
 ### HTTP
 These examples are using the ThingSpeak REST API.
-* [Sending data to the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_post_client)
-* [Reading data from the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_get_client)
+* [Posting data to the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_post_client)
+* [Getting data from the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_get_client)
 
 ### MQTT
 These examples are using a generic MQTT broker (cloud backend).
@@ -133,7 +133,7 @@ These examples are using a generic MQTT broker (cloud backend).
 * [Subscribing to a MQTT topic](CircuitPython/wifi/mqtt_sub_client)
 
 These examples are using the ThingSpeak MQTT API (cloud backend).
-* [Publishing to a MQTT topic on ThingSpeak](CircuitPython/wifi/thingspeak_mqtt_pub_client)
+* [Publishing data to the ThingSpeak MQTT API](CircuitPython/wifi/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
 > TODO
@@ -155,7 +155,7 @@ We will use for our examples:
 
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
-* [Writing to the REST API on ThingSpeak](Python/wifi/http)
-* [Publishing to a MQTT topic on ThingSpeak](Python/wifi/mqtt)
+* [Posting data to the ThingSpeak REST API](Python/wifi/http)
+* [Publishing data to the ThingSpeak MQTT API](Python/wifi/mqtt)
 
 
