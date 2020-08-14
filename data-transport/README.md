@@ -99,7 +99,7 @@ Representational state transfer (REST) is an architectural style designed as a *
 MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or WebSockets. The ThingSpeak IoT platform enables clients to update and receive updates from channel feeds via the *ThingSpeak MQTT broker*. A client device connects to the MQTT broker and can publish to a channel or subscribe to updates from that channel.
 
 * To get started with the ThingSpeak MQTT API, see [MQTT Basics](https://ch.mathworks.com/help/thingspeak/mqtt-basics.html).
-* [List of MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries) - curated list of MQTT libraries. 
+* For a curated list of MQTT libraries, see [MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries).
 
 
 ## LoRaWAN
