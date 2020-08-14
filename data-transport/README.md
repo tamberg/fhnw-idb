@@ -14,10 +14,10 @@ To transer the data, a communication channel must be established betwenn the "Co
 
 We will use examples of data transport technologies to find out:
 
-* how to established a communication channel between two communication partners?
-* how the sensors values can be transfered to the backend?
-* how transfer protocols of the internet can be used to simplify the transfer?
-* how these transfer protocols differs?
+* how to establish a communication channel between two communication parties?
+* how the sensor values can be transfered to the backend?
+* how transfer protocols of the internet can be used to enable the transfer?
+* how these transfer protocols differ?
 
 ## Resources
 
@@ -66,7 +66,7 @@ Your steps to get started with ThingSpeak are:
     Use `curl` to send a HTTP POST request to ThingSpeak:
 
     ```
-    $ curl -X POST https://api.thingspeak.com/update -d "api_key=MY_WRITE_API_KEY&field1=5&field2=10&field3=20"
+    $ curl -v https://api.thingspeak.com/update -d "api_key=MY_WRITE_API_KEY&field1=5&field2=10&field3=20"
     ```
     
     or use your browser to send a HTTP GET request, what is also supported:
@@ -90,6 +90,8 @@ Your steps to get started with ThingSpeak are:
 **Your ThingSpeak channel is now ready to collect your sensor data.**
 
 ## HTTP Client
+HTTP is ...
+
 Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format.
 
 * To get started with the REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
@@ -107,14 +109,35 @@ MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or
 Try these examples with CircuitPython on the nRF52840.
 
 ### Wi-Fi
-* [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
-* [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
-* [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
+* [Reading the Wi-Fi module MAC address](CircuitPython/wifi/wifi_address)
+* [Scanning Wi-Fi networks](CircuitPython/wifi/wifi_scan)
+* [Connecting to a Wi-Fi network](CircuitPython/wifi/wifi_connect)
+
+### HTTP
+These examples are using ThingSpeak as Backend.
+* [Writing to the REST API on ThingSpeak](CircuitPython/wifi/thingspeak_http_post_client)
+* [Reading from ThingSpeak using ThingSpeak](CircuitPython/wifi/thingspeak_http_get_client)
+
+### MQTT
+These examples are using a _Test Service_ as MQTT broker (Cloud Backend).
+* [Publishing to a MQTT topic](CircuitPython/wifi/mqtt_pub_client)
+* [Subscribing to a MQTT topic](CircuitPython/wifi/mqtt_sub_client)
+
+These examples are using _ThingSpeak_ as MQTT broker (Cloud Backend).
+* [Publishing to a MQTT topic on ThingSpeak](CircuitPython/wifi/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
 > TODO
 
 ## Python examples
+
+Try these examples with Python on the Raspberry Pi Zero W.
+
+### Wi-Fi
+
+Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
+
+Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
 
 We will use for our examples:
 
@@ -123,11 +146,7 @@ We will use for our examples:
 
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
-* [Write Data using the REST API](Python/http)
-* [Publish Data using the MQTT API](Python/mqtt)
+* [Writing to the REST API on ThingSpeak](Python/wifi/http)
+* [Publishing to a MQTT topic on ThingSpeak](Python/wifi/mqtt)
 
-### Wi-Fi
 
-Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
-
-Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
