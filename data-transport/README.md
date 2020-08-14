@@ -30,7 +30,7 @@ We will use examples of data transport technologies to find out:
 
 ## Connecting to Wi-Fi
 
-## Sending data to the ThingSpeak IoT platform
+## Using the ThingSpeak IoT platform
 
 We will use [ThingSpeak](https://thingspeak.com/) as our *cloud backend*. ThingSpeak is an IoT analytics platform that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
 
@@ -92,21 +92,27 @@ Your steps to get started with ThingSpeak are:
 
     Your ThingSpeak channel is now ready to collect your sensor data.
 
-## HTTP Client
+## Sending data to the ThingSpeak REST API
 HTTP is ...
 
 Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format.
 
 * To get started with the ThingSpeak REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
 
-## MQTT Client
+## Sending data to the ThingSpeak MQTT API
 MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or WebSockets. The ThingSpeak IoT platform enables clients to update and receive updates from channel feeds via the *ThingSpeak MQTT broker*. A client device connects to the MQTT broker and can publish to a channel or subscribe to updates from that channel.
 
 * To get started with the ThingSpeak MQTT API, see [MQTT Basics](https://ch.mathworks.com/help/thingspeak/mqtt-basics.html).
 * For a curated list of MQTT libraries, see [MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries).
 
+## Sending data to Thingspeak with LoRaWAN
+LoRaWAN is ...
 
-## LoRaWAN
+TheThingsNetwork (TTN) is ...
+
+TTN integrations are ...
+
+The TTN integration for ThingSpeak ...
 
 ## CircuitPython examples
 Try these examples with CircuitPython on the nRF52840.
