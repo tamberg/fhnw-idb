@@ -122,22 +122,22 @@ The TTN integration for ThingSpeak ...
 Try these examples with CircuitPython on the nRF52840.
 
 ### Wi-Fi
-* [Reading the Wi-Fi module MAC address](CircuitPython/wifi/wifi_address)
-* [Scanning Wi-Fi networks](CircuitPython/wifi/wifi_scan)
-* [Connecting to a Wi-Fi network](CircuitPython/wifi/wifi_connect)
+* [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
+* [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
+* [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
 
 ### HTTP
 These examples use the ThingSpeak REST API.
-* [Posting data to the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_post_client)
-* [Getting data from the ThingSpeak REST API](CircuitPython/wifi/thingspeak_http_get_client)
+* [Posting data to the ThingSpeak REST API](CircuitPython/thingspeak_http_post_client)
+* [Getting data from the ThingSpeak REST API](CircuitPython/thingspeak_http_get_client)
 
 ### MQTT
 These examples use a generic MQTT broker (cloud backend).
-* [Publishing to a MQTT topic](CircuitPython/wifi/mqtt_pub_client)
-* [Subscribing to a MQTT topic](CircuitPython/wifi/mqtt_sub_client)
+* [Publishing to a MQTT topic](CircuitPython/mqtt_pub_client)
+* [Subscribing to a MQTT topic](CircuitPython/mqtt_sub_client)
 
 These examples use the ThingSpeak MQTT API (cloud backend).
-* [Publishing data to the ThingSpeak MQTT API](CircuitPython/wifi/thingspeak_mqtt_pub_client)
+* [Publishing data to the ThingSpeak MQTT API](CircuitPython/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
 > TODO
