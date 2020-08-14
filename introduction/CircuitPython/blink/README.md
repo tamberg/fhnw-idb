@@ -58,5 +58,5 @@ Copy the file `blink.py` to the board into a file called `code.py`.
 
   Create the new file `code.py` and copy the content of `blink.py` into this file. Save the file on the drive `CIRCUITPY`.
 
-Additional details on how files are run after a restart and how CircuitPython recovers from a powerup or reset, are available in the docs on [Behavior](https://circuitpython.readthedocs.io/en/5.3.x/docs/index.html#behavior).
+Additional details on how files are run after a reset, are available in the CircuitPython documentation under [Behavior](https://circuitpython.readthedocs.io/en/5.3.x/docs/index.html#behavior).
 
