@@ -2,6 +2,8 @@
 
 1. [Overview](#overview)
 2. [Resources](#resources)
+3. [CircuitPython examples](#circuitpython-examples)
+4. [Python examples](#python-examples)
 
 ## Overview
 <table><tr><td><img width="600" src="overview-data-transport.png"></td></tr></table>
@@ -86,7 +88,7 @@ Your steps to get started with ThingSpeak are:
 
     Create this channel and get the API Keys.
 
-**Your ThingSpeak channel is now ready to collect your sensor data.**
+Your ThingSpeak channel is now ready to collect your sensor data.
 
 ## HTTP Client
 HTTP is ...
