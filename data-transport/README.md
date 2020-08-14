@@ -152,11 +152,6 @@ Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/R
 
 Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
 
-We will use for our examples:
-
-* the [Eclipse Paho Python](https://github.com/eclipse/paho.mqtt.python#publishing) library to publish MQTT messages.
-* the module [urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) to send simple HTTP GET requests.
-
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
 * [Posting data to the ThingSpeak REST API](Python/wifi/http)
