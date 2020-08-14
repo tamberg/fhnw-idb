@@ -4,7 +4,7 @@
 2. [Resources](#resources)
 3. [Reading sensor values](#reading-sensor-values)
 4. [Controlling actuators](#controlling-actuators)
-5. [Building an enclosure](#building-an-enclosure)
+5. [Building an enclosure](#bulding-an-enclosure)
 6. [CircuitPython examples](#circuitpython-examples)
 7. [Python examples](#python-examples)
 
