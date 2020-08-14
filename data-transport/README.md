@@ -2,8 +2,11 @@
 
 1. [Overview](#overview)
 2. [Resources](#resources)
-3. [CircuitPython examples](#circuitpython-examples)
-4. [Python examples](#python-examples)
+3. [Using the ThingSpeak IoT platform](#using-the-thingspeak-iot-platform)
+4. [Sending data to the ThingSpeak REST API](#sending-data-to-the-thingspeak-rest-api)
+5. [Sending data to the ThingSpeak MQTT API](#sending-data-to-the-thingspeak-mqtt-api)
+6. [CircuitPython examples](#circuitpython-examples)
+7. [Python examples](#python-examples)
 
 ## Overview
 <table><tr><td><img width="600" src="overview-data-transport.png"></td></tr></table>
