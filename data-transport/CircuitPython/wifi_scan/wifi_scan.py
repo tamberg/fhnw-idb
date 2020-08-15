@@ -9,11 +9,11 @@ rdy = digitalio.DigitalInOut(board.D11)
 rst = digitalio.DigitalInOut(board.D12)
 
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
-esp = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, rdy, rst)
+wifi = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, rdy, rst)
 
 while True:
     print("\nScanning...")
-    networks = esp.scan_networks()
+    networks = wifi.scan_networks()
     for network in networks:
     	rssi = network['rssi']
     	ssid = str(network['ssid'], 'utf-8')
