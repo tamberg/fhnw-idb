@@ -2,6 +2,12 @@
 
 1. [Overview](#overview)
 2. [Resources](#resources)
+3. [Using the ThingSpeak IoT platform](#using-the-thingspeak-iot-platform)
+4. [Sending data to the ThingSpeak REST API](#sending-data-to-the-thingspeak-rest-api)
+5. [Sending data to the ThingSpeak MQTT API](#sending-data-to-the-thingspeak-mqtt-api)
+6. [Sending data to ThingSpeak with LoRaWAN](sending-data-to-thingspeak-with-lorawan)
+7. [CircuitPython examples](#circuitpython-examples)
+8. [Python examples](#python-examples)
 
 ## Overview
 <table><tr><td><img width="600" src="overview-data-transport.png"></td></tr></table>
@@ -22,15 +28,15 @@ We will use examples of data transport technologies to find out:
 ## Resources
 
 - Slides on [Sending Sensor Data to IoT Platforms](http://www.tamberg.org/fhnw/2020/hs/IdbSensorDataPlatforms.pdf).
-- Slides on [Internet protocols and HTTP](http://www.tamberg.org/fhnw/2020/hs/IdbInternetProtocols.pdf).
-- Slides on [Messaging Protocols](http://www.tamberg.org/fhnw/2020/hs/IdbMessagingProtocols.pdf).
-- Slides on [LoRaWAN Connectivity](http://www.tamberg.org/fhnw/2020/hs/IdbLoRaWANConnectivity.pdf).
+- Slides on [Internet Protocols and HTTP](http://www.tamberg.org/fhnw/2020/hs/IdbInternetProtocols.pdf).
+- Slides on [Messaging Protocols and Data Formats](http://www.tamberg.org/fhnw/2020/hs/IdbMessagingProtocols.pdf).
+- Slides on [Long Range Connectivity with LoRaWAN](http://www.tamberg.org/fhnw/2020/hs/IdbLoRaWANConnectivity.pdf).
 
 ## Connecting to Wi-Fi
 
-## ThingSpeak IoT platform
+## Using the ThingSpeak IoT platform
 
-We will use [ThingSpeak](https://thingspeak.com/) as our *Cloud Backend*. ThingSpeak is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
+We will use [ThingSpeak](https://thingspeak.com/) as our *cloud backend*. ThingSpeak is an IoT analytics platform that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
 
 For an introduction look at this tutorial:
 
@@ -86,44 +92,52 @@ Your steps to get started with ThingSpeak are:
 
     Create this channel and get the API Keys.
 
-**Your ThingSpeak channel is now ready to collect your sensor data.**
+6. **Done**
 
-## HTTP Client
+    Your ThingSpeak channel is now ready to collect your sensor data.
+
+## Sending data to the ThingSpeak REST API
 HTTP is ...
 
 Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format.
 
-* To get started with the REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
+* To get started with the ThingSpeak REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
 
-## MQTT Client
+## Sending data to the ThingSpeak MQTT API
 MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or WebSockets. The ThingSpeak IoT platform enables clients to update and receive updates from channel feeds via the *ThingSpeak MQTT broker*. A client device connects to the MQTT broker and can publish to a channel or subscribe to updates from that channel.
 
-* To get started with the MQTT API, see [MQTT Basics](https://ch.mathworks.com/help/thingspeak/mqtt-basics.html).
-* [List of MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries) - curated list of MQTT libraries. 
+* To get started with the ThingSpeak MQTT API, see [MQTT Basics](https://ch.mathworks.com/help/thingspeak/mqtt-basics.html).
+* For a curated list of MQTT libraries, see [MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries).
 
+## Sending data to Thingspeak with LoRaWAN
+LoRaWAN is ...
 
-## LoRaWAN
+TheThingsNetwork (TTN) is ...
+
+TTN integrations are ...
+
+The TTN integration for ThingSpeak ...
 
 ## CircuitPython examples
 Try these examples with CircuitPython on the nRF52840.
 
 ### Wi-Fi
-* [Reading the Wi-Fi module MAC address](CircuitPython/wifi/wifi_address)
-* [Scanning Wi-Fi networks](CircuitPython/wifi/wifi_scan)
-* [Connecting to a Wi-Fi network](CircuitPython/wifi/wifi_connect)
+* [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
+* [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
+* [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
 
 ### HTTP
-These examples are using ThingSpeak as Backend.
-* [Writing to the REST API on ThingSpeak](CircuitPython/wifi/thingspeak_http_post_client)
-* [Reading from ThingSpeak using ThingSpeak](CircuitPython/wifi/thingspeak_http_get_client)
+These examples use the ThingSpeak REST API.
+* [Posting data to the ThingSpeak REST API](CircuitPython/thingspeak_http_post_client)
+* [Getting data from the ThingSpeak REST API](CircuitPython/thingspeak_http_get_client)
 
 ### MQTT
-These examples are using a _Test Service_ as MQTT broker (Cloud Backend).
-* [Publishing to a MQTT topic](CircuitPython/wifi/mqtt_pub_client)
-* [Subscribing to a MQTT topic](CircuitPython/wifi/mqtt_sub_client)
+These examples use a generic MQTT broker (cloud backend).
+* [Publishing to a MQTT topic](CircuitPython/mqtt_pub_client)
+* [Subscribing to a MQTT topic](CircuitPython/mqtt_sub_client)
 
-These examples are using _ThingSpeak_ as MQTT broker (Cloud Backend).
-* [Publishing to a MQTT topic on ThingSpeak](CircuitPython/wifi/thingspeak_mqtt_pub_client)
+These examples use the ThingSpeak MQTT API (cloud backend).
+* [Publishing data to the ThingSpeak MQTT API](CircuitPython/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
 > TODO
@@ -138,14 +152,9 @@ Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/R
 
 Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
 
-We will use for our examples:
-
-* the [Eclipse Paho Python](https://github.com/eclipse/paho.mqtt.python#publishing) library to publish MQTT messages.
-* the module [urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) to send simple HTTP GET requests.
-
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
-* [Writing to the REST API on ThingSpeak](Python/wifi/http)
-* [Publishing to a MQTT topic on ThingSpeak](Python/wifi/mqtt)
+* [Posting data to the ThingSpeak REST API](Python/wifi/http)
+* [Publishing data to the ThingSpeak MQTT API](Python/wifi/mqtt)
 
 

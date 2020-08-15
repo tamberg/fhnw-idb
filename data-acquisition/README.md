@@ -4,8 +4,9 @@
 2. [Resources](#resources)
 3. [Reading sensor values](#reading-sensor-values)
 4. [Controlling actuators](#controlling-actuators)
-5. [CircuitPython examples](#circuitpython-examples)
-6. [Python examples](#python-examples)
+5. [Building an enclosure](#bulding-an-enclosure)
+6. [CircuitPython examples](#circuitpython-examples)
+7. [Python examples](#python-examples)
 
 ## Overview
 <table><tr><td><img width="600" src="overview-data-acquisition.png"></td></tr></table>

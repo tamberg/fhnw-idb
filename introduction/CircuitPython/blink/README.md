@@ -2,11 +2,11 @@
 
 ## Intro
 
-After reading the chapter about [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you should be aware of the following specialities:
+After reading this tutorial on [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code), you should be aware of the following specialities:
 
-- CircuitPython looks for a code file named `code.txt`, `code.py`, `main.txt` or `main.py` to run.
+- CircuitPython looks for a code file named `code.py` (also `code.txt`,  `main.txt` or `main.py`) to run.
 
-- Microcontroller programs - therefore even a CircuitPythin program - have usually the following code structure:
+- Microcontroller programs - and therefore our CircuitPython programs - usually have the following code structure:
 
   ```python
   # Libraries
@@ -18,14 +18,14 @@ After reading the chapter about [Creating and Editing Code](https://learn.adafru
   MY_CONST = ...
 
   # Setup
-  # Use the setup to initialize variables, pin modes, start using
-  # libraries, etc. The setup will only run once, after each
+  # Use the setup to initialize variables, pin modes, set up
+  # libraries, etc. The setup runs once, after each
   # powerup or reset of the board.
   my_var = ...
 
   # Main Loop
-  # Loops consecutively, allowing the program to change and
-  # respond. Use it to actively control the board.
+  # Loops consecutively, allowing the program to 
+  # measure inputs and control outputs.
   while True:
      # do your work here
      ...
@@ -58,5 +58,5 @@ Copy the file `blink.py` to the board into a file called `code.py`.
 
   Create the new file `code.py` and copy the content of `blink.py` into this file. Save the file on the drive `CIRCUITPY`.
 
-Read the chapter [Behavior](https://circuitpython.readthedocs.io/en/5.3.x/docs/index.html#behavior) to find out, what files are run after a restart and how CircuitPython recovers from a powerup or reset.
+Additional details on how files are run after a reset, are available in the CircuitPython documentation under [Behavior](https://circuitpython.readthedocs.io/en/5.3.x/docs/index.html#behavior).
 
