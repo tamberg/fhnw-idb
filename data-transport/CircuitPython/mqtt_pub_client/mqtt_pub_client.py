@@ -16,18 +16,18 @@ rdy = digitalio.DigitalInOut(board.D11)
 rst = digitalio.DigitalInOut(board.D12)
 
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
-esp = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, rdy, rst)
+wifi = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, rdy, rst)
 
-while not esp.is_connected:
+while not wifi.is_connected:
     print("\nConnecting to Wi-Fi...")
     try:
-        esp.connect_AP(wifi_ssid, wifi_password)
+        wifi.connect_AP(wifi_ssid, wifi_password)
     except RuntimeError as e:
         print("Cannot connect to Wi-Fi", e)
         continue
 
-print("Wi-Fi connected to", str(esp.ssid, "utf-8"))
-print("IP address", esp.pretty_ip(esp.ip_address))
+print("Wi-Fi connected to", str(wifi.ssid, "utf-8"))
+print("IP address", wifi.pretty_ip(wifi.ip_address))
 
 # MQTT setup
 mqtt_broker = "test.mosquitto.org"
@@ -39,7 +39,7 @@ def handle_connect(client, userdata, flags, rc):
 def handle_publish(client, userdata, topic, pid):
     print("Published to {0} with PID {1}".format(topic, pid))
 
-adafruit_minimqtt.set_socket(adafruit_esp32spi_socket, esp)
+adafruit_minimqtt.set_socket(adafruit_esp32spi_socket, wifi)
 
 mqtt_client = adafruit_minimqtt.MQTT(broker=mqtt_broker, is_ssl=False)
 
