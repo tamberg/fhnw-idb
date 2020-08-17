@@ -35,7 +35,7 @@ print("Wi-Fi connected to", str(esp.ssid, "utf-8"))
 print("IP address", esp.pretty_ip(esp.ip_address))
 
 
-# Initialize HTTP POST client
+# Initialize HTTP GET client
 adafruit_requests.set_socket(adafruit_esp32spi_socket, esp)
 
 
@@ -47,7 +47,7 @@ try:
     # Setup server url
     get_url = "https://" + TS_HTTP_SERVER + "/channels/" + TS_CHANNEL_ID + "/feeds.json"
     # Read last 5 entries
-    payload = "api_key=" + TS_READ_API_KEY + "&numbers=5"
+    payload = "api_key=" + TS_READ_API_KEY + "&results=5"
 
     # Send a single message
     response = adafruit_requests.get(get_url + "?" + payload)
