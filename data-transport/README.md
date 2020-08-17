@@ -16,7 +16,7 @@
 
 --- from Wikipedia
 
-To transer the data, a communication channel must be established betwenn the "Connected device" and a "Cloud Backend".
+To transfer the data, a communication channel must be established betwenn the "Connected device" and a "Cloud Backend".
 
 We will use examples of data transport technologies to find out:
 
