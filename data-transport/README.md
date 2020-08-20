@@ -34,6 +34,21 @@ We will use examples of data transport technologies to find out:
 
 ## Connecting to Wi-Fi
 
+Wi-Fi is well known. It can provide high-throughput data transfer for both enterprise and home environments. However, in the IoT space, its major limitations in coverage, scalability and power consumption make the technology much less prevalent.
+
+Since IoT is widely diverse and multifaceted, their is no one-size-fits-all communication solution. Figure 1 shows the most important technologies in comparison with their _Data Rate & Power Consumption_ and _Range_.
+
+<img width="600" src="iot-wireless-tech.jpg">
+
+Figure 1: Visualization from [Behr Technologies](https://behrtech.com/blog/6-leading-types-of-iot-wireless-tech-and-their-best-use-cases/)
+
+However, Wi-Fi can be used well in prototyping. Our two hardware platforms are or can be equipped with Wi-Fi.
+
+- The [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) has Wi-Fi on board.
+- The [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) needs the [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) as Wi-Fi co-processor.
+
+
+
 ## Using the ThingSpeak IoT platform
 
 We will use [ThingSpeak](https://thingspeak.com/) as our *cloud backend*. ThingSpeak is an IoT analytics platform that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
@@ -122,6 +137,7 @@ The TTN integration for ThingSpeak ...
 Try these examples with CircuitPython on the nRF52840.
 
 ### Wi-Fi
+Consider to setup a hotspot on your smartphone and to access and use a WLAN anywhere.
 * [Reading the Wi-Fi module MAC address](CircuitPython/wifi_address)
 * [Scanning Wi-Fi networks](CircuitPython/wifi_scan)
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
@@ -150,7 +166,7 @@ Try these examples with Python on the Raspberry Pi Zero W.
 
 Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
 
-Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to use your hotspot to access and use a WLAN anywhere.
+Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to setup a hotspot on your smartphone and to access and use a WLAN anywhere.
 
 Try these examples with Python on the Raspberry Pi and with Wi-Fi enabled:
 
