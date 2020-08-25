@@ -1,11 +1,13 @@
-
 # Based on https://github.com/adafruit/Adafruit_CircuitPython_TinyLoRa licensed under LGPL (!)
 
 import time
+import analogio
 import busio
 import digitalio
 import board
-from adafruit_tinylora import adafruit_tinylora # :)
+from adafruit_tinylora import adafruit_tinylora
+
+sensor = analogio.AnalogIn(board.A0) # nRF52840 A0, Grove A0
 
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
 
@@ -37,9 +39,8 @@ lora = adafruit_tinylora.TinyLoRa(spi, cs, irq, rst, ttn_config)
 
 while True:
     print("Sending packet...")
-    value = 1024;
     order = 'big'
-    data = value.to_bytes(2, order)
+    data = sensor.value.to_bytes(2, order)
     # or = bytearray(b"\x04\x00")
     lora.send_data(data, len(data), lora.frame_counter)
     lora.frame_counter += 1
