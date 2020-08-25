@@ -1,5 +1,5 @@
 # IoT Data Collection (idb)
-Competence [idb](https://ds-spaces.technik.fhnw.ch/3idb/) by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
+Competence [idb](https://www.fhnw.ch/de/studium/module/9316492) ([space](https://ds-spaces.technik.fhnw.ch/3idb/)) by [T. Amberg](https://twitter.com/tamberg) & [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) for [FHNW](https://www.fhnw.ch/).
 
 ## Overview
 <table><tr><td><img width="600" src="iot-big-picture.png"></td></tr></table>
