@@ -19,5 +19,10 @@ From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
 * [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) LoRaWAN module.
 
+### Optional
+* [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
+* [Rotary angle sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#rotary-angle-sensor) wired to Grove _A0_, or
+* [Light sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) wired to Grove _A0_.
+
 ## Credits
 * Based on https://github.com/adafruit/Adafruit_CircuitPython_TinyLoRa/tree/master/examples licensed under MIT License
