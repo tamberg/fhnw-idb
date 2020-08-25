@@ -14,7 +14,7 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
 * Copy the content of [lorawan_abp.py](lorawan_abp.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ### See received data in TTN
-* Check the *data* tab of your *device* in the [TTN console](https://console.thethingsnetwork.org/) to see incoming data.
+* Check the *data* tab of your *device* in the [TTN console](https://console.thethingsnetwork.org/) to see incoming data packets.
 * If no data shows up after 15 minutes, make sure you have [TTN network coverage](https://www.thethingsnetwork.org/community/).
 
 ## Libraries
