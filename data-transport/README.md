@@ -156,7 +156,7 @@ These examples use the ThingSpeak MQTT API (cloud backend).
 * [Publishing data to the ThingSpeak MQTT API](CircuitPython/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
-* [Sending data to TTN with LoRaWAN (ABP)](CircuitPython/lorawan_abp)
+* [Sending data to TheThingsNetwork with LoRaWAN (ABP)](CircuitPython/lorawan_abp)
 
 ## Python examples
 
