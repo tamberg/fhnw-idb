@@ -1,5 +1,5 @@
 # Sending data to TheThingsNetwork with LoRaWAN
-How to send data to TheThingsNetwork (TTN) with LoRaWAN.
+How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN module.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
