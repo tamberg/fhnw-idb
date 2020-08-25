@@ -4,8 +4,8 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the [libraries](#Libraries) to the _lib_ directory on the _CIRCUITPY_ drive.
-* Get a [TTN account](https://www.thethingsnetwork.org/), open the [console](https://console.thethingsnetwork.org/), create an app and add a device.
-* Set your TTN Device Address, Network Session Key and App Session Key in the lorawan_abp.py example.
+* Get a [TTN account](https://www.thethingsnetwork.org/), open the [console](https://console.thethingsnetwork.org/), create an application, add a device, change settings to *ABP* and uncheck *Frame Counter Checks*.
+* Set your TTN *Device Address*, *Network Session Key* and *App Session Key* in the *lorawan_abp.py* example.
 * Copy the content of [lorawan_abp.py](lorawan_abp.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Libraries
