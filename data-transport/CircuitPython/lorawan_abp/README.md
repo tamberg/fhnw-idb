@@ -1,4 +1,4 @@
-# Sending data to TheThingsNetwork with LoRaWAN (ABP)
+# Sending data to TheThingsNetwork with LoRaWAN
 How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN module.
 
 ## Running the example
