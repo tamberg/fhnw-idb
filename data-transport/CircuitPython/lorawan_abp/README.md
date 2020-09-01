@@ -17,6 +17,15 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
 * Check the *data* tab of your *device* in the [TTN console](https://console.thethingsnetwork.org/) to see incoming data packets.
 * If no data shows up after 15 minutes, make sure you have [TTN network coverage](https://www.thethingsnetwork.org/community/).
 
+### Decode received data in TTN
+    function Decoder(bytes, port) { 
+      var value = (bytes[0] << 8) | bytes[1];
+      var json = {
+        field1: value,
+      }
+      return json
+    }
+
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_tinylora/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_TinyLoRa/) and [docs](https://circuitpython.readthedocs.io/projects/tinylora/en/latest/index.html)).
