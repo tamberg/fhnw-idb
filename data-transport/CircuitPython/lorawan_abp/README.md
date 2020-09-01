@@ -20,13 +20,13 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
 ### Decode received data in TTN
 * In https://console.thethingsnetwork.org/applications/YOUR_APP/payload-formats add
 
-    function Decoder(bytes, port) { 
-      var value = (bytes[0] << 8) | bytes[1];
-      var json = {
-        field1: value,
-      }
-      return json
-    }
+        function Decoder(bytes, port) { 
+          var value = (bytes[0] << 8) | bytes[1];
+          var json = {
+            field1: value,
+          }
+          return json
+        }
 
 ### Forward data to ThingSpeak
 * Create a channel with one field on https://thingspeak.com/channels
