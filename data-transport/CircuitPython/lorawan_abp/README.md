@@ -28,7 +28,7 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
           return json
         }
 
-### Forward data to ThingSpeak
+### Forward decoded data to ThingSpeak
 * Create a channel with one field on https://thingspeak.com/channels
 * In https://console.thethingsnetwork.org/applications/YOUR_APP/integrations add ThingSpeak
 * Use the channel name, keys from https://thingspeak.com/channels/YOUR_CHANNEL/api_keys
