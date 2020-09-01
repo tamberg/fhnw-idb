@@ -18,6 +18,8 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
 * If no data shows up after 15 minutes, make sure you have [TTN network coverage](https://www.thethingsnetwork.org/community/).
 
 ### Decode received data in TTN
+https://console.thethingsnetwork.org/applications/YOUR_APP/payload-formats
+
     function Decoder(bytes, port) { 
       var value = (bytes[0] << 8) | bytes[1];
       var json = {
