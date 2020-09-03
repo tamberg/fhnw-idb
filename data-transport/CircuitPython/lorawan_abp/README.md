@@ -17,37 +17,14 @@ How to send data to TheThingsNetwork (TTN) with the Featherwing RFM95W LoRaWAN m
 * Check the *data* tab of your *device* in the [TTN console](https://console.thethingsnetwork.org/) to see incoming data packets.
 * If no data shows up after 15 minutes, make sure you have [TTN network coverage](https://www.thethingsnetwork.org/community/).
 
-### Decode received data in TTN
-* In https://console.thethingsnetwork.org/applications/YOUR_APP/payload-formats add
-
-        function Decoder(bytes, port) { 
-          var value = (bytes[0] << 8) | bytes[1];
-          var json = {
-            field1: value,
-          }
-          return json
-        }
-
-### Forward decoded data to ThingSpeak
-* Create a channel with one field on https://thingspeak.com/channels
-* In https://console.thethingsnetwork.org/applications/YOUR_APP/integrations add ThingSpeak
-* Use the channel name, keys from https://thingspeak.com/channels/YOUR_CHANNEL/api_keys
-* See the received data in https://thingspeak.com/channels/YOUR_CHANNEL/private_show
-
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_tinylora/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_TinyLoRa/) and [docs](https://circuitpython.readthedocs.io/projects/tinylora/en/latest/index.html)).
 * Copy _lib/adafruit_bus_device/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/) and [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/index.html)).
 
 ## Hardware
-### Required
 * [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
 * [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) LoRaWAN module.
-
-### Optional
-* [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
-* [Rotary angle sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#rotary-angle-sensor) wired to Grove _A0_, or
-* [Light sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) wired to Grove _A0_.
 
 ## Credits
 * Based on https://github.com/adafruit/Adafruit_CircuitPython_TinyLoRa/tree/master/examples licensed under MIT License
