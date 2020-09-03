@@ -37,6 +37,7 @@ while True:
         response = requests.get("http://tmb.gr/hello.json") # throws RuntimeError
         json = response.json() # throws ValueError
         response.close()
+        print(json)
     except RuntimeError as re:
         print("Request failed:", re)
     except ValueError as ve:
