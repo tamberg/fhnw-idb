@@ -26,7 +26,7 @@ def ensure_wifi_is_connected():
             print("Connected to", str(wifi.ssid, "utf-8"))
             print("IP address", wifi.pretty_ip(wifi.ip_address))
         except RuntimeError as e:
-            print("Cannot connect", e)
+            print("Connecting failed:", e)
             continue
 
 requests.set_socket(adafruit_esp32spi_socket, wifi)
