@@ -17,6 +17,7 @@ rst = digitalio.DigitalInOut(board.D12)
 
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
 wifi = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, rdy, rst)
+requests.set_socket(adafruit_esp32spi_socket, wifi)
 
 def ensure_wifi_is_connected():
     while not wifi.is_connected:
@@ -28,8 +29,6 @@ def ensure_wifi_is_connected():
         except RuntimeError as e:
             print("Connecting failed:", e)
             continue
-
-requests.set_socket(adafruit_esp32spi_socket, wifi)
 
 while True:
     ensure_wifi_is_connected()
