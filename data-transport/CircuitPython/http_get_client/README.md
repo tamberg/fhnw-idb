@@ -19,3 +19,4 @@ From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 
 ## Credits
 * Based on https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/tree/master/examples licensed under MIT License
+* Based on https://github.com/adafruit/Adafruit_CircuitPython_Requests/tree/master/examples licensed under MIT License
