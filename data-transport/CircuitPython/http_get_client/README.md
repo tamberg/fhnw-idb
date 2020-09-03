@@ -1,4 +1,4 @@
-# Connecting to a Wi-Fi network
+# Sending a HTTP GET request
 How to connect to a local Wi-Fi network with the FeatherWing ESP32 AirLift Wi-Fi module.
 
 ## Running the example
