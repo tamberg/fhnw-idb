@@ -5,7 +5,7 @@ How to connect to a local Wi-Fi network with the FeatherWing ESP32 AirLift Wi-Fi
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the [libraries](#Libraries) to the _lib_ directory on the _CIRCUITPY_ drive.
 * Set your Wi-Fi _ssid_ and _password_ in the [http_client.py](http_client.py) example.
-* Copy the content of [wifi_connect.py](http_client.py) to _code.py_ on the _CIRCUITPY_ drive.
+* Copy the content of [http_client.py](http_client.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
