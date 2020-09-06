@@ -47,7 +47,7 @@ try:
     post_url = "https://" + TS_HTTP_SERVER + "/update"
     # Create payload
     payload = "api_key=" + TS_WRITE_API_KEY + "&field1=" + \
-        str(temperature)+"&field2="+str(humidity)
+        str(temperature) + "&field2=" + str(humidity)
 
     # Send a single message
     response = adafruit_requests.post(post_url, data=payload)
