@@ -34,9 +34,9 @@ while True:
     ensure_wifi_is_connected()
     try:
         response = requests.get("http://tmb.gr/hello.json") # throws RuntimeError
-        json = response.json() # throws ValueError
+        print(response.status_code)
+        print(response.json()) # throws ValueError
         response.close()
-        print(json)
     except RuntimeError as re:
         print("Request failed:", re)
     except ValueError as ve:
