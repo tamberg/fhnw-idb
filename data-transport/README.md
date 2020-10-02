@@ -143,7 +143,7 @@ Consider to setup a hotspot on your smartphone and to access and use a WLAN anyw
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
 
 ### HTTP
-These examples use generic HTTP server.
+These examples use generic HTTP servers.
 * [Getting data from a Web server](CircuitPython/http_get_client)
 * [Posting data to a Web server](CircuitPython/http_get_client)
 
