@@ -148,8 +148,8 @@ These examples use generic HTTP server.
 * [Posting data to a Web server](CircuitPython/http_get_client)
 
 These examples use the ThingSpeak REST API.
-* [Posting data to the ThingSpeak REST API](CircuitPython/thingspeak_http_post_client)
 * [Getting data from the ThingSpeak REST API](CircuitPython/thingspeak_http_get_client)
+* [Posting data to the ThingSpeak REST API](CircuitPython/thingspeak_http_post_client)
 
 ### MQTT
 These examples use a generic MQTT broker (cloud backend).
