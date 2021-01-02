@@ -203,12 +203,3 @@ class Grove4DigitDisplay(object):
  
     def __exit__(self, exc_type, exc_val, exc_tb):
         self._stop()
-    
-display = Grove4DigitDisplay(board.D9, board.D10) # nRF52840 D9, D10, Grove D4
-
-colon = True
-while True:
-    display.show("0000")
-    display.set_colon(colon)
-    colon = not colon
-    time.sleep(1)
