@@ -42,7 +42,7 @@ If you have statements like `print("Hello World!)` in your code, the output must
 
 Such a setup is really easy with the Mu editor, because the terminal and the serial console are already built in. Read [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/kattni-connecting-to-the-serial-console#are-you-using-mu-2978926-4) to open the `Serial Console`.
 
-If you are not using Mu, you have [other options](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux) to opne a serial connection to your board.
+If you are not using Mu, you have [other options](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux) to open a serial connection to your board.
 
 ### Using the REPL
 
