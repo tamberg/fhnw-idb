@@ -112,9 +112,9 @@ Your steps to get started with ThingSpeak are:
     Your ThingSpeak channel is now ready to collect your sensor data.
 
 ## Sending data to the ThingSpeak REST API
-HTTP is ...
+The Hypertext Transfer Protocol [(HTTP)](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) is an application layer protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access.
 
-Representational state transfer (REST) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format.
+Representational state transfer [(REST)](https://en.wikipedia.org/wiki/Representational_state_transfer) is an architectural style designed as a *request-response model* that communicates over HTTP. The ThingSpeak IoT platform uses the REST API calls GET, POST, PUT, and DELETE to create and delete channels, *read and write channel data*, and clear the data in a channel. A web browser or client sends a request to the server, which responds with data in the requested format.
 
 * To get started with the ThingSpeak REST API, see [REST API](https://ch.mathworks.com/help/thingspeak/rest-api.html?s_tid=CRUX_lftnav)
 
@@ -125,13 +125,11 @@ MQTT is a *publish/subscribe communication protocol* that uses TCP/IP sockets or
 * For a curated list of MQTT libraries, see [MQTT libraries](https://github.com/mqtt/mqtt.github.io/wiki/libraries).
 
 ## Sending data to Thingspeak with LoRaWAN
-LoRaWAN is ...
+[LoRaWAN](https://lora-alliance.org/about-lorawan) is a high capacity, Long Range, open, Low Power Wide Area Network (LPWAN) standard designed for LoRa Powered IoT Solutions by the LoRa Alliance. It is a bi-directional protocol which takes full advantage of all the features of the LoRa technology to deliver services including reliable message delivery, end to end security, location and multicast capabilities. The standard ensures the interoperability of the various LoRaWAN networks world-wide.
 
-TheThingsNetwork (TTN) is ...
+TheThingsNetwork [(TTN)](https://www.thethingsnetwork.org/) is a community-based initiative to build a LoRaWAN for the Internet of Things.
 
-TTN integrations are ...
-
-The TTN integration for ThingSpeak ...
+The integration for ThingSpeak to external platforms like [AWS IoT](https://aws.amazon.com/de/iot/) or [ThingSpeak](https://thingspeak.com/) can be found on their [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) webpage.
 
 ## CircuitPython examples
 Try these examples with CircuitPython on the nRF52840.
