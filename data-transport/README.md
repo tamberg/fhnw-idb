@@ -143,16 +143,20 @@ Consider to setup a hotspot on your smartphone and to access and use a WLAN anyw
 * [Connecting to a Wi-Fi network](CircuitPython/wifi_connect)
 
 ### HTTP
+These examples use generic HTTP servers.
+* [Getting data from a Web server](CircuitPython/http_get_client)
+* [Posting data to a Web server](CircuitPython/http_get_client)
+
 These examples use the ThingSpeak REST API.
-* [Posting data to the ThingSpeak REST API](CircuitPython/thingspeak_http_post_client)
 * [Getting data from the ThingSpeak REST API](CircuitPython/thingspeak_http_get_client)
+* [Posting data to the ThingSpeak REST API](CircuitPython/thingspeak_http_post_client)
 
 ### MQTT
-These examples use a generic MQTT broker (cloud backend).
+These examples use a generic MQTT broker.
 * [Publishing to a MQTT topic](CircuitPython/mqtt_pub_client)
 * [Subscribing to a MQTT topic](CircuitPython/mqtt_sub_client)
 
-These examples use the ThingSpeak MQTT API (cloud backend).
+These examples use the ThingSpeak MQTT API.
 * [Publishing data to the ThingSpeak MQTT API](CircuitPython/thingspeak_mqtt_pub_client)
 
 ### LoRaWAN
