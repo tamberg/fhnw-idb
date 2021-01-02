@@ -50,8 +50,8 @@ Check the following points:
 
 - Choose an editor: We recommend the **Mu-editor** which can be downloaded from https://codewith.mu/. Mu is easy to use and have included a serial console, which is needed to see `print()` statements.
 
-    Note for Mac Users with Catalina OSX:  
-    Start the application for the first time with CTRL Key pressed to be able to accept the security restrictions be the macos.
+    Note for MacOS Users with *Catalina* or *Big Sur*:  
+    Start the application the first time with the CTRL key pressed to be able to accept the security restrictions by the macOS.
 
     You will find in [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code#1-use-an-editor-that-writes-out-the-file-completely-when-you-save-it-2977444-16) other editors, which are suitable for CircuitPython programming.
 

@@ -51,5 +51,5 @@ REPL (Read-Evaluate-Print-Loop) is also available with the MU-Editor. Read [this
 
 ## Install and Deploy your own Program
 
-Follow these instructions] to install a [*Blink* program](blink) permanently on your microcontroller.
+Follow these instructions to install a [*Blink* program](blink) permanently on your microcontroller.
 
