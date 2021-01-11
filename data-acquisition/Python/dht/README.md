@@ -1,6 +1,6 @@
 # Reading a DHT temperature & humidity sensor
 
-How to read and visualize a DHT sensor with Python on a Rapsberry Pi. 
+How to read and visualize a DHT sensor with Python on a Raspberry Pi. 
 
 The example is based on the information found in:
 
