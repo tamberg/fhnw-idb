@@ -10,11 +10,11 @@
 
 This introduction should enable you to set up and use your computer in a way that makes getting started with IoT easy.
 
-We will be using different hardware, so you can finally answer the following questions:
+We will set up two boards, a Raspberry Pi and a microcontroller, so you can answer the following questions:
 
-* how IoT hardware is connected to your computer?
-* how is possible to program for a IoT hardware?
-* how does IoT hardware differ?
+* How is an embedded Linux or a CircuitPython-based microcontroller connected to your computer?
+* What does it take to program a Raspberry Pi or a CircuitPython-based microcontroller?
+* How does a Linux computer like the Raspberry Pi differ from a microcontroller?
 
 ## Intro
 
