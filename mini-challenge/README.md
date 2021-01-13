@@ -1,16 +1,16 @@
-# Mini-Challenge: Heissgetränke-Sensor
+# Mini-Challenge: Hot Cup Sensor
 
 <img src="setup.jpg" width="540"/>
 
-## Beschreibung
-Bauen Sie ein System, welches Präsenz, Temperatur und Füllstand einer Tee- oder Kaffeetasse messen kann. Das System soll schnell genug sein, um ab dem Platzieren einer Tasse während dem ganzen Einfüllvorgang (z.B. mittels einer Kaffeekanne) bis zum Entfernen der Tasse mehrere Messungen vorzunehmen. Das Ergebnis der Messungen soll im CSV Format ausgegeben und (als File oder mittels Copy & Paste) in einem Spreadsheet dargestellt werden.
+## Description
+Build a system that measures presence, temperature and filling level of a tee or coffee cup. Measurements should start as soon as a cup is placed, and be fast enough to record the increasing level during pouring. Once the cup is removed, the system shall stop recording. The resulting data shall be formatted as CSV and either sent to the serial monitor or printed to the console from where it can be copied and pasted to a spreadsheet.
 
-## Teilaufgaben
+## Steps
 - Setup
 - Sensoren auslesen
 - Output via Serial Monitor oder Konsole
 
-## Fragen
+## Questions
 - Welches Variante, Linux oder Mikrocontroller?
 - Wie oft messen, aus welcher Distanz?
 - ...
