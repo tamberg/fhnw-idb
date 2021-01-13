@@ -11,26 +11,26 @@ Build a system that measures presence, temperature and filling level of a tee or
 - Writing output via Serial Monitor or console
 
 ## Questions
-- Welches Variante, Linux oder Mikrocontroller?
-- Wie oft messen, aus welcher Distanz?
+- Which variant, Linux or a microcontroller?
+- How often do you measure, from what distance?
 - ...
 
 # Deliverables
-- Kurzbericht (inkl. Issues)
-- Hardware Aufbau
-- Programm Code
-- Daten als CSV
+- Short report (incl. issues)
+- Hardware setup
+- Program source code
+- Data in a CSV file
 
-# Hardware Variante Mikrocontroller
-- nRF52840 Mikrocontroller
-- Feather Grove Adapter
-- Sonar Range Sensor
-- Button für Präsenz
-- DHT11 für Temperatur
+# Using a Microcontroller
+- nRF52840 microcontroller
+- Feather Grove adapter
+- Sonar Range sensor
+- Button for presence
+- DHT11 for temperature
 
-# Hardware Variante Linux Computer
-- Raspberry Pi Linux Computer
-- Pi Grove Adapter
-- Sonar Range Sensor
-- Button für Präsenz
-- DHT11 für Temperatur
+# Using a Linux Computer
+- Raspberry Pi Linux computer
+- Pi Grove adapter
+- Sonar Range sensor
+- Button for presence
+- DHT11 for temperature
