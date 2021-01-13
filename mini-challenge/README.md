@@ -1,7 +1,7 @@
 # Mini-Challenge: Heissgetränke-Sensor
 
 ## Beschreibung
-Bauen Sie ein System, welches Präsenz, Temperatur und Füllstand einer Tee- oder Kaffeetasse messen kann. Das System soll schnell genug sein, um ab dem Platzieren einer Tasse während dem ganzen Einfüllvorgang (z.B. mittels einer Kaffeekanne) bis zum Entfernen der Tasse mehrere Messungen vorzunehmen. Das Ergebnis der Messungen soll im CSV Format ausgegeben werden, und (als File oder mittels Copy & Paste) in einem Spreadsheet dargestellt werden.
+Bauen Sie ein System, welches Präsenz, Temperatur und Füllstand einer Tee- oder Kaffeetasse messen kann. Das System soll schnell genug sein, um ab dem Platzieren einer Tasse während dem ganzen Einfüllvorgang (z.B. mittels einer Kaffeekanne) bis zum Entfernen der Tasse mehrere Messungen vorzunehmen. Das Ergebnis der Messungen soll im CSV Format ausgegeben und (als File oder mittels Copy & Paste) in einem Spreadsheet dargestellt werden.
 
 ## Teilaufgaben
 - Setup
