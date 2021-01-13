@@ -3,12 +3,12 @@
 <img src="setup.jpg" width="540"/>
 
 ## Description
-Build a system that measures presence, temperature and filling level of a tee or coffee cup. Measurements should start as soon as a cup is placed. The frequency should be fast enough to provide multiple measurements while pouring. Once the cup is removed, the system shall stop recordingand output the results, formatted as valid CSV to be copied into a spreadsheet.
+Build a system that measures presence, temperature and filling level of a tee or coffee cup. Measurements should start as soon as a cup is placed. The measurement interval should happen fast enough to provide multiple data points during the pouring of a single cup. Once the cup is removed, the system shall stop recording and output the results in valid CSV format, to be copied into a spreadsheet.
 
 ## Steps
-- Setup
-- Sensoren auslesen
-- Output via Serial Monitor oder Konsole
+- Getting started with the nRF52840 or the Raspberry Pi
+- Reading sensor values in CircuitPython or Python
+- Writing output via Serial Monitor or console
 
 ## Questions
 - Welches Variante, Linux oder Mikrocontroller?
