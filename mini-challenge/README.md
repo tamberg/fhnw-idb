@@ -3,7 +3,7 @@
 <img src="setup.jpg" width="540"/>
 
 ## Description
-Build a system that measures presence, temperature and filling level of a tee or coffee cup. Measurements should start as soon as a cup is placed. The measurement interval should happen fast enough to provide multiple data points during the pouring of a single cup. Once the cup is removed, the system shall stop recording and output the results in valid CSV format, to be copied into a spreadsheet.
+Build a system that measures presence, temperature and filling level of a tea or coffee cup. Measurements should start as soon as a cup is placed. The measurement interval should happen fast enough to provide multiple data points during the pouring of a single cup. Once the cup is removed, the system shall stop recording and output the results in valid CSV format, to be copied into a spreadsheet.
 
 ## Steps
 - Getting started with the nRF52840 or the Raspberry Pi
