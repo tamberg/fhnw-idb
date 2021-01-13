@@ -15,20 +15,20 @@ Build a system that measures presence, temperature and filling level of a tea or
 - How often do you measure, from what distance?
 - ...
 
-# Deliverables
+## Deliverables
 - Short report (incl. issues)
 - Hardware setup
 - Program source code
 - Data in a CSV file
 
-# Using a Microcontroller
+## Using a Microcontroller
 - nRF52840 microcontroller
 - Feather Grove adapter
 - Sonar Range sensor
 - Button for presence
 - DHT11 for temperature
 
-# Using a Linux Computer
+## Using a Linux Computer
 - Raspberry Pi Linux computer
 - Pi Grove adapter
 - Sonar Range sensor
