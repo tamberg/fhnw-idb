@@ -25,7 +25,7 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 ## Mini-Challenge
 For additional motivation try this mini-challenge:
 
-A. [Hot cup sensor](mini-challenge/README.md) mini-challenge
+* [Hot cup sensor](mini-challenge/README.md) mini-challenge
 
 ## Hardware
 The following modular hardware is available in your IoT kit:
