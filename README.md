@@ -22,6 +22,11 @@ Resources and code examples to get into Internet of Things (IoT) data collection
 3. [Data Transport](data-transport/README.md) - how to transport data to the backend.
 4. [Data Analysis](data-analysis/README.md) - how to display and analyse data.
 
+## Mini-Challenge
+For additional motivation try this mini-challenge:
+
+A. [Hot cup sensor](mini-challenge/README.md) mini-challenge
+
 ## Hardware
 The following modular hardware is available in your IoT kit:
 
