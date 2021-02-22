@@ -13,7 +13,7 @@ Build a system that measures presence, temperature and filling level of a tea or
 ## Questions
 - Which variant, Linux or a microcontroller?
 - How often do you measure, from what distance?
-- ...
+- Is there a robust way to manage program states?
 
 ## Deliverables
 - Short report (incl. issues)
