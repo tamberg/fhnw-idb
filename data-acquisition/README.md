@@ -27,8 +27,8 @@ We will use such devices to find out:
 * how to visualize the data in a excel sheet and/or jupyter notebook?
 
 ## Resources
-- Slides on [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2020/hs/IdbMcuSensorsActuators.pdf).
-- Slides [From Prototype to Connected Product](http://www.tamberg.org/fhnw/2020/hs/IdbPrototypeToProduct.pdf).
+- Slides on [Microcontrollers, Sensors & Actuators](http://www.tamberg.org/fhnw/2021/fs/IdbMcuSensorsActuators.pdf).
+- Slides [From Prototype to Connected Product](http://www.tamberg.org/fhnw/2021/fs/IdbPrototypeToProduct.pdf).
 
 ## Reading sensor values
 The available hardware includes a number of sensors:
