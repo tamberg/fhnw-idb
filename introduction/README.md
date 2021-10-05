@@ -48,7 +48,7 @@ We will set up two boards, a Raspberry Pi and a microcontroller, so you can answ
 
 Check the following points:
 
-- Choose an editor: We recommend the **Mu-editor** which can be downloaded from https://codewith.mu/. Mu is easy to use and have included a serial console, which is needed to see `print()` statements.
+- Choose an editor: We recommend the **Mu-editor** which can be downloaded from https://codewith.mu/. Mu is easy to use and features a serial console, which is needed to see `print()` statements.
 
     Note for MacOS Users with *Catalina* or *Big Sur*:  
     Start the application the first time with the CTRL key pressed to be able to accept the security restrictions by the macOS.
