@@ -56,6 +56,6 @@ $ sudo pip3 install grove.py
 
 Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) from Seed-Studio.
 
-## Install and Deploy your own Program
+## Run your first program
 
-Follow these [instructions](blink_grove/README.md) to install a Blink program permanently on your microcontroller.
+Follow these steps to [run your first program](blink_grove/README.md) and install it permanently on your microcontroller.
