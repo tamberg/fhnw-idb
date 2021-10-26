@@ -46,7 +46,30 @@ Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.p
 
 ## Install Blinka
 
-TODO
+https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+
+```
+$ sudo raspi-config # Advanced options > Expand file system
+
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install python3-pip
+$ sudo pip3 install --upgrade setuptools
+
+$ sudo pip3 install --upgrade adafruit-python-shell
+$ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+$ sudo python3 raspi-blinka.py
+$ python --version
+Python 3.7.3
+$ rm raspi-blinka.py
+
+$ nano /boot/config.txt
+  # add this line to the bottom
+  dtoverlay=spi1-3cs
+$ ls /dev/i2c* /dev/spi*
+
+$ pip3 install --upgrade adafruit_blinka
+```
 
 ## Run your first program
 
