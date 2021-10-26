@@ -44,13 +44,12 @@ Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/mast
 ## Install Blinka
 As an alternative to Grove and for additional sensor libraries we use the [Blinka Python package](https://github.com/adafruit/Adafruit_Blinka).
 
-Install the Blinka Python package with the following steps, based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit.
+Install the Blinka Python package with the following steps, based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit:
 
 ```
 $ sudo raspi-config # Advanced options > Expand file system
 $ sudo apt-get update
 $ sudo apt-get upgrade
-$ sudo apt-get install python3-pip
 $ sudo pip3 install --upgrade setuptools
 $ sudo pip3 install --upgrade adafruit-python-shell
 $ nano /boot/config.txt
