@@ -58,4 +58,4 @@ Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.p
 
 ## Install and Deploy your own Program
 
-Follow these [instructions](blink/README.md) to install a Blink program permanently on your microcontroller.
+Follow these [instructions](blink_grove/README.md) to install a Blink program permanently on your microcontroller.
