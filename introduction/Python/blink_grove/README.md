@@ -23,7 +23,7 @@ The small program runs endlessly. But it is not started again after a reboot pf 
 
 You will use the [systemd service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md) and the system command `systemctl` to run the python program even after reboot.
 
-Use the file [blink.py](./blink.py) and follow these steps:
+Use the file [blink.py](./blink.py) (or the Blinka version [blink.py](./blink.py)) and follow these steps:
 
 1. Connect the Grove Red LED to GPIO `G5` and powerup the Pi.
 
