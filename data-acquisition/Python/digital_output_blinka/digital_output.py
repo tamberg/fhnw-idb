@@ -2,7 +2,7 @@ import board
 import digitalio
 import time
 
-actuator = digitalio.DigitalInOut(board.D5)  # Actuator on Pi Zero W, Grove D5
+actuator = digitalio.DigitalInOut(board.D5)  # Pi Zero W, Grove D5
 actuator.direction = digitalio.Direction.OUTPUT
 
 while True:
