@@ -63,4 +63,4 @@ $ pip3 install --upgrade adafruit_blinka
 
 ## Run your first program
 
-Follow these steps to [run your first program](blink_grove/README.md) and install it permanently on your microcontroller.
+Now, [run your first program](blink_grove/README.md) and install it permanently on your microcontroller.
