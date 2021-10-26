@@ -45,8 +45,7 @@ $ sudo pip3 install grove.py
 Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) from Seeed-Studio.
 
 ## Install Blinka
-
-https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+Based on https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
 
 ```
 $ sudo raspi-config # Advanced options > Expand file system
