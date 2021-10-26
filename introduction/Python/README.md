@@ -2,7 +2,7 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Python](#python)
-3. [Install and Deploy your own Program](#install-and-deploy-your-own-program)
+3. [Run your first program](#run-your-first-program)
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ It is necessary to install a Raspberry Pi operation system, which is Linux-based
 - Find the **IP address of your Pi** using the information in the [Find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).  
 Use the commands `ifconfig` or `ipconfig` and `nmap`.
 
-## Python
+## Install Python 3
 
 A fresh installation of the Raspberry Pi OS Lite has Python 2 preinstalled. Check it on your Pi with:
 
@@ -42,8 +42,7 @@ Check the [python documentation](https://www.raspberrypi.org/documentation/usage
 - Installing Python libraries
 - [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
 
-
-## Install GPIO python package
+## Install Grove
 
 To access the GPIOs on the Pi you need to install correspondig packages. 
 [grove.py](https://github.com/Seeed-Studio/grove.py) is such a Python package for Seeedstudio Grove Devices, especially good on Rapsberry Pis. 
@@ -55,6 +54,10 @@ $ sudo pip3 install grove.py
 ```
 
 Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) from Seed-Studio.
+
+## Install Blinka
+
+TODO
 
 ## Run your first program
 
