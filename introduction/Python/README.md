@@ -7,20 +7,9 @@
 5. [Run your first program](#run-your-first-program)
 
 ## Prerequisites
-
-It is necessary to install a Raspberry Pi operation system, which is Linux-based, on your Pi. There exist several resources explaining this procedure. Read our Wiki Page [Setup on a Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup)
-
-**Important**: 
-- Choose **Raspberry Pi OS Lite**. The Raspberry Pi Zero W has limited computing resources. Desktop software and applications like office application are not needed.
-- Check that `wifi` and `ssh` are enabled and can be used without problems. You have to be with your computer and with your Pi on the same network!
-
-  See [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) and [Enable SSH
-](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#enable-ssh).
-- Find the **IP address of your Pi** using the information in the [Find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).  
-Use the commands `ifconfig` or `ipconfig` and `nmap`.
+The following steps require Raspberry Pi OS Lite, a Linux operating system. See [Raspberry Pi Zero W Setup](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup). Make sure to [configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) and [enable SSH access](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#enable-ssh) so you can [find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi).
 
 ## Install Python 3
-
 A fresh installation of the Raspberry Pi OS Lite has Python 2 preinstalled. Check it on your Pi with:
 
 ```shell
