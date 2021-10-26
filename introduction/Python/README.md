@@ -31,7 +31,7 @@ pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 The [python documentation](https://www.raspberrypi.org/documentation/usage/python/) includes chapters on [installing libraries](https://www.raspberrypi.com/documentation/computers/os.html#installing-python-libraries) and using [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md).
 
 ## Install Grove
-To access the GPIOs on the Pi and work with Grove sensors and actuators we use the Grove Python package, [grove.py](https://github.com/Seeed-Studio/grove.py).
+To access the GPIOs on the Pi and work with Grove sensors and actuators we use the [Grove Python package](https://github.com/Seeed-Studio/grove.py).
 
 Install the Grove Python package with:
 
@@ -42,7 +42,9 @@ $ sudo pip3 install grove.py
 Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
 
 ## Install Blinka
-Based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit.
+As an alternative to Grove and for additional sensor libraries we use the [Blinka Python package](https://github.com/adafruit/Adafruit_Blinka).
+
+Install the Blinka Python package with the following steps, based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit.
 
 ```
 $ sudo raspi-config # Advanced options > Expand file system
