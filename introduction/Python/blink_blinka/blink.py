@@ -3,7 +3,7 @@ import digitalio
 import time
 
 # setup
-led = digitalio.DigitalInOut(board.D5)  # LED on Pi Zero W, Grove D5
+led = digitalio.DigitalInOut(board.D5)  # Pi Zero W, Grove D5
 led.direction = digitalio.Direction.OUTPUT
 
 # main loop
