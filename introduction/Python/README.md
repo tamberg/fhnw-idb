@@ -28,10 +28,7 @@ $ pip3 --version
 pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 ```
 
-Check the [python documentation](https://www.raspberrypi.org/documentation/usage/python/) on raspberry.org. Following chaptes are important:
-
-- Installing Python libraries
-- [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
+The [python documentation](https://www.raspberrypi.org/documentation/usage/python/) includes chapters on [installing libraries](https://www.raspberrypi.com/documentation/computers/os.html#installing-python-libraries) and using [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md).
 
 ## Install Grove
 To access the GPIOs on the Pi and work with Grove sensors and actuators we use the Grove Python package [grove.py](https://github.com/Seeed-Studio/grove.py).
