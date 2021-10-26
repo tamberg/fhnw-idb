@@ -34,17 +34,15 @@ Check the [python documentation](https://www.raspberrypi.org/documentation/usage
 - [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
 
 ## Install Grove
+To access the GPIOs on the Pi and work with Grove sensors and actuators we use the Grove Python package [grove.py](https://github.com/Seeed-Studio/grove.py).
 
-To access the GPIOs on the Pi you need to install correspondig packages. 
-[grove.py](https://github.com/Seeed-Studio/grove.py) is such a Python package for Seeedstudio Grove Devices, especially good on Rapsberry Pis. 
-
-Install it with:
+Install the Grove Python package with:
 
 ```shell
 $ sudo pip3 install grove.py
 ```
 
-Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) from Seed-Studio.
+Checkout these [demos and code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) from Seeed-Studio.
 
 ## Install Blinka
 
