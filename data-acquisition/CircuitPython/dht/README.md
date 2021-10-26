@@ -3,7 +3,9 @@ How to read and visualize a DHT sensor with CircuitPython.
 
 ## Dependencies
 
-You will need to download and to install the library `adafruit_dht.mpy`. You can find it as part of the [Adafruit CircuitPython Library Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle#adafruit-circuitpython-library-bundle). Download manually the [latest 5.x release](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/tag/20200807).
+You will need to download and to install the library `adafruit_dht.mpy`. You can find it as part of the [Adafruit CircuitPython Library Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle#adafruit-circuitpython-library-bundle). Download manually the latest release, but check first that it matches with your CircuitPython version. 
+
+The libraries in each release are compiled for all recent major versions of CircuitPython. Please download the one that matches the major version of your CircuitPython. For example, if you are running 6.0.0 you should download the 6.x bundle.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
