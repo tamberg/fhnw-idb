@@ -10,14 +10,14 @@
 The following steps require a Raspberry Pi Zero W with Raspberry Pi OS Lite, a Linux operating system. To install it, see [Raspberry Pi Zero W Setup](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup). Make sure to [configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) and [enable SSH access](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#enable-ssh) so you can [find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi), if your computer is in the same local Wi-Fi network.
 
 ## Install Python 3
-A fresh installation of the Raspberry Pi OS Lite has Python 2 preinstalled. Check it on your Pi with:
+A fresh installation of the Raspberry Pi OS Lite has Python 2 preinstalled:
 
 ```shell
 $ python --version
 Python 2.7.16
 ```
 
-Check if python3 and pip3 are installed. Otherwise install them with:
+Install Python 3 with:
 ```shell
 $ sudo apt update
 $ sudo apt install python3
