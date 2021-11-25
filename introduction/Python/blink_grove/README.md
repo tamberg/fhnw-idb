@@ -75,9 +75,7 @@ Use the file [blink.py](./blink.py) (or the Blinka version [blink.py](./blink.py
 
 **Use `systemctl`**
 
-To keep running this program, even after a reboot, it must be installed as a systemd service. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. 
-
-Follow these [instructions](https://www.raspberrypi.org/documentation/linux/usage/systemd.md) to install the program as a service. 
+To keep running this program, even after a reboot, it must be installed as a systemd service. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. Follow these [instructions](https://www.raspberrypi.com/documentation/computers/using_linux.html#the-systemd-daemon) to install the program as a service. 
 
 Note:
 
