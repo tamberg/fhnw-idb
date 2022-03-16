@@ -2,12 +2,13 @@
 
 1. [Overview](#overview)
 2. [Resources](#resources)
-3. [Using the ThingSpeak IoT platform](#using-the-thingspeak-iot-platform)
-4. [Sending data to the ThingSpeak REST API](#sending-data-to-the-thingspeak-rest-api)
-5. [Sending data to the ThingSpeak MQTT API](#sending-data-to-the-thingspeak-mqtt-api)
-6. [Sending data to ThingSpeak with LoRaWAN](sending-data-to-thingspeak-with-lorawan)
-7. [CircuitPython examples](#circuitpython-examples)
-8. [Python examples](#python-examples)
+3. [Connecting to Wi-Fi](#connecting-to-wi-fi)
+4. [Using the ThingSpeak IoT platform](#using-the-thingspeak-iot-platform)
+5. [Sending data to the ThingSpeak REST API](#sending-data-to-the-thingspeak-rest-api)
+6. [Sending data to the ThingSpeak MQTT API](#sending-data-to-the-thingspeak-mqtt-api)
+7. [Sending data to ThingSpeak with LoRaWAN](sending-data-to-thingspeak-with-lorawan)
+8. [CircuitPython examples](#circuitpython-examples)
+9. [Python examples](#python-examples)
 
 ## Overview
 <table><tr><td><img width="600" src="overview-data-transport.png"></td></tr></table>
