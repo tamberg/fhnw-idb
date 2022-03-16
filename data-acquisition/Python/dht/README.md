@@ -65,11 +65,11 @@ The `cron` system application can be used to schedule a program at a given inter
    * * * * * /usr/bin/python3 /home/pi/dht/dht.py >> /tmp/dht.csv 
    ```
 
-   Adding this entry, `cron` will schedule the program `dht.py` each minute and append the console output to file `/tmp/dht.csv`.
+   Adding this entry, `cron` will schedule the program `dht.py` **each minute** and append the console output to file `/tmp/dht.csv`.
 
    **Note**: 
 
-   - The path entries must match your setuo!
+   - The path entries must match your setup!
 
 3. Save the crontab file.
 
