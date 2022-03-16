@@ -2,6 +2,7 @@
 
 1. [Overview](#overview)
 2. [Resources](#resources)
+3. [Connecting nRF52840 and Pi using BLE](#connecting-nrf52840-and-pi-using-ble)
 3. [Connecting to Wi-Fi](#connecting-to-wi-fi)
 4. [Using the ThingSpeak IoT platform](#using-the-thingspeak-iot-platform)
 5. [Sending data to the ThingSpeak REST API](#sending-data-to-the-thingspeak-rest-api)
@@ -33,8 +34,16 @@ We will use examples of data transport technologies to find out:
 - Slides on [Messaging Protocols and Data Formats](http://www.tamberg.org/fhnw/2021/fs/IdbMessagingProtocols.pdf).
 - Slides on [Long Range Connectivity with LoRaWAN](http://www.tamberg.org/fhnw/2021/fs/IdbLoRaWANConnectivity.pdf).
 
-## Connecting to Wi-Fi
+## Connecting nRF52840 and Pi using BLE
+Bluetooth Low Energy (BLE) is well suited to connect a microcontroller like the nRF5280 to a dedicated computer like a Raspberry Pi. In such a scenario, the Pi can act as a hub to collect data from multiple sensors all connected to one microcontroller. The Pi, which is more powerful than any microcontroller, can perform initial data processing before forwarding the processed data to a central cloud service or database.
 
+Adafruit provides corresponding libraries and tutorials for BLE communiation:
+- [Getting Started with CircuitPython and Bluetooth Low Energy](https://learn.adafruit.com/circuitpython-nrf52840): Tutorial to introduce BLE on the nRF52480.
+- [CircuitPython BLE Libraries on Any Computer](https://learn.adafruit.com/circuitpython-ble-libraries-on-any-computer/ble-uart-example): Tutorial to run BLE on a Pi and to communicate to a nRF52480 microcontroller.
+
+**Remark**: Use BLE libraries from the same provider to easily build a BLE connection between the communication partners.
+
+## Connecting to Wi-Fi
 Wi-Fi is well known. It can provide high-throughput data transfer for both enterprise and home environments. However, in the IoT space, its major limitations in coverage, scalability and power consumption make the technology much less prevalent.
 
 Since IoT is widely diverse and multifaceted, their is no one-size-fits-all communication solution. Figure 1 shows the most important technologies in comparison with their _Data Rate & Power Consumption_ and _Range_.
@@ -48,10 +57,7 @@ However, Wi-Fi can be used well in prototyping. Our two hardware platforms are o
 - The [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) has Wi-Fi on board.
 - The [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) needs the [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) as Wi-Fi co-processor.
 
-
-
 ## Using the ThingSpeak IoT platform
-
 We will use [ThingSpeak](https://thingspeak.com/) as our *cloud backend*. ThingSpeak is an IoT analytics platform that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
 
 For an introduction look at this tutorial:
