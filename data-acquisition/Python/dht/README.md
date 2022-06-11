@@ -28,8 +28,7 @@ Figure 1: DHT sensor connected to D16
     ...
     ```
 
-2. Check that the library `seeed-python-dht` is installed on your Raspberry Pi, with
-   if not (pip3 install seeed-python-dht):
+2. Check that the library `seeed-python-dht` is installed on your Raspberry Pi, with:
 
     ```shell
     $ pip3 show seeed-python-dht
@@ -41,6 +40,8 @@ Figure 1: DHT sensor connected to D16
     License: MIT
     ...
     ```
+
+
 
 3. Download the file [`dht.py`](dht.py) on to your Raspberry Pi.
 
