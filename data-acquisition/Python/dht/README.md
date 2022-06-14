@@ -4,7 +4,7 @@ How to read and visualize a DHT sensor with Python on a Raspberry Pi.
 
 The example is based on the information found in:
 
-- the [SEEED Docs](https://github.com/Seeed-Studio/grove.py/tree/master/doc#temperature--humidity-sensordht11)
+- the [SEEED Docs](https://github.com/Seeed-Studio/Seeed_Python_DHT)
 - this [post](https://www.deviceplus.com/raspberry-pi/lets-build-mobile-gadget-using-compact-raspberry-pi-zero-build-environment-check-device-using-grove-sensor/)
 
 ## Hardware
@@ -28,13 +28,28 @@ Figure 1: DHT sensor connected to D16
     ...
     ```
 
-2. Download the file [`dht.py`](dht.py) on to your Raspberry Pi.
+2. Check that the library `seeed-python-dht` is installed on your Raspberry Pi, with:
+
+    ```shell
+    $ pip3 show seeed-python-dht
+    Name: grove.py
+    Version: 0.0.2
+    Home-page: https://github.com/Seeed-Studio/Seeed_Python_DHT
+    Author: Baozhu Zuo
+    Author-email: zuobaozhu@gmail.com
+    License: MIT
+    ...
+    ```
+
+
+
+3. Download the file [`dht.py`](dht.py) on to your Raspberry Pi.
 
    This is a small python program using the DHT sensor, which is connected to PIN D16, to read out the temperature and humidity and to print these values to the console, including a timestamp.
 
    Note that this program has no main loop.
 
-3. Run the program with
+4. Run the program with
 
    ```shell
    $ python3 dht.py
